@@ -1,0 +1,22 @@
+{
+  "status": "FEASIBLE",
+  "updated_components": [
+    "C1",
+    "C2",
+    "ISO1",
+    "JH",
+    "JL",
+    "Q1",
+    "R1",
+    "R2",
+    "U1"
+  ],
+  "updated_attributes": [],
+  "board_written": true,
+  "output_hash": "c116beef2739ab68c13061745904d2c6f649c45d973a38cf20e1acbe1b8215fe",
+  "roundtrip_validation": "PASSED",
+  "native_open_validation": "PENDING",
+  "preserved_original_records": true,
+  "preserved_non_log_members": true,
+  "safety_signoff": "NOT_PERFORMED"
+}

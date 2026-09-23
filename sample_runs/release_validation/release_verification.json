@@ -1,0 +1,19 @@
+{
+  "status": "PASSED",
+  "tests": 153,
+  "normal_fixed_cli_exit": 0,
+  "normal_estimated_cli_exit": 0,
+  "expected_conflict_cli_exit": 3,
+  "real_cli_run_exit": 0,
+  "real_evaluate_exit": 0,
+  "final_export_exit": 0,
+  "installed_wheel_equals_source": true,
+  "run": "real_run_03",
+  "C_iterations": 40,
+  "C_selected_result": "improved",
+  "pipeline_termination": "completed",
+  "before_C_hpwl_mm": 1470.2933210744684,
+  "final_hpwl_mm": 1462.1801839395443,
+  "export_sha256": "ca4ae99419d3ba4f4f4f9a2f2909e3d69c2766b73b7196e23ae467bf12da3efa",
+  "native_editor_validation": "PENDING"
+}

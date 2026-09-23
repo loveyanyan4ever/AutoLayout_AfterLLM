@@ -1,0 +1,10 @@
+{
+  "status": "PASSED",
+  "tests": 153,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "elapsed_s": 19.767,
+  "exit_code": 0,
+  "command": "python -m pytest -q -p no:cacheprovider --junitxml=pytest_release.xml"
+}

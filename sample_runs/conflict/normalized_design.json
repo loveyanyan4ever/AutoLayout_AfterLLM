@@ -1,0 +1,1037 @@
+{
+  "board_id": "pcb_demo",
+  "source_path": "/workspace/scratch/9795239b56ad/pcb_hierplace_v0_2/examples/conflict/board.epro2",
+  "source_hash": "796c77bf8471511d51eb428400e5775f0316ac18441613b26b1a1175226d49fe",
+  "adapter": "reference_v3",
+  "source_unit": "mil",
+  "origin": [
+    1234.0,
+    5678.0
+  ],
+  "outline": [
+    [
+      0.0,
+      -0.0
+    ],
+    [
+      59.99999999999999,
+      -0.0
+    ],
+    [
+      59.99999999999999,
+      40.00000000000001
+    ],
+    [
+      0.0,
+      40.00000000000001
+    ]
+  ],
+  "components": [
+    {
+      "uuid": "id_C1",
+      "ref": "C1",
+      "footprint": "passive",
+      "source_pose": {
+        "ref": "C1",
+        "x": 14.099999999999998,
+        "y": 18.099999999999994,
+        "angle": 0.0,
+        "layer": "top"
+      },
+      "body": [
+        [
+          -0.7,
+          -0.5
+        ],
+        [
+          0.7,
+          -0.5
+        ],
+        [
+          0.7,
+          0.5
+        ],
+        [
+          -0.7,
+          0.5
+        ]
+      ],
+      "pads": [
+        {
+          "id": "passive_p1",
+          "number": "1",
+          "polygon": [
+            [
+              -1.1,
+              -0.4
+            ],
+            [
+              -0.5,
+              -0.4
+            ],
+            [
+              -0.5,
+              0.4
+            ],
+            [
+              -1.1,
+              0.4
+            ]
+          ],
+          "center": [
+            -0.8,
+            -0.0
+          ],
+          "net": "H_SIGNAL",
+          "layer": "top",
+          "hole_mm": 0.0,
+          "geometry_source": "source_rectangle_outer_bound",
+          "hole_polygon": [],
+          "hole_center": null
+        },
+        {
+          "id": "passive_p2",
+          "number": "2",
+          "polygon": [
+            [
+              0.5,
+              -0.4
+            ],
+            [
+              1.1,
+              -0.4
+            ],
+            [
+              1.1,
+              0.4
+            ],
+            [
+              0.5,
+              0.4
+            ]
+          ],
+          "center": [
+            0.8,
+            -0.0
+          ],
+          "net": "H_RETURN",
+          "layer": "top",
+          "hole_mm": 0.0,
+          "geometry_source": "source_rectangle_outer_bound",
+          "hole_polygon": [],
+          "hole_center": null
+        }
+      ],
+      "locked": false,
+      "body_source": "explicit_override_mm"
+    },
+    {
+      "uuid": "id_C2",
+      "ref": "C2",
+      "footprint": "passive",
+      "source_pose": {
+        "ref": "C2",
+        "x": 44.099999999999994,
+        "y": 20.1,
+        "angle": 0.0,
+        "layer": "top"
+      },
+      "body": [
+        [
+          -0.7,
+          -0.5
+        ],
+        [
+          0.7,
+          -0.5
+        ],
+        [
+          0.7,
+          0.5
+        ],
+        [
+          -0.7,
+          0.5
+        ]
+      ],
+      "pads": [
+        {
+          "id": "passive_p1",
+          "number": "1",
+          "polygon": [
+            [
+              -1.1,
+              -0.4
+            ],
+            [
+              -0.5,
+              -0.4
+            ],
+            [
+              -0.5,
+              0.4
+            ],
+            [
+              -1.1,
+              0.4
+            ]
+          ],
+          "center": [
+            -0.8,
+            -0.0
+          ],
+          "net": "L_OUT",
+          "layer": "top",
+          "hole_mm": 0.0,
+          "geometry_source": "source_rectangle_outer_bound",
+          "hole_polygon": [],
+          "hole_center": null
+        },
+        {
+          "id": "passive_p2",
+          "number": "2",
+          "polygon": [
+            [
+              0.5,
+              -0.4
+            ],
+            [
+              1.1,
+              -0.4
+            ],
+            [
+              1.1,
+              0.4
+            ],
+            [
+              0.5,
+              0.4
+            ]
+          ],
+          "center": [
+            0.8,
+            -0.0
+          ],
+          "net": "L_RETURN",
+          "layer": "top",
+          "hole_mm": 0.0,
+          "geometry_source": "source_rectangle_outer_bound",
+          "hole_polygon": [],
+          "hole_center": null
+        }
+      ],
+      "locked": false,
+      "body_source": "explicit_override_mm"
+    },
+    {
+      "uuid": "id_H1",
+      "ref": "H1",
+      "footprint": "hole",
+      "source_pose": {
+        "ref": "H1",
+        "x": 2.999999999999999,
+        "y": 3.0000000000000107,
+        "angle": 0.0,
+        "layer": "top"
+      },
+      "body": [
+        [
+          -1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          1.0
+        ],
+        [
+          -1.0,
+          1.0
+        ]
+      ],
+      "pads": [],
+      "locked": true,
+      "body_source": "explicit_override_mm"
+    },
+    {
+      "uuid": "id_H2",
+      "ref": "H2",
+      "footprint": "hole",
+      "source_pose": {
+        "ref": "H2",
+        "x": 57.0,
+        "y": 36.99999999999999,
+        "angle": 0.0,
+        "layer": "top"
+      },
+      "body": [
+        [
+          -1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          1.0
+        ],
+        [
+          -1.0,
+          1.0
+        ]
+      ],
+      "pads": [],
+      "locked": true,
+      "body_source": "explicit_override_mm"
+    },
+    {
+      "uuid": "id_ISO1",
+      "ref": "ISO1",
+      "footprint": "bridge",
+      "source_pose": {
+        "ref": "ISO1",
+        "x": 29.999999999999993,
+        "y": 20.000000000000004,
+        "angle": 0.0,
+        "layer": "top"
+      },
+      "body": [
+        [
+          -4.0,
+          -2.0
+        ],
+        [
+          4.0,
+          -2.0
+        ],
+        [
+          4.0,
+          2.0
+        ],
+        [
+          -4.0,
+          2.0
+        ]
+      ],
+      "pads": [
+        {
+          "id": "bridge_p1",
+          "number": "1",
+          "polygon": [
+            [
+              -3.5,
+              -0.4
+            ],
+            [
+              -2.9000000000000004,
+              -0.4
+            ],
+            [
+              -2.9000000000000004,
+              0.4
+            ],
+            [
+              -3.5,
+              0.4
+            ]
+          ],
+          "center": [
+            -3.2,
+            -0.0
+          ],
+          "net": "H_SIGNAL",
+          "layer": "top",
+          "hole_mm": 0.0,
+          "geometry_source": "source_rectangle_outer_bound",
+          "hole_polygon": [],
+          "hole_center": null
+        },
+        {
+          "id": "bridge_p2",
+          "number": "2",
+          "polygon": [
+            [
+              2.9000000000000004,
+              -0.4
+            ],
+            [
+              3.5,
+              -0.4
+            ],
+            [
+              3.5,
+              0.4
+            ],
+            [
+              2.9000000000000004,
+              0.4
+            ]
+          ],
+          "center": [
+            3.2,
+            -0.0
+          ],
+          "net": "L_SIGNAL",
+          "layer": "top",
+          "hole_mm": 0.0,
+          "geometry_source": "source_rectangle_outer_bound",
+          "hole_polygon": [],
+          "hole_center": null
+        }
+      ],
+      "locked": false,
+      "body_source": "explicit_override_mm"
+    },
+    {
+      "uuid": "id_JH",
+      "ref": "JH",
+      "footprint": "connector",
+      "source_pose": {
+        "ref": "JH",
+        "x": 2.0000000000000013,
+        "y": 20.000000000000004,
+        "angle": 0.0,
+        "layer": "top"
+      },
+      "body": [
+        [
+          -2.0,
+          -3.0
+        ],
+        [
+          2.0,
+          -3.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          -2.0,
+          3.0
+        ]
+      ],
+      "pads": [
+        {
+          "id": "connector_p1",
+          "number": "1",
+          "polygon": [
+            [
+              -0.4,
+              -0.4
+            ],
+            [
+              0.4,
+              -0.4
+            ],
+            [
+              0.4,
+              0.4
+            ],
+            [
+              -0.4,
+              0.4
+            ]
+          ],
+          "center": [
+            0.0,
+            -0.0
+          ],
+          "net": "H_IN",
+          "layer": "top",
+          "hole_mm": 0.0,
+          "geometry_source": "source_rectangle_outer_bound",
+          "hole_polygon": [],
+          "hole_center": null
+        }
+      ],
+      "locked": false,
+      "body_source": "explicit_override_mm"
+    },
+    {
+      "uuid": "id_JL",
+      "ref": "JL",
+      "footprint": "connector",
+      "source_pose": {
+        "ref": "JL",
+        "x": 58.0,
+        "y": 20.000000000000004,
+        "angle": 0.0,
+        "layer": "top"
+      },
+      "body": [
+        [
+          -2.0,
+          -3.0
+        ],
+        [
+          2.0,
+          -3.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          -2.0,
+          3.0
+        ]
+      ],
+      "pads": [
+        {
+          "id": "connector_p1",
+          "number": "1",
+          "polygon": [
+            [
+              -0.4,
+              -0.4
+            ],
+            [
+              0.4,
+              -0.4
+            ],
+            [
+              0.4,
+              0.4
+            ],
+            [
+              -0.4,
+              0.4
+            ]
+          ],
+          "center": [
+            0.0,
+            -0.0
+          ],
+          "net": "L_OUT",
+          "layer": "top",
+          "hole_mm": 0.0,
+          "geometry_source": "source_rectangle_outer_bound",
+          "hole_polygon": [],
+          "hole_center": null
+        }
+      ],
+      "locked": false,
+      "body_source": "explicit_override_mm"
+    },
+    {
+      "uuid": "id_Q1",
+      "ref": "Q1",
+      "footprint": "chip",
+      "source_pose": {
+        "ref": "Q1",
+        "x": 14.000000000000004,
+        "y": 17.999999999999996,
+        "angle": 0.0,
+        "layer": "top"
+      },
+      "body": [
+        [
+          -1.5,
+          -1.5
+        ],
+        [
+          1.5,
+          -1.5
+        ],
+        [
+          1.5,
+          1.5
+        ],
+        [
+          -1.5,
+          1.5
+        ]
+      ],
+      "pads": [
+        {
+          "id": "chip_p1",
+          "number": "1",
+          "polygon": [
+            [
+              -2.1,
+              -0.4
+            ],
+            [
+              -1.5,
+              -0.4
+            ],
+            [
+              -1.5,
+              0.4
+            ],
+            [
+              -2.1,
+              0.4
+            ]
+          ],
+          "center": [
+            -1.8,
+            -0.0
+          ],
+          "net": "H_IN",
+          "layer": "top",
+          "hole_mm": 0.0,
+          "geometry_source": "source_rectangle_outer_bound",
+          "hole_polygon": [],
+          "hole_center": null
+        },
+        {
+          "id": "chip_p2",
+          "number": "2",
+          "polygon": [
+            [
+              1.5,
+              -0.4
+            ],
+            [
+              2.1,
+              -0.4
+            ],
+            [
+              2.1,
+              0.4
+            ],
+            [
+              1.5,
+              0.4
+            ]
+          ],
+          "center": [
+            1.8,
+            -0.0
+          ],
+          "net": "H_SIGNAL",
+          "layer": "top",
+          "hole_mm": 0.0,
+          "geometry_source": "source_rectangle_outer_bound",
+          "hole_polygon": [],
+          "hole_center": null
+        }
+      ],
+      "locked": false,
+      "body_source": "explicit_override_mm"
+    },
+    {
+      "uuid": "id_R1",
+      "ref": "R1",
+      "footprint": "passive",
+      "source_pose": {
+        "ref": "R1",
+        "x": 20.000000000000004,
+        "y": 28.000000000000007,
+        "angle": 0.0,
+        "layer": "top"
+      },
+      "body": [
+        [
+          -0.7,
+          -0.5
+        ],
+        [
+          0.7,
+          -0.5
+        ],
+        [
+          0.7,
+          0.5
+        ],
+        [
+          -0.7,
+          0.5
+        ]
+      ],
+      "pads": [
+        {
+          "id": "passive_p1",
+          "number": "1",
+          "polygon": [
+            [
+              -1.1,
+              -0.4
+            ],
+            [
+              -0.5,
+              -0.4
+            ],
+            [
+              -0.5,
+              0.4
+            ],
+            [
+              -1.1,
+              0.4
+            ]
+          ],
+          "center": [
+            -0.8,
+            -0.0
+          ],
+          "net": "H_SIGNAL",
+          "layer": "top",
+          "hole_mm": 0.0,
+          "geometry_source": "source_rectangle_outer_bound",
+          "hole_polygon": [],
+          "hole_center": null
+        },
+        {
+          "id": "passive_p2",
+          "number": "2",
+          "polygon": [
+            [
+              0.5,
+              -0.4
+            ],
+            [
+              1.1,
+              -0.4
+            ],
+            [
+              1.1,
+              0.4
+            ],
+            [
+              0.5,
+              0.4
+            ]
+          ],
+          "center": [
+            0.8,
+            -0.0
+          ],
+          "net": "H_RETURN",
+          "layer": "top",
+          "hole_mm": 0.0,
+          "geometry_source": "source_rectangle_outer_bound",
+          "hole_polygon": [],
+          "hole_center": null
+        }
+      ],
+      "locked": false,
+      "body_source": "explicit_override_mm"
+    },
+    {
+      "uuid": "id_R2",
+      "ref": "R2",
+      "footprint": "passive",
+      "source_pose": {
+        "ref": "R2",
+        "x": 48.0,
+        "y": 9.99999999999999,
+        "angle": 0.0,
+        "layer": "top"
+      },
+      "body": [
+        [
+          -0.7,
+          -0.5
+        ],
+        [
+          0.7,
+          -0.5
+        ],
+        [
+          0.7,
+          0.5
+        ],
+        [
+          -0.7,
+          0.5
+        ]
+      ],
+      "pads": [
+        {
+          "id": "passive_p1",
+          "number": "1",
+          "polygon": [
+            [
+              -1.1,
+              -0.4
+            ],
+            [
+              -0.5,
+              -0.4
+            ],
+            [
+              -0.5,
+              0.4
+            ],
+            [
+              -1.1,
+              0.4
+            ]
+          ],
+          "center": [
+            -0.8,
+            -0.0
+          ],
+          "net": "L_OUT",
+          "layer": "top",
+          "hole_mm": 0.0,
+          "geometry_source": "source_rectangle_outer_bound",
+          "hole_polygon": [],
+          "hole_center": null
+        },
+        {
+          "id": "passive_p2",
+          "number": "2",
+          "polygon": [
+            [
+              0.5,
+              -0.4
+            ],
+            [
+              1.1,
+              -0.4
+            ],
+            [
+              1.1,
+              0.4
+            ],
+            [
+              0.5,
+              0.4
+            ]
+          ],
+          "center": [
+            0.8,
+            -0.0
+          ],
+          "net": "L_RETURN",
+          "layer": "top",
+          "hole_mm": 0.0,
+          "geometry_source": "source_rectangle_outer_bound",
+          "hole_polygon": [],
+          "hole_center": null
+        }
+      ],
+      "locked": false,
+      "body_source": "explicit_override_mm"
+    },
+    {
+      "uuid": "id_U1",
+      "ref": "U1",
+      "footprint": "chip",
+      "source_pose": {
+        "ref": "U1",
+        "x": 44.0,
+        "y": 20.000000000000004,
+        "angle": 0.0,
+        "layer": "top"
+      },
+      "body": [
+        [
+          -1.5,
+          -1.5
+        ],
+        [
+          1.5,
+          -1.5
+        ],
+        [
+          1.5,
+          1.5
+        ],
+        [
+          -1.5,
+          1.5
+        ]
+      ],
+      "pads": [
+        {
+          "id": "chip_p1",
+          "number": "1",
+          "polygon": [
+            [
+              -2.1,
+              -0.4
+            ],
+            [
+              -1.5,
+              -0.4
+            ],
+            [
+              -1.5,
+              0.4
+            ],
+            [
+              -2.1,
+              0.4
+            ]
+          ],
+          "center": [
+            -1.8,
+            -0.0
+          ],
+          "net": "L_SIGNAL",
+          "layer": "top",
+          "hole_mm": 0.0,
+          "geometry_source": "source_rectangle_outer_bound",
+          "hole_polygon": [],
+          "hole_center": null
+        },
+        {
+          "id": "chip_p2",
+          "number": "2",
+          "polygon": [
+            [
+              1.5,
+              -0.4
+            ],
+            [
+              2.1,
+              -0.4
+            ],
+            [
+              2.1,
+              0.4
+            ],
+            [
+              1.5,
+              0.4
+            ]
+          ],
+          "center": [
+            1.8,
+            -0.0
+          ],
+          "net": "L_OUT",
+          "layer": "top",
+          "hole_mm": 0.0,
+          "geometry_source": "source_rectangle_outer_bound",
+          "hole_polygon": [],
+          "hole_center": null
+        }
+      ],
+      "locked": false,
+      "body_source": "explicit_override_mm"
+    }
+  ],
+  "nets": [
+    {
+      "id": "H_IN",
+      "pins": [
+        [
+          "JH",
+          "connector_p1"
+        ],
+        [
+          "Q1",
+          "chip_p1"
+        ]
+      ]
+    },
+    {
+      "id": "H_RETURN",
+      "pins": [
+        [
+          "C1",
+          "passive_p2"
+        ],
+        [
+          "R1",
+          "passive_p2"
+        ]
+      ]
+    },
+    {
+      "id": "H_SIGNAL",
+      "pins": [
+        [
+          "C1",
+          "passive_p1"
+        ],
+        [
+          "ISO1",
+          "bridge_p1"
+        ],
+        [
+          "Q1",
+          "chip_p2"
+        ],
+        [
+          "R1",
+          "passive_p1"
+        ]
+      ]
+    },
+    {
+      "id": "L_OUT",
+      "pins": [
+        [
+          "C2",
+          "passive_p1"
+        ],
+        [
+          "JL",
+          "connector_p1"
+        ],
+        [
+          "R2",
+          "passive_p1"
+        ],
+        [
+          "U1",
+          "chip_p2"
+        ]
+      ]
+    },
+    {
+      "id": "L_RETURN",
+      "pins": [
+        [
+          "C2",
+          "passive_p2"
+        ],
+        [
+          "R2",
+          "passive_p2"
+        ]
+      ]
+    },
+    {
+      "id": "L_SIGNAL",
+      "pins": [
+        [
+          "ISO1",
+          "bridge_p2"
+        ],
+        [
+          "U1",
+          "chip_p1"
+        ]
+      ]
+    }
+  ],
+  "metadata": [
+    [
+      "native_open_validation",
+      "PENDING"
+    ],
+    [
+      "source_editor_version",
+      "reference-fixture"
+    ],
+    [
+      "atomic_tombstones",
+      "0"
+    ],
+    [
+      "orphaned_pour_results_preserved",
+      "0"
+    ],
+    [
+      "deleted_documents",
+      "0"
+    ],
+    [
+      "polygon_path_frame",
+      "reject"
+    ]
+  ]
+}

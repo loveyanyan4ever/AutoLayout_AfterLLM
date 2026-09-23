@@ -1,0 +1,12 @@
+designator,cluster_id
+H1,mechanical
+H2,mechanical
+JH,input
+JL,output
+ISO1,isolation
+Q1,switch
+C1,switch
+R1,sense
+U1,control
+C2,control
+R2,filter

@@ -1,0 +1,42 @@
+{
+  "status": "NO_FEASIBLE_FOUND",
+  "code": "SEARCH_EXHAUSTED",
+  "message": "当前形状/分区/拓扑搜索未找到可行布局，未证明全问题无解",
+  "details": {
+    "trials": 3,
+    "time_remaining_s": 117.89498080999692
+  },
+  "stages": {
+    "A": {
+      "shape_counts": {
+        "control": 4,
+        "filter": 4,
+        "sense": 4,
+        "switch": 4
+      }
+    },
+    "B": {
+      "trials": 3,
+      "attempts": [
+        {
+          "attempts": [
+            {
+              "attempt": 0,
+              "reason": "packing_seed_failed"
+            },
+            {
+              "attempt": 1,
+              "reason": "packing_seed_failed"
+            },
+            {
+              "attempt": 2,
+              "reason": "packing_seed_failed"
+            }
+          ],
+          "topology": "0:0:0.4"
+        }
+      ]
+    }
+  },
+  "elapsed_s": 2.126317439000559
+}

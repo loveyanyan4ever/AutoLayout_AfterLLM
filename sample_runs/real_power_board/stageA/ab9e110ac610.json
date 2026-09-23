@@ -1,0 +1,1763 @@
+{
+  "cluster_id": "L1-9",
+  "candidates": [
+    {
+      "cluster_id": "L1-9",
+      "id": "c89e758a5f4f3d30",
+      "members": [
+        {
+          "ref": "LED2",
+          "x": -1.2573016937323513,
+          "y": -0.008031738644252343,
+          "angle": 0.0,
+          "layer": "top"
+        },
+        {
+          "ref": "R35",
+          "x": 1.3516499937323514,
+          "y": 1.734723475976807e-18,
+          "angle": 0.0,
+          "layer": "top"
+        }
+      ],
+      "box": [
+        -2.508251693732351,
+        -0.4320032,
+        2.508251693732351,
+        0.4320032
+      ],
+      "internal_hpwl": 4.21534394882045,
+      "ports": [
+        [
+          "+12V",
+          "LED2",
+          "e2",
+          -0.5080016937323514,
+          -0.002951738644252342
+        ],
+        [
+          "GND",
+          "R35",
+          "e8",
+          0.5982859937323515,
+          1.734723475976807e-18
+        ]
+      ],
+      "seed": 3783495138,
+      "stats": {
+        "reason": "completed",
+        "iterations": 40,
+        "rejected": 31,
+        "numerical_failures": 0,
+        "history": [
+          {
+            "iteration": 0,
+            "gamma_search_mm": 2.0,
+            "canonical_loss": 1.4413123270952213,
+            "parts": {
+              "wire": 1.4411921003421504,
+              "compact": 0.00012022675307097739,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.004288074952235703,
+            "accepted": true,
+            "reference_length_mm": 90.04482783567478
+          },
+          {
+            "iteration": 5,
+            "gamma_search_mm": 1.1076857897712555,
+            "canonical_loss": 1.4408076496267812,
+            "parts": {
+              "wire": 1.440723694820803,
+              "compact": 8.395480597821333e-05,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.004215227783934672,
+            "accepted": true,
+            "reference_length_mm": 90.04482783567478
+          },
+          {
+            "iteration": 10,
+            "gamma_search_mm": 0.6134839044305851,
+            "canonical_loss": 1.4408068313785123,
+            "parts": {
+              "wire": 1.440722868490042,
+              "compact": 8.396288847043535e-05,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.004186962609638691,
+            "accepted": false,
+            "reference_length_mm": 90.04482783567478
+          },
+          {
+            "iteration": 15,
+            "gamma_search_mm": 0.339773701595573,
+            "canonical_loss": 1.4408068313785123,
+            "parts": {
+              "wire": 1.440722868490042,
+              "compact": 8.396288847043535e-05,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.004185181628348212,
+            "accepted": false,
+            "reference_length_mm": 90.04482783567478
+          },
+          {
+            "iteration": 20,
+            "gamma_search_mm": 0.18818125049769766,
+            "canonical_loss": 1.4408068313785123,
+            "parts": {
+              "wire": 1.440722868490042,
+              "compact": 8.396288847043535e-05,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.004179895370397347,
+            "accepted": false,
+            "reference_length_mm": 90.04482783567478
+          },
+          {
+            "iteration": 25,
+            "gamma_search_mm": 0.10422284853884231,
+            "canonical_loss": 1.4408067488045726,
+            "parts": {
+              "wire": 1.4407227867559176,
+              "compact": 8.396204865491932e-05,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.004178015528429914,
+            "accepted": true,
+            "reference_length_mm": 90.04482783567478
+          },
+          {
+            "iteration": 30,
+            "gamma_search_mm": 0.1,
+            "canonical_loss": 1.440805859352441,
+            "parts": {
+              "wire": 1.4407219097496367,
+              "compact": 8.394960280438253e-05,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.00417647640825936,
+            "accepted": false,
+            "reference_length_mm": 90.04482783567478
+          },
+          {
+            "iteration": 35,
+            "gamma_search_mm": 0.1,
+            "canonical_loss": 1.440805859352441,
+            "parts": {
+              "wire": 1.4407219097496367,
+              "compact": 8.394960280438253e-05,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.00417647640825936,
+            "accepted": false,
+            "reference_length_mm": 90.04482783567478
+          },
+          {
+            "iteration": 39,
+            "gamma_search_mm": 0.1,
+            "canonical_loss": 1.440805859352441,
+            "parts": {
+              "wire": 1.4407219097496367,
+              "compact": 8.394960280438253e-05,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.00417647640825936,
+            "accepted": false,
+            "reference_length_mm": 90.04482783567478
+          }
+        ],
+        "final_loss": 1.440805859352441,
+        "final_parts": {
+          "wire": 1.4407219097496367,
+          "compact": 8.394960280438253e-05,
+          "anchor": 0.0,
+          "intent": 0.0,
+          "parent_compact": 0.0
+        },
+        "canonical_gamma_mm": 0.1,
+        "projection_calls": 259,
+        "distance_projection_cuts": 0,
+        "distance_inner_polygon_fallbacks": 0,
+        "graph": [
+          {
+            "a": "LED2",
+            "b": "R35",
+            "axis": "x",
+            "direction": 1,
+            "distance": 2.6089516999999995
+          },
+          {
+            "a": "LED2",
+            "b": "anchor:1",
+            "axis": "x",
+            "direction": -1,
+            "distance": 5.5539499999999995
+          },
+          {
+            "a": "LED2",
+            "b": "anchor:2",
+            "axis": "x",
+            "direction": -1,
+            "distance": 5.5539499999999995
+          },
+          {
+            "a": "LED2",
+            "b": "anchor:3",
+            "axis": "x",
+            "direction": -1,
+            "distance": 5.5539499999999995
+          },
+          {
+            "a": "LED2",
+            "b": "anchor:4",
+            "axis": "x",
+            "direction": -1,
+            "distance": 5.5539499999999995
+          },
+          {
+            "a": "LED2",
+            "b": "anchor:CAP",
+            "axis": "x",
+            "direction": -1,
+            "distance": 6.6793398
+          },
+          {
+            "a": "LED2",
+            "b": "anchor:CN3",
+            "axis": "x",
+            "direction": -1,
+            "distance": 10.329345199999999
+          },
+          {
+            "a": "LED2",
+            "b": "anchor:CN4",
+            "axis": "x",
+            "direction": -1,
+            "distance": 10.329345199999999
+          },
+          {
+            "a": "LED2",
+            "b": "anchor:LOAD",
+            "axis": "x",
+            "direction": -1,
+            "distance": 6.6793652
+          },
+          {
+            "a": "LED2",
+            "b": "anchor:VIN（+24V）",
+            "axis": "x",
+            "direction": -1,
+            "distance": 6.6793398
+          },
+          {
+            "a": "R35",
+            "b": "anchor:1",
+            "axis": "x",
+            "direction": -1,
+            "distance": 5.4596016999999994
+          },
+          {
+            "a": "R35",
+            "b": "anchor:2",
+            "axis": "x",
+            "direction": -1,
+            "distance": 5.4596016999999994
+          },
+          {
+            "a": "R35",
+            "b": "anchor:3",
+            "axis": "x",
+            "direction": -1,
+            "distance": 5.4596016999999994
+          },
+          {
+            "a": "R35",
+            "b": "anchor:4",
+            "axis": "x",
+            "direction": -1,
+            "distance": 5.4596016999999994
+          },
+          {
+            "a": "R35",
+            "b": "anchor:CAP",
+            "axis": "x",
+            "direction": -1,
+            "distance": 6.5849915
+          },
+          {
+            "a": "R35",
+            "b": "anchor:CN3",
+            "axis": "x",
+            "direction": -1,
+            "distance": 10.234996899999999
+          },
+          {
+            "a": "R35",
+            "b": "anchor:CN4",
+            "axis": "x",
+            "direction": -1,
+            "distance": 10.234996899999999
+          },
+          {
+            "a": "R35",
+            "b": "anchor:LOAD",
+            "axis": "x",
+            "direction": -1,
+            "distance": 6.5850169
+          },
+          {
+            "a": "R35",
+            "b": "anchor:VIN（+24V）",
+            "axis": "x",
+            "direction": -1,
+            "distance": 6.5849915
+          },
+          {
+            "a": "anchor:1",
+            "b": "anchor:2",
+            "axis": "x",
+            "direction": 1,
+            "distance": 8.303
+          },
+          {
+            "a": "anchor:1",
+            "b": "anchor:3",
+            "axis": "x",
+            "direction": 1,
+            "distance": 8.303
+          },
+          {
+            "a": "anchor:1",
+            "b": "anchor:4",
+            "axis": "y",
+            "direction": 1,
+            "distance": 8.303
+          },
+          {
+            "a": "anchor:1",
+            "b": "anchor:CAP",
+            "axis": "x",
+            "direction": 1,
+            "distance": 9.428389800000001
+          },
+          {
+            "a": "anchor:1",
+            "b": "anchor:CN3",
+            "axis": "y",
+            "direction": 1,
+            "distance": 6.7033
+          },
+          {
+            "a": "anchor:1",
+            "b": "anchor:CN4",
+            "axis": "y",
+            "direction": 1,
+            "distance": 6.7033
+          },
+          {
+            "a": "anchor:1",
+            "b": "anchor:LOAD",
+            "axis": "x",
+            "direction": 1,
+            "distance": 9.428364400000001
+          },
+          {
+            "a": "anchor:1",
+            "b": "anchor:VIN（+24V）",
+            "axis": "y",
+            "direction": 1,
+            "distance": 7.1283944
+          },
+          {
+            "a": "anchor:2",
+            "b": "anchor:3",
+            "axis": "y",
+            "direction": 1,
+            "distance": 8.303
+          },
+          {
+            "a": "anchor:2",
+            "b": "anchor:4",
+            "axis": "x",
+            "direction": -1,
+            "distance": 8.303
+          },
+          {
+            "a": "anchor:2",
+            "b": "anchor:CAP",
+            "axis": "x",
+            "direction": -1,
+            "distance": 9.428389800000001
+          },
+          {
+            "a": "anchor:2",
+            "b": "anchor:CN3",
+            "axis": "y",
+            "direction": 1,
+            "distance": 6.7033
+          },
+          {
+            "a": "anchor:2",
+            "b": "anchor:CN4",
+            "axis": "y",
+            "direction": 1,
+            "distance": 6.7033
+          },
+          {
+            "a": "anchor:2",
+            "b": "anchor:LOAD",
+            "axis": "y",
+            "direction": 1,
+            "distance": 6.9283947999999995
+          },
+          {
+            "a": "anchor:2",
+            "b": "anchor:VIN（+24V）",
+            "axis": "x",
+            "direction": -1,
+            "distance": 9.428389800000001
+          },
+          {
+            "a": "anchor:3",
+            "b": "anchor:4",
+            "axis": "x",
+            "direction": -1,
+            "distance": 8.303
+          },
+          {
+            "a": "anchor:3",
+            "b": "anchor:CAP",
+            "axis": "y",
+            "direction": -1,
+            "distance": 7.1283944
+          },
+          {
+            "a": "anchor:3",
+            "b": "anchor:CN3",
+            "axis": "x",
+            "direction": -1,
+            "distance": 13.0783952
+          },
+          {
+            "a": "anchor:3",
+            "b": "anchor:CN4",
+            "axis": "x",
+            "direction": -1,
+            "distance": 13.0783952
+          },
+          {
+            "a": "anchor:3",
+            "b": "anchor:LOAD",
+            "axis": "y",
+            "direction": -1,
+            "distance": 6.9283947999999995
+          },
+          {
+            "a": "anchor:3",
+            "b": "anchor:VIN（+24V）",
+            "axis": "x",
+            "direction": -1,
+            "distance": 9.428389800000001
+          },
+          {
+            "a": "anchor:4",
+            "b": "anchor:CAP",
+            "axis": "x",
+            "direction": 1,
+            "distance": 9.428389800000001
+          },
+          {
+            "a": "anchor:4",
+            "b": "anchor:CN3",
+            "axis": "x",
+            "direction": 1,
+            "distance": 13.0783952
+          },
+          {
+            "a": "anchor:4",
+            "b": "anchor:CN4",
+            "axis": "x",
+            "direction": 1,
+            "distance": 13.0783952
+          },
+          {
+            "a": "anchor:4",
+            "b": "anchor:LOAD",
+            "axis": "x",
+            "direction": 1,
+            "distance": 9.428364400000001
+          },
+          {
+            "a": "anchor:4",
+            "b": "anchor:VIN（+24V）",
+            "axis": "y",
+            "direction": -1,
+            "distance": 7.1283944
+          },
+          {
+            "a": "anchor:CAP",
+            "b": "anchor:CN3",
+            "axis": "y",
+            "direction": 1,
+            "distance": 5.5286944
+          },
+          {
+            "a": "anchor:CAP",
+            "b": "anchor:CN4",
+            "axis": "y",
+            "direction": 1,
+            "distance": 5.5286944
+          },
+          {
+            "a": "anchor:CAP",
+            "b": "anchor:LOAD",
+            "axis": "y",
+            "direction": 1,
+            "distance": 5.753789199999999
+          },
+          {
+            "a": "anchor:CAP",
+            "b": "anchor:VIN（+24V）",
+            "axis": "x",
+            "direction": -1,
+            "distance": 10.553779600000002
+          },
+          {
+            "a": "anchor:CN3",
+            "b": "anchor:CN4",
+            "axis": "x",
+            "direction": -1,
+            "distance": 17.853790399999998
+          },
+          {
+            "a": "anchor:CN3",
+            "b": "anchor:LOAD",
+            "axis": "y",
+            "direction": -1,
+            "distance": 5.328694799999999
+          },
+          {
+            "a": "anchor:CN3",
+            "b": "anchor:VIN（+24V）",
+            "axis": "x",
+            "direction": -1,
+            "distance": 14.203785
+          },
+          {
+            "a": "anchor:CN4",
+            "b": "anchor:LOAD",
+            "axis": "x",
+            "direction": 1,
+            "distance": 14.2037596
+          },
+          {
+            "a": "anchor:CN4",
+            "b": "anchor:VIN（+24V）",
+            "axis": "x",
+            "direction": -1,
+            "distance": 14.203785
+          },
+          {
+            "a": "anchor:LOAD",
+            "b": "anchor:VIN（+24V）",
+            "axis": "x",
+            "direction": -1,
+            "distance": 10.553754200000002
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": "L1-9",
+      "id": "89d53425a94220d9",
+      "members": [
+        {
+          "ref": "LED2",
+          "x": 0.05080000000000001,
+          "y": 0.575883199999997,
+          "angle": 0.0,
+          "layer": "top"
+        },
+        {
+          "ref": "R35",
+          "x": -0.043548299996134576,
+          "y": -0.575679999999997,
+          "angle": 0.0,
+          "layer": "top"
+        }
+      ],
+      "box": [
+        -1.2001499999999998,
+        -1.0076831999999971,
+        1.2001499999999998,
+        1.0076831999999971
+      ],
+      "internal_hpwl": 2.6716389000038596,
+      "ports": [
+        [
+          "+12V",
+          "LED2",
+          "e2",
+          0.8001,
+          0.580963199999997
+        ],
+        [
+          "GND",
+          "R35",
+          "e8",
+          -0.7969122999961344,
+          -0.575679999999997
+        ]
+      ],
+      "seed": 4064999433,
+      "stats": {
+        "reason": "completed",
+        "iterations": 40,
+        "rejected": 0,
+        "numerical_failures": 0,
+        "history": [
+          {
+            "iteration": 0,
+            "gamma_search_mm": 2.0,
+            "canonical_loss": 1.4407973813556538,
+            "parts": {
+              "wire": 1.4407803592809978,
+              "compact": 1.702207465610807e-05,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.004232306496585569,
+            "accepted": true,
+            "reference_length_mm": 90.04482783567478
+          },
+          {
+            "iteration": 5,
+            "gamma_search_mm": 1.1076857897712555,
+            "canonical_loss": 1.4405699476758658,
+            "parts": {
+              "wire": 1.4405534826078856,
+              "compact": 1.646506798016813e-05,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.0041735882172184305,
+            "accepted": true,
+            "reference_length_mm": 90.04482783567478
+          },
+          {
+            "iteration": 10,
+            "gamma_search_mm": 0.6134839044305851,
+            "canonical_loss": 1.4405699476761356,
+            "parts": {
+              "wire": 1.4405534826081539,
+              "compact": 1.6465067981675264e-05,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.004198373856923238,
+            "accepted": true,
+            "reference_length_mm": 90.04482783567478
+          },
+          {
+            "iteration": 15,
+            "gamma_search_mm": 0.339773701595573,
+            "canonical_loss": 1.4405699476765732,
+            "parts": {
+              "wire": 1.4405534826085897,
+              "compact": 1.6465067983562345e-05,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.004263379592163947,
+            "accepted": true,
+            "reference_length_mm": 90.04482783567478
+          },
+          {
+            "iteration": 20,
+            "gamma_search_mm": 0.18818125049769766,
+            "canonical_loss": 1.4405699476771463,
+            "parts": {
+              "wire": 1.4405534826091622,
+              "compact": 1.6465067984052804e-05,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.004286121694549439,
+            "accepted": true,
+            "reference_length_mm": 90.04482783567478
+          },
+          {
+            "iteration": 25,
+            "gamma_search_mm": 0.10422284853884231,
+            "canonical_loss": 1.440569947677737,
+            "parts": {
+              "wire": 1.4405534826097537,
+              "compact": 1.646506798330511e-05,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.004287719116291004,
+            "accepted": true,
+            "reference_length_mm": 90.04482783567478
+          },
+          {
+            "iteration": 30,
+            "gamma_search_mm": 0.1,
+            "canonical_loss": 1.4405699476782323,
+            "parts": {
+              "wire": 1.4405534826102502,
+              "compact": 1.646506798219705e-05,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.0042877233950671025,
+            "accepted": true,
+            "reference_length_mm": 90.04482783567478
+          },
+          {
+            "iteration": 35,
+            "gamma_search_mm": 0.1,
+            "canonical_loss": 1.4405699476785434,
+            "parts": {
+              "wire": 1.4405534826105622,
+              "compact": 1.6465067981362448e-05,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.004287723395068682,
+            "accepted": true,
+            "reference_length_mm": 90.04482783567478
+          },
+          {
+            "iteration": 39,
+            "gamma_search_mm": 0.1,
+            "canonical_loss": 1.4405699476786236,
+            "parts": {
+              "wire": 1.4405534826106423,
+              "compact": 1.6465067981144455e-05,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.0042877233950692475,
+            "accepted": true,
+            "reference_length_mm": 90.04482783567478
+          }
+        ],
+        "final_loss": 1.4405699476758274,
+        "final_parts": {
+          "wire": 1.4405534826078472,
+          "compact": 1.646506798004811e-05,
+          "anchor": 0.0,
+          "intent": 0.0,
+          "parent_compact": 0.0
+        },
+        "canonical_gamma_mm": 0.1,
+        "projection_calls": 41,
+        "distance_projection_cuts": 0,
+        "distance_inner_polygon_fallbacks": 0,
+        "graph": [
+          {
+            "a": "LED2",
+            "b": "R35",
+            "axis": "y",
+            "direction": -1,
+            "distance": 1.1515632
+          },
+          {
+            "a": "LED2",
+            "b": "anchor:1",
+            "axis": "x",
+            "direction": -1,
+            "distance": 5.5539499999999995
+          },
+          {
+            "a": "LED2",
+            "b": "anchor:2",
+            "axis": "x",
+            "direction": -1,
+            "distance": 5.5539499999999995
+          },
+          {
+            "a": "LED2",
+            "b": "anchor:3",
+            "axis": "x",
+            "direction": -1,
+            "distance": 5.5539499999999995
+          },
+          {
+            "a": "LED2",
+            "b": "anchor:4",
+            "axis": "x",
+            "direction": -1,
+            "distance": 5.5539499999999995
+          },
+          {
+            "a": "LED2",
+            "b": "anchor:CAP",
+            "axis": "x",
+            "direction": -1,
+            "distance": 6.6793398
+          },
+          {
+            "a": "LED2",
+            "b": "anchor:CN3",
+            "axis": "x",
+            "direction": -1,
+            "distance": 10.329345199999999
+          },
+          {
+            "a": "LED2",
+            "b": "anchor:CN4",
+            "axis": "x",
+            "direction": -1,
+            "distance": 10.329345199999999
+          },
+          {
+            "a": "LED2",
+            "b": "anchor:LOAD",
+            "axis": "x",
+            "direction": -1,
+            "distance": 6.6793652
+          },
+          {
+            "a": "LED2",
+            "b": "anchor:VIN（+24V）",
+            "axis": "x",
+            "direction": -1,
+            "distance": 6.6793398
+          },
+          {
+            "a": "R35",
+            "b": "anchor:1",
+            "axis": "x",
+            "direction": -1,
+            "distance": 5.4596016999999994
+          },
+          {
+            "a": "R35",
+            "b": "anchor:2",
+            "axis": "x",
+            "direction": -1,
+            "distance": 5.4596016999999994
+          },
+          {
+            "a": "R35",
+            "b": "anchor:3",
+            "axis": "x",
+            "direction": -1,
+            "distance": 5.4596016999999994
+          },
+          {
+            "a": "R35",
+            "b": "anchor:4",
+            "axis": "x",
+            "direction": -1,
+            "distance": 5.4596016999999994
+          },
+          {
+            "a": "R35",
+            "b": "anchor:CAP",
+            "axis": "x",
+            "direction": -1,
+            "distance": 6.5849915
+          },
+          {
+            "a": "R35",
+            "b": "anchor:CN3",
+            "axis": "x",
+            "direction": -1,
+            "distance": 10.234996899999999
+          },
+          {
+            "a": "R35",
+            "b": "anchor:CN4",
+            "axis": "x",
+            "direction": -1,
+            "distance": 10.234996899999999
+          },
+          {
+            "a": "R35",
+            "b": "anchor:LOAD",
+            "axis": "x",
+            "direction": -1,
+            "distance": 6.5850169
+          },
+          {
+            "a": "R35",
+            "b": "anchor:VIN（+24V）",
+            "axis": "x",
+            "direction": -1,
+            "distance": 6.5849915
+          },
+          {
+            "a": "anchor:1",
+            "b": "anchor:2",
+            "axis": "x",
+            "direction": 1,
+            "distance": 8.303
+          },
+          {
+            "a": "anchor:1",
+            "b": "anchor:3",
+            "axis": "x",
+            "direction": 1,
+            "distance": 8.303
+          },
+          {
+            "a": "anchor:1",
+            "b": "anchor:4",
+            "axis": "y",
+            "direction": 1,
+            "distance": 8.303
+          },
+          {
+            "a": "anchor:1",
+            "b": "anchor:CAP",
+            "axis": "x",
+            "direction": 1,
+            "distance": 9.428389800000001
+          },
+          {
+            "a": "anchor:1",
+            "b": "anchor:CN3",
+            "axis": "y",
+            "direction": 1,
+            "distance": 6.7033
+          },
+          {
+            "a": "anchor:1",
+            "b": "anchor:CN4",
+            "axis": "y",
+            "direction": 1,
+            "distance": 6.7033
+          },
+          {
+            "a": "anchor:1",
+            "b": "anchor:LOAD",
+            "axis": "x",
+            "direction": 1,
+            "distance": 9.428364400000001
+          },
+          {
+            "a": "anchor:1",
+            "b": "anchor:VIN（+24V）",
+            "axis": "y",
+            "direction": 1,
+            "distance": 7.1283944
+          },
+          {
+            "a": "anchor:2",
+            "b": "anchor:3",
+            "axis": "y",
+            "direction": 1,
+            "distance": 8.303
+          },
+          {
+            "a": "anchor:2",
+            "b": "anchor:4",
+            "axis": "x",
+            "direction": -1,
+            "distance": 8.303
+          },
+          {
+            "a": "anchor:2",
+            "b": "anchor:CAP",
+            "axis": "x",
+            "direction": -1,
+            "distance": 9.428389800000001
+          },
+          {
+            "a": "anchor:2",
+            "b": "anchor:CN3",
+            "axis": "y",
+            "direction": 1,
+            "distance": 6.7033
+          },
+          {
+            "a": "anchor:2",
+            "b": "anchor:CN4",
+            "axis": "y",
+            "direction": 1,
+            "distance": 6.7033
+          },
+          {
+            "a": "anchor:2",
+            "b": "anchor:LOAD",
+            "axis": "y",
+            "direction": 1,
+            "distance": 6.9283947999999995
+          },
+          {
+            "a": "anchor:2",
+            "b": "anchor:VIN（+24V）",
+            "axis": "x",
+            "direction": -1,
+            "distance": 9.428389800000001
+          },
+          {
+            "a": "anchor:3",
+            "b": "anchor:4",
+            "axis": "x",
+            "direction": -1,
+            "distance": 8.303
+          },
+          {
+            "a": "anchor:3",
+            "b": "anchor:CAP",
+            "axis": "y",
+            "direction": -1,
+            "distance": 7.1283944
+          },
+          {
+            "a": "anchor:3",
+            "b": "anchor:CN3",
+            "axis": "x",
+            "direction": -1,
+            "distance": 13.0783952
+          },
+          {
+            "a": "anchor:3",
+            "b": "anchor:CN4",
+            "axis": "x",
+            "direction": -1,
+            "distance": 13.0783952
+          },
+          {
+            "a": "anchor:3",
+            "b": "anchor:LOAD",
+            "axis": "y",
+            "direction": -1,
+            "distance": 6.9283947999999995
+          },
+          {
+            "a": "anchor:3",
+            "b": "anchor:VIN（+24V）",
+            "axis": "x",
+            "direction": -1,
+            "distance": 9.428389800000001
+          },
+          {
+            "a": "anchor:4",
+            "b": "anchor:CAP",
+            "axis": "x",
+            "direction": 1,
+            "distance": 9.428389800000001
+          },
+          {
+            "a": "anchor:4",
+            "b": "anchor:CN3",
+            "axis": "x",
+            "direction": 1,
+            "distance": 13.0783952
+          },
+          {
+            "a": "anchor:4",
+            "b": "anchor:CN4",
+            "axis": "x",
+            "direction": 1,
+            "distance": 13.0783952
+          },
+          {
+            "a": "anchor:4",
+            "b": "anchor:LOAD",
+            "axis": "x",
+            "direction": 1,
+            "distance": 9.428364400000001
+          },
+          {
+            "a": "anchor:4",
+            "b": "anchor:VIN（+24V）",
+            "axis": "y",
+            "direction": -1,
+            "distance": 7.1283944
+          },
+          {
+            "a": "anchor:CAP",
+            "b": "anchor:CN3",
+            "axis": "y",
+            "direction": 1,
+            "distance": 5.5286944
+          },
+          {
+            "a": "anchor:CAP",
+            "b": "anchor:CN4",
+            "axis": "y",
+            "direction": 1,
+            "distance": 5.5286944
+          },
+          {
+            "a": "anchor:CAP",
+            "b": "anchor:LOAD",
+            "axis": "y",
+            "direction": 1,
+            "distance": 5.753789199999999
+          },
+          {
+            "a": "anchor:CAP",
+            "b": "anchor:VIN（+24V）",
+            "axis": "x",
+            "direction": -1,
+            "distance": 10.553779600000002
+          },
+          {
+            "a": "anchor:CN3",
+            "b": "anchor:CN4",
+            "axis": "x",
+            "direction": -1,
+            "distance": 17.853790399999998
+          },
+          {
+            "a": "anchor:CN3",
+            "b": "anchor:LOAD",
+            "axis": "y",
+            "direction": -1,
+            "distance": 5.328694799999999
+          },
+          {
+            "a": "anchor:CN3",
+            "b": "anchor:VIN（+24V）",
+            "axis": "x",
+            "direction": -1,
+            "distance": 14.203785
+          },
+          {
+            "a": "anchor:CN4",
+            "b": "anchor:LOAD",
+            "axis": "x",
+            "direction": 1,
+            "distance": 14.2037596
+          },
+          {
+            "a": "anchor:CN4",
+            "b": "anchor:VIN（+24V）",
+            "axis": "x",
+            "direction": -1,
+            "distance": 14.203785
+          },
+          {
+            "a": "anchor:LOAD",
+            "b": "anchor:VIN（+24V）",
+            "axis": "x",
+            "direction": -1,
+            "distance": 10.553754200000002
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": "L1-9",
+      "id": "aaafcaffa523a4b9",
+      "members": [
+        {
+          "ref": "LED2",
+          "x": 0.05080000094630299,
+          "y": 0.5758831999999984,
+          "angle": 0.0,
+          "layer": "top"
+        },
+        {
+          "ref": "R35",
+          "x": -0.04354830094630291,
+          "y": -0.5756799999999984,
+          "angle": 0.0,
+          "layer": "top"
+        }
+      ],
+      "box": [
+        -1.2001500009463029,
+        -1.0076831999999984,
+        1.2001500009463029,
+        1.0076831999999984
+      ],
+      "internal_hpwl": 2.671638898107391,
+      "ports": [
+        [
+          "+12V",
+          "LED2",
+          "e2",
+          0.800100000946303,
+          0.5809631999999983
+        ],
+        [
+          "GND",
+          "R35",
+          "e8",
+          -0.7969123009463028,
+          -0.5756799999999984
+        ]
+      ],
+      "seed": 3849358767,
+      "stats": {
+        "reason": "completed",
+        "iterations": 40,
+        "rejected": 0,
+        "numerical_failures": 0,
+        "history": [
+          {
+            "iteration": 0,
+            "gamma_search_mm": 2.0,
+            "canonical_loss": 1.4415319485060991,
+            "parts": {
+              "wire": 1.4414568976606152,
+              "compact": 7.505084548381325e-05,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.0042744574393779825,
+            "accepted": true,
+            "reference_length_mm": 90.04482783567478
+          },
+          {
+            "iteration": 5,
+            "gamma_search_mm": 1.1076857897712555,
+            "canonical_loss": 1.4409873141641467,
+            "parts": {
+              "wire": 1.4409452226407027,
+              "compact": 4.209152344402635e-05,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.0042154414298317825,
+            "accepted": true,
+            "reference_length_mm": 90.04482783567478
+          },
+          {
+            "iteration": 10,
+            "gamma_search_mm": 0.6134839044305851,
+            "canonical_loss": 1.4405040191055003,
+            "parts": {
+              "wire": 1.4404802623940254,
+              "compact": 2.375671147502721e-05,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.004214600894146807,
+            "accepted": true,
+            "reference_length_mm": 90.04482783567478
+          },
+          {
+            "iteration": 15,
+            "gamma_search_mm": 0.339773701595573,
+            "canonical_loss": 1.4401098253394689,
+            "parts": {
+              "wire": 1.4400928915486086,
+              "compact": 1.6933790860268362e-05,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.004266492221047231,
+            "accepted": true,
+            "reference_length_mm": 90.04482783567478
+          },
+          {
+            "iteration": 20,
+            "gamma_search_mm": 0.18818125049769766,
+            "canonical_loss": 1.4398935431757274,
+            "parts": {
+              "wire": 1.439877078107743,
+              "compact": 1.6465067984461785e-05,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.004286117694717121,
+            "accepted": true,
+            "reference_length_mm": 90.04482783567478
+          },
+          {
+            "iteration": 25,
+            "gamma_search_mm": 0.10422284853884231,
+            "canonical_loss": 1.4398935431762634,
+            "parts": {
+              "wire": 1.4398770781082801,
+              "compact": 1.6465067983195722e-05,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.004287719115233725,
+            "accepted": true,
+            "reference_length_mm": 90.04482783567478
+          },
+          {
+            "iteration": 30,
+            "gamma_search_mm": 0.1,
+            "canonical_loss": 1.4398935431767006,
+            "parts": {
+              "wire": 1.4398770781087187,
+              "compact": 1.6465067982001338e-05,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.004287723394582862,
+            "accepted": true,
+            "reference_length_mm": 90.04482783567478
+          },
+          {
+            "iteration": 35,
+            "gamma_search_mm": 0.1,
+            "canonical_loss": 1.4398935431769742,
+            "parts": {
+              "wire": 1.439877078108993,
+              "compact": 1.6465067981206235e-05,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.004287723394584389,
+            "accepted": true,
+            "reference_length_mm": 90.04482783567478
+          },
+          {
+            "iteration": 39,
+            "gamma_search_mm": 0.1,
+            "canonical_loss": 1.439893543177043,
+            "parts": {
+              "wire": 1.439877078109062,
+              "compact": 1.6465067981001297e-05,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.004287723394584915,
+            "accepted": true,
+            "reference_length_mm": 90.04482783567478
+          }
+        ],
+        "final_loss": 1.4398935431757274,
+        "final_parts": {
+          "wire": 1.439877078107743,
+          "compact": 1.6465067984461785e-05,
+          "anchor": 0.0,
+          "intent": 0.0,
+          "parent_compact": 0.0
+        },
+        "canonical_gamma_mm": 0.1,
+        "projection_calls": 41,
+        "distance_projection_cuts": 0,
+        "distance_inner_polygon_fallbacks": 0,
+        "graph": [
+          {
+            "a": "LED2",
+            "b": "R35",
+            "axis": "y",
+            "direction": -1,
+            "distance": 1.1515632
+          },
+          {
+            "a": "LED2",
+            "b": "anchor:1",
+            "axis": "x",
+            "direction": -1,
+            "distance": 5.5539499999999995
+          },
+          {
+            "a": "LED2",
+            "b": "anchor:2",
+            "axis": "x",
+            "direction": -1,
+            "distance": 5.5539499999999995
+          },
+          {
+            "a": "LED2",
+            "b": "anchor:3",
+            "axis": "x",
+            "direction": -1,
+            "distance": 5.5539499999999995
+          },
+          {
+            "a": "LED2",
+            "b": "anchor:4",
+            "axis": "x",
+            "direction": -1,
+            "distance": 5.5539499999999995
+          },
+          {
+            "a": "LED2",
+            "b": "anchor:CAP",
+            "axis": "x",
+            "direction": -1,
+            "distance": 6.6793398
+          },
+          {
+            "a": "LED2",
+            "b": "anchor:CN3",
+            "axis": "x",
+            "direction": -1,
+            "distance": 10.329345199999999
+          },
+          {
+            "a": "LED2",
+            "b": "anchor:CN4",
+            "axis": "x",
+            "direction": -1,
+            "distance": 10.329345199999999
+          },
+          {
+            "a": "LED2",
+            "b": "anchor:LOAD",
+            "axis": "x",
+            "direction": -1,
+            "distance": 6.6793652
+          },
+          {
+            "a": "LED2",
+            "b": "anchor:VIN（+24V）",
+            "axis": "x",
+            "direction": -1,
+            "distance": 6.6793398
+          },
+          {
+            "a": "R35",
+            "b": "anchor:1",
+            "axis": "x",
+            "direction": -1,
+            "distance": 5.4596016999999994
+          },
+          {
+            "a": "R35",
+            "b": "anchor:2",
+            "axis": "x",
+            "direction": -1,
+            "distance": 5.4596016999999994
+          },
+          {
+            "a": "R35",
+            "b": "anchor:3",
+            "axis": "x",
+            "direction": -1,
+            "distance": 5.4596016999999994
+          },
+          {
+            "a": "R35",
+            "b": "anchor:4",
+            "axis": "x",
+            "direction": -1,
+            "distance": 5.4596016999999994
+          },
+          {
+            "a": "R35",
+            "b": "anchor:CAP",
+            "axis": "x",
+            "direction": -1,
+            "distance": 6.5849915
+          },
+          {
+            "a": "R35",
+            "b": "anchor:CN3",
+            "axis": "x",
+            "direction": -1,
+            "distance": 10.234996899999999
+          },
+          {
+            "a": "R35",
+            "b": "anchor:CN4",
+            "axis": "x",
+            "direction": -1,
+            "distance": 10.234996899999999
+          },
+          {
+            "a": "R35",
+            "b": "anchor:LOAD",
+            "axis": "x",
+            "direction": -1,
+            "distance": 6.5850169
+          },
+          {
+            "a": "R35",
+            "b": "anchor:VIN（+24V）",
+            "axis": "x",
+            "direction": -1,
+            "distance": 6.5849915
+          },
+          {
+            "a": "anchor:1",
+            "b": "anchor:2",
+            "axis": "x",
+            "direction": 1,
+            "distance": 8.303
+          },
+          {
+            "a": "anchor:1",
+            "b": "anchor:3",
+            "axis": "x",
+            "direction": 1,
+            "distance": 8.303
+          },
+          {
+            "a": "anchor:1",
+            "b": "anchor:4",
+            "axis": "y",
+            "direction": 1,
+            "distance": 8.303
+          },
+          {
+            "a": "anchor:1",
+            "b": "anchor:CAP",
+            "axis": "x",
+            "direction": 1,
+            "distance": 9.428389800000001
+          },
+          {
+            "a": "anchor:1",
+            "b": "anchor:CN3",
+            "axis": "y",
+            "direction": 1,
+            "distance": 6.7033
+          },
+          {
+            "a": "anchor:1",
+            "b": "anchor:CN4",
+            "axis": "y",
+            "direction": 1,
+            "distance": 6.7033
+          },
+          {
+            "a": "anchor:1",
+            "b": "anchor:LOAD",
+            "axis": "x",
+            "direction": 1,
+            "distance": 9.428364400000001
+          },
+          {
+            "a": "anchor:1",
+            "b": "anchor:VIN（+24V）",
+            "axis": "y",
+            "direction": 1,
+            "distance": 7.1283944
+          },
+          {
+            "a": "anchor:2",
+            "b": "anchor:3",
+            "axis": "y",
+            "direction": 1,
+            "distance": 8.303
+          },
+          {
+            "a": "anchor:2",
+            "b": "anchor:4",
+            "axis": "x",
+            "direction": -1,
+            "distance": 8.303
+          },
+          {
+            "a": "anchor:2",
+            "b": "anchor:CAP",
+            "axis": "x",
+            "direction": -1,
+            "distance": 9.428389800000001
+          },
+          {
+            "a": "anchor:2",
+            "b": "anchor:CN3",
+            "axis": "y",
+            "direction": 1,
+            "distance": 6.7033
+          },
+          {
+            "a": "anchor:2",
+            "b": "anchor:CN4",
+            "axis": "y",
+            "direction": 1,
+            "distance": 6.7033
+          },
+          {
+            "a": "anchor:2",
+            "b": "anchor:LOAD",
+            "axis": "y",
+            "direction": 1,
+            "distance": 6.9283947999999995
+          },
+          {
+            "a": "anchor:2",
+            "b": "anchor:VIN（+24V）",
+            "axis": "x",
+            "direction": -1,
+            "distance": 9.428389800000001
+          },
+          {
+            "a": "anchor:3",
+            "b": "anchor:4",
+            "axis": "x",
+            "direction": -1,
+            "distance": 8.303
+          },
+          {
+            "a": "anchor:3",
+            "b": "anchor:CAP",
+            "axis": "y",
+            "direction": -1,
+            "distance": 7.1283944
+          },
+          {
+            "a": "anchor:3",
+            "b": "anchor:CN3",
+            "axis": "x",
+            "direction": -1,
+            "distance": 13.0783952
+          },
+          {
+            "a": "anchor:3",
+            "b": "anchor:CN4",
+            "axis": "x",
+            "direction": -1,
+            "distance": 13.0783952
+          },
+          {
+            "a": "anchor:3",
+            "b": "anchor:LOAD",
+            "axis": "y",
+            "direction": -1,
+            "distance": 6.9283947999999995
+          },
+          {
+            "a": "anchor:3",
+            "b": "anchor:VIN（+24V）",
+            "axis": "x",
+            "direction": -1,
+            "distance": 9.428389800000001
+          },
+          {
+            "a": "anchor:4",
+            "b": "anchor:CAP",
+            "axis": "x",
+            "direction": 1,
+            "distance": 9.428389800000001
+          },
+          {
+            "a": "anchor:4",
+            "b": "anchor:CN3",
+            "axis": "x",
+            "direction": 1,
+            "distance": 13.0783952
+          },
+          {
+            "a": "anchor:4",
+            "b": "anchor:CN4",
+            "axis": "x",
+            "direction": 1,
+            "distance": 13.0783952
+          },
+          {
+            "a": "anchor:4",
+            "b": "anchor:LOAD",
+            "axis": "x",
+            "direction": 1,
+            "distance": 9.428364400000001
+          },
+          {
+            "a": "anchor:4",
+            "b": "anchor:VIN（+24V）",
+            "axis": "y",
+            "direction": -1,
+            "distance": 7.1283944
+          },
+          {
+            "a": "anchor:CAP",
+            "b": "anchor:CN3",
+            "axis": "y",
+            "direction": 1,
+            "distance": 5.5286944
+          },
+          {
+            "a": "anchor:CAP",
+            "b": "anchor:CN4",
+            "axis": "y",
+            "direction": 1,
+            "distance": 5.5286944
+          },
+          {
+            "a": "anchor:CAP",
+            "b": "anchor:LOAD",
+            "axis": "y",
+            "direction": 1,
+            "distance": 5.753789199999999
+          },
+          {
+            "a": "anchor:CAP",
+            "b": "anchor:VIN（+24V）",
+            "axis": "x",
+            "direction": -1,
+            "distance": 10.553779600000002
+          },
+          {
+            "a": "anchor:CN3",
+            "b": "anchor:CN4",
+            "axis": "x",
+            "direction": -1,
+            "distance": 17.853790399999998
+          },
+          {
+            "a": "anchor:CN3",
+            "b": "anchor:LOAD",
+            "axis": "y",
+            "direction": -1,
+            "distance": 5.328694799999999
+          },
+          {
+            "a": "anchor:CN3",
+            "b": "anchor:VIN（+24V）",
+            "axis": "x",
+            "direction": -1,
+            "distance": 14.203785
+          },
+          {
+            "a": "anchor:CN4",
+            "b": "anchor:LOAD",
+            "axis": "x",
+            "direction": 1,
+            "distance": 14.2037596
+          },
+          {
+            "a": "anchor:CN4",
+            "b": "anchor:VIN（+24V）",
+            "axis": "x",
+            "direction": -1,
+            "distance": 14.203785
+          },
+          {
+            "a": "anchor:LOAD",
+            "b": "anchor:VIN（+24V）",
+            "axis": "x",
+            "direction": -1,
+            "distance": 10.553754200000002
+          }
+        ]
+      }
+    }
+  ]
+}

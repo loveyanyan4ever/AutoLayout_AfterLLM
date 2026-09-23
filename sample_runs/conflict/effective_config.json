@@ -1,0 +1,327 @@
+{
+  "schema_version": 1,
+  "input": {
+    "project": "inputs/source.epro2",
+    "board_id": "pcb_demo",
+    "voltage_domains": "inputs/voltage_domains.csv",
+    "functional_clusters": "inputs/functional_clusters.csv",
+    "source_unit": "mil",
+    "adapter": "reference_v3"
+  },
+  "board": {
+    "mode": "fixed",
+    "replace_existing_outline": false,
+    "estimated": {
+      "target_utilization": 0.55,
+      "aspect_candidates": [
+        1.0,
+        1.4,
+        1.8
+      ],
+      "max_width_mm": 120,
+      "max_height_mm": 100,
+      "min_width_mm": 10.0,
+      "min_height_mm": 10.0,
+      "growth_factor": 1.25,
+      "shrink_factor": 0.92,
+      "size_trials": 8
+    }
+  },
+  "geometry": {
+    "unsupported_policy": "error",
+    "missing_body_policy": "error",
+    "epsilon_mm": 1e-06,
+    "output_grid_mm": 0.001,
+    "solve_margin_mm": 0.002,
+    "side_policy": "single_side",
+    "body_overrides": {
+      "hole": [
+        -1,
+        -1,
+        1,
+        1
+      ],
+      "connector": [
+        -2,
+        -3,
+        2,
+        3
+      ],
+      "bridge": [
+        -4,
+        -2,
+        4,
+        2
+      ],
+      "chip": [
+        -1.5,
+        -1.5,
+        1.5,
+        1.5
+      ],
+      "passive": [
+        -0.7,
+        -0.5,
+        0.7,
+        0.5
+      ]
+    },
+    "source_body_policy": "explicit_only",
+    "polygon_path_frame": "reject",
+    "approved_pad_envelopes": [],
+    "pad_envelope_margin_mm": 0.0
+  },
+  "rules": {
+    "id": "synthetic-test-v1",
+    "basis": "Synthetic geometry test; not a safety standard",
+    "mechanical_gap_mm": 0.2,
+    "default_pad_clearance_mm": 0.15,
+    "domains": {
+      "HV": {
+        "kind": "electrical"
+      },
+      "LV": {
+        "kind": "electrical"
+      },
+      "MECHANICAL": {
+        "kind": "mechanical"
+      },
+      "BRIDGE": {
+        "kind": "bridge",
+        "between": [
+          "HV",
+          "LV"
+        ]
+      }
+    },
+    "isolation_pairs": [
+      {
+        "domains": [
+          "HV",
+          "LV"
+        ],
+        "copper_clearance_mm": 3.0,
+        "creepage_mm": 3.0,
+        "routing_reserve_mm": 0.4
+      }
+    ],
+    "creepage_evaluation": "external_required",
+    "unlock_source_locked": [],
+    "component_rules": {
+      "H1": {
+        "mode": "fixed_pose",
+        "pose": "source",
+        "conductive_class": "insulating"
+      },
+      "H2": {
+        "mode": "fixed_pose",
+        "pose": "source",
+        "conductive_class": "insulating"
+      },
+      "JH": {
+        "mode": "edge_slide",
+        "allowed_angles": [
+          0.0
+        ],
+        "allowed_edges": [
+          "left"
+        ],
+        "edge_segment_mm": [
+          8.0,
+          32.0
+        ],
+        "local_mating_point_mm": [
+          -2.0,
+          0.0
+        ],
+        "local_outward_vector": [
+          -1.0,
+          0.0
+        ],
+        "edge_offset_mm": 0.0,
+        "insertion_keepout": [
+          -2.0,
+          -3.0,
+          2.0,
+          3.0
+        ],
+        "allow_body_overhang": false
+      },
+      "JL": {
+        "mode": "edge_slide",
+        "allowed_angles": [
+          0.0
+        ],
+        "allowed_edges": [
+          "right"
+        ],
+        "edge_segment_mm": [
+          8.0,
+          32.0
+        ],
+        "local_mating_point_mm": [
+          2.0,
+          0.0
+        ],
+        "local_outward_vector": [
+          1.0,
+          0.0
+        ],
+        "edge_offset_mm": 0.0,
+        "insertion_keepout": [
+          -2.0,
+          -3.0,
+          2.0,
+          3.0
+        ],
+        "allow_body_overhang": false
+      },
+      "ISO1": {
+        "mode": "region_bounded",
+        "region_id": "isolation_interface",
+        "bridge_template": "iso",
+        "allowed_angles": [
+          0.0,
+          90.0,
+          180.0,
+          270.0
+        ]
+      },
+      "Q1": {
+        "allowed_angles": [
+          0.0,
+          90.0,
+          180.0,
+          270.0
+        ],
+        "mode": "region_bounded",
+        "region_id": "impossibly_small"
+      },
+      "C1": {
+        "allowed_angles": [
+          0.0,
+          90.0,
+          180.0,
+          270.0
+        ]
+      },
+      "R1": {
+        "allowed_angles": [
+          0.0,
+          90.0,
+          180.0,
+          270.0
+        ]
+      },
+      "U1": {
+        "allowed_angles": [
+          0.0,
+          90.0,
+          180.0,
+          270.0
+        ]
+      },
+      "C2": {
+        "allowed_angles": [
+          0.0,
+          90.0,
+          180.0,
+          270.0
+        ]
+      },
+      "R2": {
+        "allowed_angles": [
+          0.0,
+          90.0,
+          180.0,
+          270.0
+        ]
+      }
+    },
+    "bridge_templates": {
+      "iso": {
+        "pad_domains": {
+          "1": "HV",
+          "2": "LV"
+        },
+        "axis_local": [
+          1.0,
+          0.0
+        ],
+        "between": [
+          "HV",
+          "LV"
+        ],
+        "barrier_point_mm": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "obstacles": [],
+    "regions": {
+      "impossibly_small": [
+        10,
+        10,
+        10.1,
+        10.1
+      ]
+    },
+    "net_weights": {},
+    "distance_constraints": [],
+    "order_constraints": []
+  },
+  "clusters": {
+    "cross_domain_policy": "error",
+    "missing_assignment_policy": "error",
+    "containment": "hard",
+    "anchored_members_policy": "attachment",
+    "max_candidates": 4,
+    "parent_compact_weight": 0.05
+  },
+  "optimization": {
+    "seed": 0,
+    "continuous_backend": "numpy_analytic_float64",
+    "projection_backend": "osqp",
+    "optimizer": "projected_adam",
+    "rotations": "per_component",
+    "allow_layer_change": false,
+    "max_ab_feedback_rounds": 0,
+    "max_topology_candidates": 3,
+    "time_budget_s": 120,
+    "priority_policy": "feasibility_intent_wirelength_shape_displacement",
+    "higher_priority_relative_tolerance": 0.0,
+    "iterations_a": 5,
+    "enable_stage_c": true,
+    "iterations_b": 5,
+    "iterations_c": 5,
+    "learning_rate_mm": 0.15,
+    "gamma_start_mm": 2.0,
+    "gamma_end_mm": 0.1,
+    "shape_aspects": [
+      0.7,
+      1.0,
+      1.4,
+      2.0
+    ],
+    "domain_split_fractions": [
+      0.4,
+      0.5,
+      0.6
+    ],
+    "preplace_samples": 3,
+    "beam_width": 2,
+    "stage_c": {
+      "trust_radius_mm": 0.5,
+      "cluster_area_growth_ratio": 0.05,
+      "allow_rotation": false,
+      "allow_cross_cluster_move": false
+    }
+  },
+  "export": {
+    "require_model_feasible": true,
+    "overwrite_source": false,
+    "emit_epro2": true,
+    "native_open_validation": "pending"
+  }
+}

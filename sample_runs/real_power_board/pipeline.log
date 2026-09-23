@@ -1,0 +1,21 @@
+P0: 103 器件, 12 可动功能簇, 0 固定对象
+P1: 机械预布局与域拓扑 single 已生成
+A: L1-1: 3 个内部合法形状
+A: L1-10: 3 个内部合法形状
+A: L1-11: 3 个内部合法形状
+A: L1-12: 3 个内部合法形状
+A: L1-2: 3 个内部合法形状
+A: L1-3: 3 个内部合法形状
+A: L1-4: 3 个内部合法形状
+A: L1-5: 3 个内部合法形状
+A: L1-6: 3 个内部合法形状
+A: L1-7: 3 个内部合法形状
+A: L1-8: 3 个内部合法形状
+A: L1-9: 3 个内部合法形状
+B: topology single, candidates 3/24, feasible=False
+B: topology single, candidates 6/24, feasible=False
+B: topology single, candidates 9/24, feasible=False
+B: topology single, candidates 12/24, feasible=False
+B: topology single, candidates 15/24, feasible=True
+C: 在冻结的板框、分区和簇区域中微调
+FEASIBLE: HPWL=1462.1802 mm, 474.29s

@@ -1,0 +1,3340 @@
+{
+  "trials": 15,
+  "attempts": [
+    {
+      "attempts": [
+        {
+          "attempt": 0,
+          "reason": "packing_seed_failed"
+        },
+        {
+          "attempt": 1,
+          "reason": "packing_seed_failed"
+        },
+        {
+          "attempt": 2,
+          "reason": "packing_seed_failed"
+        }
+      ],
+      "topology": "single"
+    },
+    {
+      "attempts": [
+        {
+          "attempt": 0,
+          "reason": "packing_seed_failed"
+        },
+        {
+          "attempt": 1,
+          "reason": "packing_seed_failed"
+        },
+        {
+          "attempt": 2,
+          "reason": "packing_seed_failed"
+        }
+      ],
+      "topology": "single"
+    },
+    {
+      "attempts": [
+        {
+          "attempt": 0,
+          "reason": "packing_seed_failed"
+        },
+        {
+          "attempt": 1,
+          "reason": "packing_seed_failed"
+        },
+        {
+          "attempt": 2,
+          "reason": "packing_seed_failed"
+        }
+      ],
+      "topology": "single"
+    },
+    {
+      "attempts": [
+        {
+          "attempt": 0,
+          "reason": "packing_seed_failed"
+        },
+        {
+          "attempt": 1,
+          "reason": "packing_seed_failed"
+        },
+        {
+          "attempt": 2,
+          "reason": "packing_seed_failed"
+        }
+      ],
+      "topology": "single"
+    },
+    {
+      "attempts": [
+        {
+          "attempt": 0,
+          "reason": "completed",
+          "iterations": 40,
+          "rejected": 0,
+          "numerical_failures": 0,
+          "history": [
+            {
+              "iteration": 0,
+              "gamma_search_mm": 2.0,
+              "canonical_loss": 0.44328619760611043,
+              "parts": {
+                "wire": 0.43611286960178597,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.007173328004324455
+              },
+              "gradient_norm_before_step": 0.003199440666792806,
+              "accepted": true,
+              "reference_length_mm": 90.04482783567478
+            },
+            {
+              "iteration": 5,
+              "gamma_search_mm": 1.1076857897712555,
+              "canonical_loss": 0.4418754293011243,
+              "parts": {
+                "wire": 0.4347160563426626,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.007159372958461694
+              },
+              "gradient_norm_before_step": 0.003251665640125495,
+              "accepted": true,
+              "reference_length_mm": 90.04482783567478
+            },
+            {
+              "iteration": 10,
+              "gamma_search_mm": 0.6134839044305851,
+              "canonical_loss": 0.44062702341707216,
+              "parts": {
+                "wire": 0.4334734220011114,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.007153601415960758
+              },
+              "gradient_norm_before_step": 0.003282736935537243,
+              "accepted": true,
+              "reference_length_mm": 90.04482783567478
+            },
+            {
+              "iteration": 15,
+              "gamma_search_mm": 0.339773701595573,
+              "canonical_loss": 0.4396480256100831,
+              "parts": {
+                "wire": 0.4324931816095163,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.007154844000566837
+              },
+              "gradient_norm_before_step": 0.0032916174179336054,
+              "accepted": true,
+              "reference_length_mm": 90.04482783567478
+            },
+            {
+              "iteration": 20,
+              "gamma_search_mm": 0.18818125049769766,
+              "canonical_loss": 0.4389076291137191,
+              "parts": {
+                "wire": 0.43174417154139155,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.007163457572327535
+              },
+              "gradient_norm_before_step": 0.0032923532511502556,
+              "accepted": true,
+              "reference_length_mm": 90.04482783567478
+            },
+            {
+              "iteration": 25,
+              "gamma_search_mm": 0.10422284853884231,
+              "canonical_loss": 0.4384102648542745,
+              "parts": {
+                "wire": 0.4312353287371133,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.007174936117161184
+              },
+              "gradient_norm_before_step": 0.003284106741115447,
+              "accepted": true,
+              "reference_length_mm": 90.04482783567478
+            },
+            {
+              "iteration": 30,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.43812514969146793,
+              "parts": {
+                "wire": 0.43094575321358297,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.007179396477884961
+              },
+              "gradient_norm_before_step": 0.0032738223324627683,
+              "accepted": true,
+              "reference_length_mm": 90.04482783567478
+            },
+            {
+              "iteration": 35,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.43798024555596904,
+              "parts": {
+                "wire": 0.43080570174335725,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.00717454381261179
+              },
+              "gradient_norm_before_step": 0.0032698944414115516,
+              "accepted": true,
+              "reference_length_mm": 90.04482783567478
+            },
+            {
+              "iteration": 39,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.43790512864308545,
+              "parts": {
+                "wire": 0.43073563783184476,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.007169490811240675
+              },
+              "gradient_norm_before_step": 0.0032670711702316416,
+              "accepted": true,
+              "reference_length_mm": 90.04482783567478
+            }
+          ],
+          "final_loss": 0.43790512864308545,
+          "final_parts": {
+            "wire": 0.43073563783184476,
+            "compact": 0.0,
+            "anchor": 0.0,
+            "intent": 0.0,
+            "parent_compact": 0.007169490811240675
+          },
+          "canonical_gamma_mm": 0.1,
+          "projection_calls": 41,
+          "distance_projection_cuts": 0,
+          "distance_inner_polygon_fallbacks": 0,
+          "graph": [
+            {
+              "a": "anchor:1",
+              "b": "anchor:2",
+              "axis": "x",
+              "direction": 1,
+              "distance": 8.303
+            },
+            {
+              "a": "anchor:1",
+              "b": "anchor:3",
+              "axis": "x",
+              "direction": 1,
+              "distance": 8.303
+            },
+            {
+              "a": "anchor:1",
+              "b": "anchor:4",
+              "axis": "y",
+              "direction": 1,
+              "distance": 8.303
+            },
+            {
+              "a": "anchor:1",
+              "b": "anchor:CAP",
+              "axis": "x",
+              "direction": 1,
+              "distance": 9.428389800000001
+            },
+            {
+              "a": "anchor:1",
+              "b": "anchor:CN3",
+              "axis": "x",
+              "direction": 1,
+              "distance": 13.0783952
+            },
+            {
+              "a": "anchor:1",
+              "b": "anchor:CN4",
+              "axis": "y",
+              "direction": 1,
+              "distance": 6.7033
+            },
+            {
+              "a": "anchor:1",
+              "b": "anchor:LOAD",
+              "axis": "x",
+              "direction": 1,
+              "distance": 9.428364400000001
+            },
+            {
+              "a": "anchor:1",
+              "b": "anchor:VIN（+24V）",
+              "axis": "y",
+              "direction": 1,
+              "distance": 7.1283944
+            },
+            {
+              "a": "anchor:1",
+              "b": "cluster:L1-1",
+              "axis": "x",
+              "direction": 1,
+              "distance": 12.356428999999999
+            },
+            {
+              "a": "anchor:1",
+              "b": "cluster:L1-10",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.811251694403157
+            },
+            {
+              "a": "anchor:1",
+              "b": "cluster:L1-11",
+              "axis": "x",
+              "direction": 1,
+              "distance": 5.154500000000004
+            },
+            {
+              "a": "anchor:1",
+              "b": "cluster:L1-12",
+              "axis": "x",
+              "direction": 1,
+              "distance": 5.951445646547765
+            },
+            {
+              "a": "anchor:1",
+              "b": "cluster:L1-2",
+              "axis": "x",
+              "direction": 1,
+              "distance": 9.082443499999997
+            },
+            {
+              "a": "anchor:1",
+              "b": "cluster:L1-3",
+              "axis": "x",
+              "direction": 1,
+              "distance": 33.525672091695675
+            },
+            {
+              "a": "anchor:1",
+              "b": "cluster:L1-4",
+              "axis": "y",
+              "direction": 1,
+              "distance": 15.603520377123223
+            },
+            {
+              "a": "anchor:1",
+              "b": "cluster:L1-5",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.76770339998913
+            },
+            {
+              "a": "anchor:1",
+              "b": "cluster:L1-6",
+              "axis": "y",
+              "direction": 1,
+              "distance": 7.143890100000001
+            },
+            {
+              "a": "anchor:1",
+              "b": "cluster:L1-7",
+              "axis": "x",
+              "direction": 1,
+              "distance": 9.25139548106695
+            },
+            {
+              "a": "anchor:1",
+              "b": "cluster:L1-8",
+              "axis": "x",
+              "direction": 1,
+              "distance": 5.4030232
+            },
+            {
+              "a": "anchor:1",
+              "b": "cluster:L1-9",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.811251693732351
+            },
+            {
+              "a": "anchor:2",
+              "b": "anchor:3",
+              "axis": "y",
+              "direction": 1,
+              "distance": 8.303
+            },
+            {
+              "a": "anchor:2",
+              "b": "anchor:4",
+              "axis": "x",
+              "direction": -1,
+              "distance": 8.303
+            },
+            {
+              "a": "anchor:2",
+              "b": "anchor:CAP",
+              "axis": "x",
+              "direction": -1,
+              "distance": 9.428389800000001
+            },
+            {
+              "a": "anchor:2",
+              "b": "anchor:CN3",
+              "axis": "y",
+              "direction": 1,
+              "distance": 6.7033
+            },
+            {
+              "a": "anchor:2",
+              "b": "anchor:CN4",
+              "axis": "y",
+              "direction": 1,
+              "distance": 6.7033
+            },
+            {
+              "a": "anchor:2",
+              "b": "anchor:LOAD",
+              "axis": "y",
+              "direction": 1,
+              "distance": 6.9283947999999995
+            },
+            {
+              "a": "anchor:2",
+              "b": "anchor:VIN（+24V）",
+              "axis": "x",
+              "direction": -1,
+              "distance": 9.428389800000001
+            },
+            {
+              "a": "anchor:2",
+              "b": "cluster:L1-1",
+              "axis": "x",
+              "direction": -1,
+              "distance": 12.356428999999999
+            },
+            {
+              "a": "anchor:2",
+              "b": "cluster:L1-10",
+              "axis": "y",
+              "direction": 1,
+              "distance": 4.7350031999999995
+            },
+            {
+              "a": "anchor:2",
+              "b": "cluster:L1-11",
+              "axis": "y",
+              "direction": 1,
+              "distance": 5.202704084344406
+            },
+            {
+              "a": "anchor:2",
+              "b": "cluster:L1-12",
+              "axis": "y",
+              "direction": 1,
+              "distance": 4.653000000001554
+            },
+            {
+              "a": "anchor:2",
+              "b": "cluster:L1-2",
+              "axis": "y",
+              "direction": 1,
+              "distance": 9.704809635476257
+            },
+            {
+              "a": "anchor:2",
+              "b": "cluster:L1-3",
+              "axis": "y",
+              "direction": 1,
+              "distance": 19.108054784307974
+            },
+            {
+              "a": "anchor:2",
+              "b": "cluster:L1-4",
+              "axis": "x",
+              "direction": -1,
+              "distance": 17.354525000000002
+            },
+            {
+              "a": "anchor:2",
+              "b": "cluster:L1-5",
+              "axis": "y",
+              "direction": 1,
+              "distance": 5.920005490766743
+            },
+            {
+              "a": "anchor:2",
+              "b": "cluster:L1-6",
+              "axis": "x",
+              "direction": -1,
+              "distance": 7.918055
+            },
+            {
+              "a": "anchor:2",
+              "b": "cluster:L1-7",
+              "axis": "x",
+              "direction": -1,
+              "distance": 9.25139548106695
+            },
+            {
+              "a": "anchor:2",
+              "b": "cluster:L1-8",
+              "axis": "y",
+              "direction": 1,
+              "distance": 4.7529991
+            },
+            {
+              "a": "anchor:2",
+              "b": "cluster:L1-9",
+              "axis": "y",
+              "direction": 1,
+              "distance": 4.7350031999999995
+            },
+            {
+              "a": "anchor:3",
+              "b": "anchor:4",
+              "axis": "x",
+              "direction": -1,
+              "distance": 8.303
+            },
+            {
+              "a": "anchor:3",
+              "b": "anchor:CAP",
+              "axis": "y",
+              "direction": -1,
+              "distance": 7.1283944
+            },
+            {
+              "a": "anchor:3",
+              "b": "anchor:CN3",
+              "axis": "x",
+              "direction": -1,
+              "distance": 13.0783952
+            },
+            {
+              "a": "anchor:3",
+              "b": "anchor:CN4",
+              "axis": "x",
+              "direction": -1,
+              "distance": 13.0783952
+            },
+            {
+              "a": "anchor:3",
+              "b": "anchor:LOAD",
+              "axis": "y",
+              "direction": -1,
+              "distance": 6.9283947999999995
+            },
+            {
+              "a": "anchor:3",
+              "b": "anchor:VIN（+24V）",
+              "axis": "x",
+              "direction": -1,
+              "distance": 9.428389800000001
+            },
+            {
+              "a": "anchor:3",
+              "b": "cluster:L1-1",
+              "axis": "y",
+              "direction": -1,
+              "distance": 11.557299288904161
+            },
+            {
+              "a": "anchor:3",
+              "b": "cluster:L1-10",
+              "axis": "y",
+              "direction": -1,
+              "distance": 4.7350031999999995
+            },
+            {
+              "a": "anchor:3",
+              "b": "cluster:L1-11",
+              "axis": "y",
+              "direction": -1,
+              "distance": 5.202704084344406
+            },
+            {
+              "a": "anchor:3",
+              "b": "cluster:L1-12",
+              "axis": "y",
+              "direction": -1,
+              "distance": 4.653000000001554
+            },
+            {
+              "a": "anchor:3",
+              "b": "cluster:L1-2",
+              "axis": "y",
+              "direction": -1,
+              "distance": 9.704809635476257
+            },
+            {
+              "a": "anchor:3",
+              "b": "cluster:L1-3",
+              "axis": "y",
+              "direction": -1,
+              "distance": 19.10805478430797
+            },
+            {
+              "a": "anchor:3",
+              "b": "cluster:L1-4",
+              "axis": "x",
+              "direction": -1,
+              "distance": 17.354525000000002
+            },
+            {
+              "a": "anchor:3",
+              "b": "cluster:L1-5",
+              "axis": "y",
+              "direction": -1,
+              "distance": 5.920005490766743
+            },
+            {
+              "a": "anchor:3",
+              "b": "cluster:L1-6",
+              "axis": "x",
+              "direction": -1,
+              "distance": 7.918055
+            },
+            {
+              "a": "anchor:3",
+              "b": "cluster:L1-7",
+              "axis": "y",
+              "direction": -1,
+              "distance": 12.851795889567336
+            },
+            {
+              "a": "anchor:3",
+              "b": "cluster:L1-8",
+              "axis": "y",
+              "direction": -1,
+              "distance": 4.7529991
+            },
+            {
+              "a": "anchor:3",
+              "b": "cluster:L1-9",
+              "axis": "y",
+              "direction": 1,
+              "distance": 4.7350031999999995
+            },
+            {
+              "a": "anchor:4",
+              "b": "anchor:CAP",
+              "axis": "x",
+              "direction": 1,
+              "distance": 9.428389800000001
+            },
+            {
+              "a": "anchor:4",
+              "b": "anchor:CN3",
+              "axis": "x",
+              "direction": 1,
+              "distance": 13.0783952
+            },
+            {
+              "a": "anchor:4",
+              "b": "anchor:CN4",
+              "axis": "x",
+              "direction": 1,
+              "distance": 13.0783952
+            },
+            {
+              "a": "anchor:4",
+              "b": "anchor:LOAD",
+              "axis": "x",
+              "direction": 1,
+              "distance": 9.428364400000001
+            },
+            {
+              "a": "anchor:4",
+              "b": "anchor:VIN（+24V）",
+              "axis": "y",
+              "direction": -1,
+              "distance": 7.1283944
+            },
+            {
+              "a": "anchor:4",
+              "b": "cluster:L1-1",
+              "axis": "x",
+              "direction": 1,
+              "distance": 12.356428999999999
+            },
+            {
+              "a": "anchor:4",
+              "b": "cluster:L1-10",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.811251694403157
+            },
+            {
+              "a": "anchor:4",
+              "b": "cluster:L1-11",
+              "axis": "x",
+              "direction": 1,
+              "distance": 5.154500000000004
+            },
+            {
+              "a": "anchor:4",
+              "b": "cluster:L1-12",
+              "axis": "x",
+              "direction": 1,
+              "distance": 5.951445646547765
+            },
+            {
+              "a": "anchor:4",
+              "b": "cluster:L1-2",
+              "axis": "x",
+              "direction": 1,
+              "distance": 9.082443499999997
+            },
+            {
+              "a": "anchor:4",
+              "b": "cluster:L1-3",
+              "axis": "x",
+              "direction": 1,
+              "distance": 33.525672091695675
+            },
+            {
+              "a": "anchor:4",
+              "b": "cluster:L1-4",
+              "axis": "x",
+              "direction": 1,
+              "distance": 17.354525000000002
+            },
+            {
+              "a": "anchor:4",
+              "b": "cluster:L1-5",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.76770339998913
+            },
+            {
+              "a": "anchor:4",
+              "b": "cluster:L1-6",
+              "axis": "y",
+              "direction": -1,
+              "distance": 7.1438901
+            },
+            {
+              "a": "anchor:4",
+              "b": "cluster:L1-7",
+              "axis": "x",
+              "direction": 1,
+              "distance": 9.25139548106695
+            },
+            {
+              "a": "anchor:4",
+              "b": "cluster:L1-8",
+              "axis": "x",
+              "direction": 1,
+              "distance": 5.4030232
+            },
+            {
+              "a": "anchor:4",
+              "b": "cluster:L1-9",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.811251693732351
+            },
+            {
+              "a": "anchor:CAP",
+              "b": "anchor:CN3",
+              "axis": "y",
+              "direction": 1,
+              "distance": 5.5286944
+            },
+            {
+              "a": "anchor:CAP",
+              "b": "anchor:CN4",
+              "axis": "y",
+              "direction": 1,
+              "distance": 5.5286944
+            },
+            {
+              "a": "anchor:CAP",
+              "b": "anchor:LOAD",
+              "axis": "y",
+              "direction": 1,
+              "distance": 5.753789199999999
+            },
+            {
+              "a": "anchor:CAP",
+              "b": "anchor:VIN（+24V）",
+              "axis": "x",
+              "direction": -1,
+              "distance": 10.553779600000002
+            },
+            {
+              "a": "anchor:CAP",
+              "b": "cluster:L1-1",
+              "axis": "y",
+              "direction": 1,
+              "distance": 10.382693688904162
+            },
+            {
+              "a": "anchor:CAP",
+              "b": "cluster:L1-10",
+              "axis": "y",
+              "direction": 1,
+              "distance": 3.5603976
+            },
+            {
+              "a": "anchor:CAP",
+              "b": "cluster:L1-11",
+              "axis": "y",
+              "direction": 1,
+              "distance": 4.028098484344406
+            },
+            {
+              "a": "anchor:CAP",
+              "b": "cluster:L1-12",
+              "axis": "x",
+              "direction": 1,
+              "distance": 7.076835446547766
+            },
+            {
+              "a": "anchor:CAP",
+              "b": "cluster:L1-2",
+              "axis": "y",
+              "direction": 1,
+              "distance": 8.530204035476258
+            },
+            {
+              "a": "anchor:CAP",
+              "b": "cluster:L1-3",
+              "axis": "y",
+              "direction": 1,
+              "distance": 17.933449184307975
+            },
+            {
+              "a": "anchor:CAP",
+              "b": "cluster:L1-4",
+              "axis": "y",
+              "direction": 1,
+              "distance": 14.428914777123223
+            },
+            {
+              "a": "anchor:CAP",
+              "b": "cluster:L1-5",
+              "axis": "x",
+              "direction": 1,
+              "distance": 7.8930931999891305
+            },
+            {
+              "a": "anchor:CAP",
+              "b": "cluster:L1-6",
+              "axis": "x",
+              "direction": -1,
+              "distance": 9.043444800000001
+            },
+            {
+              "a": "anchor:CAP",
+              "b": "cluster:L1-7",
+              "axis": "y",
+              "direction": 1,
+              "distance": 11.677190289567335
+            },
+            {
+              "a": "anchor:CAP",
+              "b": "cluster:L1-8",
+              "axis": "y",
+              "direction": 1,
+              "distance": 3.5783935
+            },
+            {
+              "a": "anchor:CAP",
+              "b": "cluster:L1-9",
+              "axis": "y",
+              "direction": 1,
+              "distance": 3.5603976
+            },
+            {
+              "a": "anchor:CN3",
+              "b": "anchor:CN4",
+              "axis": "x",
+              "direction": -1,
+              "distance": 17.853790399999998
+            },
+            {
+              "a": "anchor:CN3",
+              "b": "anchor:LOAD",
+              "axis": "y",
+              "direction": -1,
+              "distance": 5.328694799999999
+            },
+            {
+              "a": "anchor:CN3",
+              "b": "anchor:VIN（+24V）",
+              "axis": "x",
+              "direction": -1,
+              "distance": 14.203785
+            },
+            {
+              "a": "anchor:CN3",
+              "b": "cluster:L1-1",
+              "axis": "y",
+              "direction": -1,
+              "distance": 9.957599288904163
+            },
+            {
+              "a": "anchor:CN3",
+              "b": "cluster:L1-10",
+              "axis": "x",
+              "direction": 1,
+              "distance": 11.586646894403156
+            },
+            {
+              "a": "anchor:CN3",
+              "b": "cluster:L1-11",
+              "axis": "y",
+              "direction": -1,
+              "distance": 3.6030040843444056
+            },
+            {
+              "a": "anchor:CN3",
+              "b": "cluster:L1-12",
+              "axis": "y",
+              "direction": -1,
+              "distance": 3.0533000000015535
+            },
+            {
+              "a": "anchor:CN3",
+              "b": "cluster:L1-2",
+              "axis": "y",
+              "direction": -1,
+              "distance": 8.105109635476257
+            },
+            {
+              "a": "anchor:CN3",
+              "b": "cluster:L1-3",
+              "axis": "y",
+              "direction": -1,
+              "distance": 17.508354784307972
+            },
+            {
+              "a": "anchor:CN3",
+              "b": "cluster:L1-4",
+              "axis": "x",
+              "direction": -1,
+              "distance": 22.1299202
+            },
+            {
+              "a": "anchor:CN3",
+              "b": "cluster:L1-5",
+              "axis": "y",
+              "direction": -1,
+              "distance": 4.320305490766743
+            },
+            {
+              "a": "anchor:CN3",
+              "b": "cluster:L1-6",
+              "axis": "x",
+              "direction": -1,
+              "distance": 12.6934502
+            },
+            {
+              "a": "anchor:CN3",
+              "b": "cluster:L1-7",
+              "axis": "y",
+              "direction": -1,
+              "distance": 11.252095889567336
+            },
+            {
+              "a": "anchor:CN3",
+              "b": "cluster:L1-8",
+              "axis": "x",
+              "direction": 1,
+              "distance": 10.178418399999998
+            },
+            {
+              "a": "anchor:CN3",
+              "b": "cluster:L1-9",
+              "axis": "x",
+              "direction": 1,
+              "distance": 11.58664689373235
+            },
+            {
+              "a": "anchor:CN4",
+              "b": "anchor:LOAD",
+              "axis": "x",
+              "direction": 1,
+              "distance": 14.2037596
+            },
+            {
+              "a": "anchor:CN4",
+              "b": "anchor:VIN（+24V）",
+              "axis": "x",
+              "direction": -1,
+              "distance": 14.203785
+            },
+            {
+              "a": "anchor:CN4",
+              "b": "cluster:L1-1",
+              "axis": "y",
+              "direction": -1,
+              "distance": 9.957599288904163
+            },
+            {
+              "a": "anchor:CN4",
+              "b": "cluster:L1-10",
+              "axis": "x",
+              "direction": 1,
+              "distance": 11.586646894403156
+            },
+            {
+              "a": "anchor:CN4",
+              "b": "cluster:L1-11",
+              "axis": "x",
+              "direction": 1,
+              "distance": 9.929895200000004
+            },
+            {
+              "a": "anchor:CN4",
+              "b": "cluster:L1-12",
+              "axis": "y",
+              "direction": -1,
+              "distance": 3.0533000000015535
+            },
+            {
+              "a": "anchor:CN4",
+              "b": "cluster:L1-2",
+              "axis": "y",
+              "direction": -1,
+              "distance": 8.105109635476257
+            },
+            {
+              "a": "anchor:CN4",
+              "b": "cluster:L1-3",
+              "axis": "y",
+              "direction": -1,
+              "distance": 17.508354784307972
+            },
+            {
+              "a": "anchor:CN4",
+              "b": "cluster:L1-4",
+              "axis": "x",
+              "direction": -1,
+              "distance": 22.1299202
+            },
+            {
+              "a": "anchor:CN4",
+              "b": "cluster:L1-5",
+              "axis": "y",
+              "direction": -1,
+              "distance": 4.320305490766743
+            },
+            {
+              "a": "anchor:CN4",
+              "b": "cluster:L1-6",
+              "axis": "x",
+              "direction": -1,
+              "distance": 12.6934502
+            },
+            {
+              "a": "anchor:CN4",
+              "b": "cluster:L1-7",
+              "axis": "y",
+              "direction": -1,
+              "distance": 11.252095889567336
+            },
+            {
+              "a": "anchor:CN4",
+              "b": "cluster:L1-8",
+              "axis": "x",
+              "direction": 1,
+              "distance": 10.178418399999998
+            },
+            {
+              "a": "anchor:CN4",
+              "b": "cluster:L1-9",
+              "axis": "x",
+              "direction": 1,
+              "distance": 11.58664689373235
+            },
+            {
+              "a": "anchor:LOAD",
+              "b": "anchor:VIN（+24V）",
+              "axis": "x",
+              "direction": -1,
+              "distance": 10.553754200000002
+            },
+            {
+              "a": "anchor:LOAD",
+              "b": "cluster:L1-1",
+              "axis": "y",
+              "direction": -1,
+              "distance": 10.182694088904162
+            },
+            {
+              "a": "anchor:LOAD",
+              "b": "cluster:L1-10",
+              "axis": "y",
+              "direction": 1,
+              "distance": 3.3603979999999996
+            },
+            {
+              "a": "anchor:LOAD",
+              "b": "cluster:L1-11",
+              "axis": "x",
+              "direction": -1,
+              "distance": 6.279864400000005
+            },
+            {
+              "a": "anchor:LOAD",
+              "b": "cluster:L1-12",
+              "axis": "y",
+              "direction": -1,
+              "distance": 3.2783948000015535
+            },
+            {
+              "a": "anchor:LOAD",
+              "b": "cluster:L1-2",
+              "axis": "y",
+              "direction": -1,
+              "distance": 8.330204435476258
+            },
+            {
+              "a": "anchor:LOAD",
+              "b": "cluster:L1-3",
+              "axis": "y",
+              "direction": -1,
+              "distance": 17.733449584307973
+            },
+            {
+              "a": "anchor:LOAD",
+              "b": "cluster:L1-4",
+              "axis": "x",
+              "direction": -1,
+              "distance": 18.4798894
+            },
+            {
+              "a": "anchor:LOAD",
+              "b": "cluster:L1-5",
+              "axis": "y",
+              "direction": -1,
+              "distance": 4.545400290766743
+            },
+            {
+              "a": "anchor:LOAD",
+              "b": "cluster:L1-6",
+              "axis": "x",
+              "direction": -1,
+              "distance": 9.043419400000001
+            },
+            {
+              "a": "anchor:LOAD",
+              "b": "cluster:L1-7",
+              "axis": "y",
+              "direction": -1,
+              "distance": 11.477190689567337
+            },
+            {
+              "a": "anchor:LOAD",
+              "b": "cluster:L1-8",
+              "axis": "y",
+              "direction": 1,
+              "distance": 3.3783938999999994
+            },
+            {
+              "a": "anchor:LOAD",
+              "b": "cluster:L1-9",
+              "axis": "y",
+              "direction": 1,
+              "distance": 3.3603979999999996
+            },
+            {
+              "a": "anchor:VIN（+24V）",
+              "b": "cluster:L1-1",
+              "axis": "x",
+              "direction": 1,
+              "distance": 13.4818188
+            },
+            {
+              "a": "anchor:VIN（+24V）",
+              "b": "cluster:L1-10",
+              "axis": "x",
+              "direction": 1,
+              "distance": 7.936641494403157
+            },
+            {
+              "a": "anchor:VIN（+24V）",
+              "b": "cluster:L1-11",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.279889800000005
+            },
+            {
+              "a": "anchor:VIN（+24V）",
+              "b": "cluster:L1-12",
+              "axis": "x",
+              "direction": 1,
+              "distance": 7.076835446547766
+            },
+            {
+              "a": "anchor:VIN（+24V）",
+              "b": "cluster:L1-2",
+              "axis": "x",
+              "direction": 1,
+              "distance": 10.207833299999997
+            },
+            {
+              "a": "anchor:VIN（+24V）",
+              "b": "cluster:L1-3",
+              "axis": "x",
+              "direction": 1,
+              "distance": 34.651061891695676
+            },
+            {
+              "a": "anchor:VIN（+24V）",
+              "b": "cluster:L1-4",
+              "axis": "x",
+              "direction": 1,
+              "distance": 18.479914800000003
+            },
+            {
+              "a": "anchor:VIN（+24V）",
+              "b": "cluster:L1-5",
+              "axis": "x",
+              "direction": 1,
+              "distance": 7.8930931999891305
+            },
+            {
+              "a": "anchor:VIN（+24V）",
+              "b": "cluster:L1-6",
+              "axis": "x",
+              "direction": 1,
+              "distance": 9.043444800000001
+            },
+            {
+              "a": "anchor:VIN（+24V）",
+              "b": "cluster:L1-7",
+              "axis": "x",
+              "direction": 1,
+              "distance": 10.376785281066951
+            },
+            {
+              "a": "anchor:VIN（+24V）",
+              "b": "cluster:L1-8",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.5284130000000005
+            },
+            {
+              "a": "anchor:VIN（+24V）",
+              "b": "cluster:L1-9",
+              "axis": "x",
+              "direction": 1,
+              "distance": 7.936641493732352
+            },
+            {
+              "a": "cluster:L1-1",
+              "b": "cluster:L1-10",
+              "axis": "y",
+              "direction": 1,
+              "distance": 7.989302488904161
+            },
+            {
+              "a": "cluster:L1-1",
+              "b": "cluster:L1-11",
+              "axis": "y",
+              "direction": 1,
+              "distance": 8.457003373248568
+            },
+            {
+              "a": "cluster:L1-1",
+              "b": "cluster:L1-12",
+              "axis": "x",
+              "direction": 1,
+              "distance": 10.004874646547764
+            },
+            {
+              "a": "cluster:L1-1",
+              "b": "cluster:L1-2",
+              "axis": "x",
+              "direction": 1,
+              "distance": 13.135872499999994
+            },
+            {
+              "a": "cluster:L1-1",
+              "b": "cluster:L1-3",
+              "axis": "y",
+              "direction": 1,
+              "distance": 22.362354073212135
+            },
+            {
+              "a": "cluster:L1-1",
+              "b": "cluster:L1-4",
+              "axis": "y",
+              "direction": 1,
+              "distance": 18.857819666027385
+            },
+            {
+              "a": "cluster:L1-1",
+              "b": "cluster:L1-5",
+              "axis": "x",
+              "direction": 1,
+              "distance": 10.821132399989128
+            },
+            {
+              "a": "cluster:L1-1",
+              "b": "cluster:L1-6",
+              "axis": "x",
+              "direction": -1,
+              "distance": 11.971483999999998
+            },
+            {
+              "a": "cluster:L1-1",
+              "b": "cluster:L1-7",
+              "axis": "x",
+              "direction": 1,
+              "distance": 13.304824481066948
+            },
+            {
+              "a": "cluster:L1-1",
+              "b": "cluster:L1-8",
+              "axis": "y",
+              "direction": 1,
+              "distance": 8.007298388904163
+            },
+            {
+              "a": "cluster:L1-1",
+              "b": "cluster:L1-9",
+              "axis": "y",
+              "direction": 1,
+              "distance": 7.989302488904161
+            },
+            {
+              "a": "cluster:L1-10",
+              "b": "cluster:L1-11",
+              "axis": "x",
+              "direction": -1,
+              "distance": 3.6627516944031613
+            },
+            {
+              "a": "cluster:L1-10",
+              "b": "cluster:L1-12",
+              "axis": "y",
+              "direction": -1,
+              "distance": 1.085003200001554
+            },
+            {
+              "a": "cluster:L1-10",
+              "b": "cluster:L1-2",
+              "axis": "y",
+              "direction": -1,
+              "distance": 6.136812835476256
+            },
+            {
+              "a": "cluster:L1-10",
+              "b": "cluster:L1-3",
+              "axis": "y",
+              "direction": -1,
+              "distance": 15.540057984307973
+            },
+            {
+              "a": "cluster:L1-10",
+              "b": "cluster:L1-4",
+              "axis": "x",
+              "direction": -1,
+              "distance": 15.86277669440316
+            },
+            {
+              "a": "cluster:L1-10",
+              "b": "cluster:L1-5",
+              "axis": "y",
+              "direction": -1,
+              "distance": 2.352008690766743
+            },
+            {
+              "a": "cluster:L1-10",
+              "b": "cluster:L1-6",
+              "axis": "x",
+              "direction": -1,
+              "distance": 6.426306694403157
+            },
+            {
+              "a": "cluster:L1-10",
+              "b": "cluster:L1-7",
+              "axis": "y",
+              "direction": -1,
+              "distance": 9.283799089567337
+            },
+            {
+              "a": "cluster:L1-10",
+              "b": "cluster:L1-8",
+              "axis": "x",
+              "direction": -1,
+              "distance": 3.9112748944031566
+            },
+            {
+              "a": "cluster:L1-10",
+              "b": "cluster:L1-9",
+              "axis": "y",
+              "direction": 1,
+              "distance": 1.1670064
+            },
+            {
+              "a": "cluster:L1-11",
+              "b": "cluster:L1-12",
+              "axis": "y",
+              "direction": -1,
+              "distance": 1.5527040843459599
+            },
+            {
+              "a": "cluster:L1-11",
+              "b": "cluster:L1-2",
+              "axis": "y",
+              "direction": -1,
+              "distance": 6.6045137198206625
+            },
+            {
+              "a": "cluster:L1-11",
+              "b": "cluster:L1-3",
+              "axis": "y",
+              "direction": -1,
+              "distance": 16.007758868652378
+            },
+            {
+              "a": "cluster:L1-11",
+              "b": "cluster:L1-4",
+              "axis": "x",
+              "direction": -1,
+              "distance": 14.206025000000007
+            },
+            {
+              "a": "cluster:L1-11",
+              "b": "cluster:L1-5",
+              "axis": "y",
+              "direction": -1,
+              "distance": 2.819709575111149
+            },
+            {
+              "a": "cluster:L1-11",
+              "b": "cluster:L1-6",
+              "axis": "x",
+              "direction": -1,
+              "distance": 4.769555000000004
+            },
+            {
+              "a": "cluster:L1-11",
+              "b": "cluster:L1-7",
+              "axis": "y",
+              "direction": -1,
+              "distance": 9.751499973911741
+            },
+            {
+              "a": "cluster:L1-11",
+              "b": "cluster:L1-8",
+              "axis": "x",
+              "direction": 1,
+              "distance": 2.2545232000000044
+            },
+            {
+              "a": "cluster:L1-11",
+              "b": "cluster:L1-9",
+              "axis": "y",
+              "direction": 1,
+              "distance": 1.6347072843444057
+            },
+            {
+              "a": "cluster:L1-12",
+              "b": "cluster:L1-2",
+              "axis": "y",
+              "direction": 1,
+              "distance": 6.0548096354778105
+            },
+            {
+              "a": "cluster:L1-12",
+              "b": "cluster:L1-3",
+              "axis": "y",
+              "direction": 1,
+              "distance": 15.458054784309528
+            },
+            {
+              "a": "cluster:L1-12",
+              "b": "cluster:L1-4",
+              "axis": "x",
+              "direction": -1,
+              "distance": 15.002970646547768
+            },
+            {
+              "a": "cluster:L1-12",
+              "b": "cluster:L1-5",
+              "axis": "y",
+              "direction": 1,
+              "distance": 2.270005490768297
+            },
+            {
+              "a": "cluster:L1-12",
+              "b": "cluster:L1-6",
+              "axis": "x",
+              "direction": -1,
+              "distance": 5.566500646547765
+            },
+            {
+              "a": "cluster:L1-12",
+              "b": "cluster:L1-7",
+              "axis": "x",
+              "direction": -1,
+              "distance": 6.899841127614715
+            },
+            {
+              "a": "cluster:L1-12",
+              "b": "cluster:L1-8",
+              "axis": "y",
+              "direction": 1,
+              "distance": 1.102999100001554
+            },
+            {
+              "a": "cluster:L1-12",
+              "b": "cluster:L1-9",
+              "axis": "y",
+              "direction": 1,
+              "distance": 1.085003200001554
+            },
+            {
+              "a": "cluster:L1-2",
+              "b": "cluster:L1-3",
+              "axis": "y",
+              "direction": 1,
+              "distance": 20.509864419784233
+            },
+            {
+              "a": "cluster:L1-2",
+              "b": "cluster:L1-4",
+              "axis": "x",
+              "direction": -1,
+              "distance": 18.133968499999998
+            },
+            {
+              "a": "cluster:L1-2",
+              "b": "cluster:L1-5",
+              "axis": "y",
+              "direction": -1,
+              "distance": 7.321815126243
+            },
+            {
+              "a": "cluster:L1-2",
+              "b": "cluster:L1-6",
+              "axis": "x",
+              "direction": -1,
+              "distance": 8.697498499999995
+            },
+            {
+              "a": "cluster:L1-2",
+              "b": "cluster:L1-7",
+              "axis": "x",
+              "direction": -1,
+              "distance": 10.030838981066944
+            },
+            {
+              "a": "cluster:L1-2",
+              "b": "cluster:L1-8",
+              "axis": "y",
+              "direction": 1,
+              "distance": 6.154808735476257
+            },
+            {
+              "a": "cluster:L1-2",
+              "b": "cluster:L1-9",
+              "axis": "y",
+              "direction": 1,
+              "distance": 6.136812835476256
+            },
+            {
+              "a": "cluster:L1-3",
+              "b": "cluster:L1-4",
+              "axis": "x",
+              "direction": -1,
+              "distance": 42.57719709169568
+            },
+            {
+              "a": "cluster:L1-3",
+              "b": "cluster:L1-5",
+              "axis": "y",
+              "direction": -1,
+              "distance": 16.725060275074718
+            },
+            {
+              "a": "cluster:L1-3",
+              "b": "cluster:L1-6",
+              "axis": "x",
+              "direction": -1,
+              "distance": 33.14072709169567
+            },
+            {
+              "a": "cluster:L1-3",
+              "b": "cluster:L1-7",
+              "axis": "y",
+              "direction": -1,
+              "distance": 23.656850673875308
+            },
+            {
+              "a": "cluster:L1-3",
+              "b": "cluster:L1-8",
+              "axis": "y",
+              "direction": 1,
+              "distance": 15.558053884307972
+            },
+            {
+              "a": "cluster:L1-3",
+              "b": "cluster:L1-9",
+              "axis": "y",
+              "direction": 1,
+              "distance": 15.540057984307973
+            },
+            {
+              "a": "cluster:L1-4",
+              "b": "cluster:L1-5",
+              "axis": "x",
+              "direction": 1,
+              "distance": 15.819228399989132
+            },
+            {
+              "a": "cluster:L1-4",
+              "b": "cluster:L1-6",
+              "axis": "y",
+              "direction": -1,
+              "distance": 14.444410477123224
+            },
+            {
+              "a": "cluster:L1-4",
+              "b": "cluster:L1-7",
+              "axis": "x",
+              "direction": 1,
+              "distance": 18.302920481066952
+            },
+            {
+              "a": "cluster:L1-4",
+              "b": "cluster:L1-8",
+              "axis": "x",
+              "direction": 1,
+              "distance": 14.454548200000001
+            },
+            {
+              "a": "cluster:L1-4",
+              "b": "cluster:L1-9",
+              "axis": "x",
+              "direction": 1,
+              "distance": 15.862776693732354
+            },
+            {
+              "a": "cluster:L1-5",
+              "b": "cluster:L1-6",
+              "axis": "x",
+              "direction": -1,
+              "distance": 6.38275839998913
+            },
+            {
+              "a": "cluster:L1-5",
+              "b": "cluster:L1-7",
+              "axis": "x",
+              "direction": -1,
+              "distance": 7.7160988810560776
+            },
+            {
+              "a": "cluster:L1-5",
+              "b": "cluster:L1-8",
+              "axis": "y",
+              "direction": 1,
+              "distance": 2.3700045907667433
+            },
+            {
+              "a": "cluster:L1-5",
+              "b": "cluster:L1-9",
+              "axis": "y",
+              "direction": 1,
+              "distance": 2.352008690766743
+            },
+            {
+              "a": "cluster:L1-6",
+              "b": "cluster:L1-7",
+              "axis": "x",
+              "direction": 1,
+              "distance": 8.86645048106695
+            },
+            {
+              "a": "cluster:L1-6",
+              "b": "cluster:L1-8",
+              "axis": "x",
+              "direction": 1,
+              "distance": 5.0180782
+            },
+            {
+              "a": "cluster:L1-6",
+              "b": "cluster:L1-9",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.426306693732351
+            },
+            {
+              "a": "cluster:L1-7",
+              "b": "cluster:L1-8",
+              "axis": "y",
+              "direction": 1,
+              "distance": 9.301794989567336
+            },
+            {
+              "a": "cluster:L1-7",
+              "b": "cluster:L1-9",
+              "axis": "y",
+              "direction": 1,
+              "distance": 9.283799089567337
+            },
+            {
+              "a": "cluster:L1-8",
+              "b": "cluster:L1-9",
+              "axis": "y",
+              "direction": 1,
+              "distance": 1.1850022999999998
+            }
+          ],
+          "initial_violations": []
+        },
+        {
+          "attempt": 1,
+          "reason": "completed",
+          "iterations": 40,
+          "rejected": 0,
+          "numerical_failures": 0,
+          "history": [
+            {
+              "iteration": 0,
+              "gamma_search_mm": 2.0,
+              "canonical_loss": 0.48357529315703945,
+              "parts": {
+                "wire": 0.47728299288649173,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.006292300270547726
+              },
+              "gradient_norm_before_step": 0.0038320832832021766,
+              "accepted": true,
+              "reference_length_mm": 90.04482783567478
+            },
+            {
+              "iteration": 5,
+              "gamma_search_mm": 1.1076857897712555,
+              "canonical_loss": 0.4802892972905587,
+              "parts": {
+                "wire": 0.4741439030416654,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.006145394248893253
+              },
+              "gradient_norm_before_step": 0.0038206179979230373,
+              "accepted": true,
+              "reference_length_mm": 90.04482783567478
+            },
+            {
+              "iteration": 10,
+              "gamma_search_mm": 0.6134839044305851,
+              "canonical_loss": 0.4773320715654521,
+              "parts": {
+                "wire": 0.47130606767286304,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.006026003892589072
+              },
+              "gradient_norm_before_step": 0.00379877342128348,
+              "accepted": true,
+              "reference_length_mm": 90.04482783567478
+            },
+            {
+              "iteration": 15,
+              "gamma_search_mm": 0.339773701595573,
+              "canonical_loss": 0.4750448807963775,
+              "parts": {
+                "wire": 0.469095442518096,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.00594943827828155
+              },
+              "gradient_norm_before_step": 0.0037835379342196023,
+              "accepted": true,
+              "reference_length_mm": 90.04482783567478
+            },
+            {
+              "iteration": 20,
+              "gamma_search_mm": 0.18818125049769766,
+              "canonical_loss": 0.4733568024506636,
+              "parts": {
+                "wire": 0.4674831503279148,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0058736521227487695
+              },
+              "gradient_norm_before_step": 0.0037804318552147075,
+              "accepted": true,
+              "reference_length_mm": 90.04482783567478
+            },
+            {
+              "iteration": 25,
+              "gamma_search_mm": 0.10422284853884231,
+              "canonical_loss": 0.472282835357649,
+              "parts": {
+                "wire": 0.46647129234886237,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.005811543008786632
+              },
+              "gradient_norm_before_step": 0.0037830131889074895,
+              "accepted": true,
+              "reference_length_mm": 90.04482783567478
+            },
+            {
+              "iteration": 30,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.4716325161342205,
+              "parts": {
+                "wire": 0.46586127459827564,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.005771241535944875
+              },
+              "gradient_norm_before_step": 0.0037824210914012613,
+              "accepted": true,
+              "reference_length_mm": 90.04482783567478
+            },
+            {
+              "iteration": 35,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.47125986017661736,
+              "parts": {
+                "wire": 0.46551239885528356,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.005747461321333825
+              },
+              "gradient_norm_before_step": 0.00378068049282986,
+              "accepted": true,
+              "reference_length_mm": 90.04482783567478
+            },
+            {
+              "iteration": 39,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.47105907376037004,
+              "parts": {
+                "wire": 0.4653246715987016,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.005734402161668406
+              },
+              "gradient_norm_before_step": 0.003779316938776706,
+              "accepted": true,
+              "reference_length_mm": 90.04482783567478
+            }
+          ],
+          "final_loss": 0.47105907376037004,
+          "final_parts": {
+            "wire": 0.4653246715987016,
+            "compact": 0.0,
+            "anchor": 0.0,
+            "intent": 0.0,
+            "parent_compact": 0.005734402161668406
+          },
+          "canonical_gamma_mm": 0.1,
+          "projection_calls": 41,
+          "distance_projection_cuts": 0,
+          "distance_inner_polygon_fallbacks": 0,
+          "graph": [
+            {
+              "a": "anchor:1",
+              "b": "anchor:2",
+              "axis": "x",
+              "direction": 1,
+              "distance": 8.303
+            },
+            {
+              "a": "anchor:1",
+              "b": "anchor:3",
+              "axis": "x",
+              "direction": 1,
+              "distance": 8.303
+            },
+            {
+              "a": "anchor:1",
+              "b": "anchor:4",
+              "axis": "y",
+              "direction": 1,
+              "distance": 8.303
+            },
+            {
+              "a": "anchor:1",
+              "b": "anchor:CAP",
+              "axis": "x",
+              "direction": 1,
+              "distance": 9.428389800000001
+            },
+            {
+              "a": "anchor:1",
+              "b": "anchor:CN3",
+              "axis": "x",
+              "direction": 1,
+              "distance": 13.0783952
+            },
+            {
+              "a": "anchor:1",
+              "b": "anchor:CN4",
+              "axis": "y",
+              "direction": 1,
+              "distance": 6.7033
+            },
+            {
+              "a": "anchor:1",
+              "b": "anchor:LOAD",
+              "axis": "x",
+              "direction": 1,
+              "distance": 9.428364400000001
+            },
+            {
+              "a": "anchor:1",
+              "b": "anchor:VIN（+24V）",
+              "axis": "y",
+              "direction": 1,
+              "distance": 7.1283944
+            },
+            {
+              "a": "anchor:1",
+              "b": "cluster:L1-1",
+              "axis": "x",
+              "direction": 1,
+              "distance": 11.105133272082973
+            },
+            {
+              "a": "anchor:1",
+              "b": "cluster:L1-10",
+              "axis": "x",
+              "direction": 1,
+              "distance": 5.503150000946287
+            },
+            {
+              "a": "anchor:1",
+              "b": "cluster:L1-11",
+              "axis": "x",
+              "direction": 1,
+              "distance": 5.154500000000004
+            },
+            {
+              "a": "anchor:1",
+              "b": "cluster:L1-12",
+              "axis": "x",
+              "direction": 1,
+              "distance": 5.681698559415516
+            },
+            {
+              "a": "anchor:1",
+              "b": "cluster:L1-2",
+              "axis": "x",
+              "direction": 1,
+              "distance": 11.241331701256875
+            },
+            {
+              "a": "anchor:1",
+              "b": "cluster:L1-3",
+              "axis": "y",
+              "direction": 1,
+              "distance": 19.108054784307974
+            },
+            {
+              "a": "anchor:1",
+              "b": "cluster:L1-4",
+              "axis": "y",
+              "direction": 1,
+              "distance": 13.156795699999893
+            },
+            {
+              "a": "anchor:1",
+              "b": "cluster:L1-5",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.604508399999999
+            },
+            {
+              "a": "anchor:1",
+              "b": "cluster:L1-6",
+              "axis": "y",
+              "direction": 1,
+              "distance": 7.143890100000003
+            },
+            {
+              "a": "anchor:1",
+              "b": "cluster:L1-7",
+              "axis": "x",
+              "direction": 1,
+              "distance": 14.20820499173763
+            },
+            {
+              "a": "anchor:1",
+              "b": "cluster:L1-8",
+              "axis": "x",
+              "direction": 1,
+              "distance": 5.4030232
+            },
+            {
+              "a": "anchor:1",
+              "b": "cluster:L1-9",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.811251693732351
+            },
+            {
+              "a": "anchor:2",
+              "b": "anchor:3",
+              "axis": "y",
+              "direction": 1,
+              "distance": 8.303
+            },
+            {
+              "a": "anchor:2",
+              "b": "anchor:4",
+              "axis": "x",
+              "direction": -1,
+              "distance": 8.303
+            },
+            {
+              "a": "anchor:2",
+              "b": "anchor:CAP",
+              "axis": "x",
+              "direction": -1,
+              "distance": 9.428389800000001
+            },
+            {
+              "a": "anchor:2",
+              "b": "anchor:CN3",
+              "axis": "y",
+              "direction": 1,
+              "distance": 6.7033
+            },
+            {
+              "a": "anchor:2",
+              "b": "anchor:CN4",
+              "axis": "y",
+              "direction": 1,
+              "distance": 6.7033
+            },
+            {
+              "a": "anchor:2",
+              "b": "anchor:LOAD",
+              "axis": "y",
+              "direction": 1,
+              "distance": 6.9283947999999995
+            },
+            {
+              "a": "anchor:2",
+              "b": "anchor:VIN（+24V）",
+              "axis": "x",
+              "direction": -1,
+              "distance": 9.428389800000001
+            },
+            {
+              "a": "anchor:2",
+              "b": "cluster:L1-1",
+              "axis": "x",
+              "direction": -1,
+              "distance": 11.105133272082975
+            },
+            {
+              "a": "anchor:2",
+              "b": "cluster:L1-10",
+              "axis": "y",
+              "direction": 1,
+              "distance": 5.310683199999998
+            },
+            {
+              "a": "anchor:2",
+              "b": "cluster:L1-11",
+              "axis": "y",
+              "direction": 1,
+              "distance": 5.202704084344406
+            },
+            {
+              "a": "anchor:2",
+              "b": "cluster:L1-12",
+              "axis": "y",
+              "direction": 1,
+              "distance": 5.154499997779669
+            },
+            {
+              "a": "anchor:2",
+              "b": "cluster:L1-2",
+              "axis": "y",
+              "direction": 1,
+              "distance": 9.042638667571378
+            },
+            {
+              "a": "anchor:2",
+              "b": "cluster:L1-3",
+              "axis": "x",
+              "direction": -1,
+              "distance": 33.52567209169567
+            },
+            {
+              "a": "anchor:2",
+              "b": "cluster:L1-4",
+              "axis": "y",
+              "direction": 1,
+              "distance": 13.156795699999893
+            },
+            {
+              "a": "anchor:2",
+              "b": "cluster:L1-5",
+              "axis": "y",
+              "direction": 1,
+              "distance": 6.878907988171488
+            },
+            {
+              "a": "anchor:2",
+              "b": "cluster:L1-6",
+              "axis": "x",
+              "direction": -1,
+              "distance": 8.26002715055001
+            },
+            {
+              "a": "anchor:2",
+              "b": "cluster:L1-7",
+              "axis": "y",
+              "direction": 1,
+              "distance": 9.009394799999216
+            },
+            {
+              "a": "anchor:2",
+              "b": "cluster:L1-8",
+              "axis": "y",
+              "direction": 1,
+              "distance": 4.7529991
+            },
+            {
+              "a": "anchor:2",
+              "b": "cluster:L1-9",
+              "axis": "y",
+              "direction": 1,
+              "distance": 4.7350031999999995
+            },
+            {
+              "a": "anchor:3",
+              "b": "anchor:4",
+              "axis": "x",
+              "direction": -1,
+              "distance": 8.303
+            },
+            {
+              "a": "anchor:3",
+              "b": "anchor:CAP",
+              "axis": "y",
+              "direction": -1,
+              "distance": 7.1283944
+            },
+            {
+              "a": "anchor:3",
+              "b": "anchor:CN3",
+              "axis": "x",
+              "direction": -1,
+              "distance": 13.0783952
+            },
+            {
+              "a": "anchor:3",
+              "b": "anchor:CN4",
+              "axis": "x",
+              "direction": -1,
+              "distance": 13.0783952
+            },
+            {
+              "a": "anchor:3",
+              "b": "anchor:LOAD",
+              "axis": "y",
+              "direction": -1,
+              "distance": 6.9283947999999995
+            },
+            {
+              "a": "anchor:3",
+              "b": "anchor:VIN（+24V）",
+              "axis": "x",
+              "direction": -1,
+              "distance": 9.428389800000001
+            },
+            {
+              "a": "anchor:3",
+              "b": "cluster:L1-1",
+              "axis": "y",
+              "direction": -1,
+              "distance": 13.662446635647512
+            },
+            {
+              "a": "anchor:3",
+              "b": "cluster:L1-10",
+              "axis": "y",
+              "direction": -1,
+              "distance": 5.310683199999998
+            },
+            {
+              "a": "anchor:3",
+              "b": "cluster:L1-11",
+              "axis": "y",
+              "direction": -1,
+              "distance": 5.202704084344406
+            },
+            {
+              "a": "anchor:3",
+              "b": "cluster:L1-12",
+              "axis": "y",
+              "direction": -1,
+              "distance": 5.154499997779669
+            },
+            {
+              "a": "anchor:3",
+              "b": "cluster:L1-2",
+              "axis": "y",
+              "direction": -1,
+              "distance": 9.042638667571378
+            },
+            {
+              "a": "anchor:3",
+              "b": "cluster:L1-3",
+              "axis": "x",
+              "direction": -1,
+              "distance": 33.52567209169567
+            },
+            {
+              "a": "anchor:3",
+              "b": "cluster:L1-4",
+              "axis": "x",
+              "direction": -1,
+              "distance": 21.57209355750291
+            },
+            {
+              "a": "anchor:3",
+              "b": "cluster:L1-5",
+              "axis": "y",
+              "direction": -1,
+              "distance": 6.878907988171488
+            },
+            {
+              "a": "anchor:3",
+              "b": "cluster:L1-6",
+              "axis": "x",
+              "direction": -1,
+              "distance": 8.26002715055001
+            },
+            {
+              "a": "anchor:3",
+              "b": "cluster:L1-7",
+              "axis": "x",
+              "direction": -1,
+              "distance": 14.208204991737631
+            },
+            {
+              "a": "anchor:3",
+              "b": "cluster:L1-8",
+              "axis": "y",
+              "direction": -1,
+              "distance": 4.7529991
+            },
+            {
+              "a": "anchor:3",
+              "b": "cluster:L1-9",
+              "axis": "y",
+              "direction": -1,
+              "distance": 4.7350031999999995
+            },
+            {
+              "a": "anchor:4",
+              "b": "anchor:CAP",
+              "axis": "x",
+              "direction": 1,
+              "distance": 9.428389800000001
+            },
+            {
+              "a": "anchor:4",
+              "b": "anchor:CN3",
+              "axis": "x",
+              "direction": 1,
+              "distance": 13.0783952
+            },
+            {
+              "a": "anchor:4",
+              "b": "anchor:CN4",
+              "axis": "x",
+              "direction": 1,
+              "distance": 13.0783952
+            },
+            {
+              "a": "anchor:4",
+              "b": "anchor:LOAD",
+              "axis": "x",
+              "direction": 1,
+              "distance": 9.428364400000001
+            },
+            {
+              "a": "anchor:4",
+              "b": "anchor:VIN（+24V）",
+              "axis": "y",
+              "direction": -1,
+              "distance": 7.1283944
+            },
+            {
+              "a": "anchor:4",
+              "b": "cluster:L1-1",
+              "axis": "x",
+              "direction": 1,
+              "distance": 11.105133272082973
+            },
+            {
+              "a": "anchor:4",
+              "b": "cluster:L1-10",
+              "axis": "x",
+              "direction": 1,
+              "distance": 5.503150000946287
+            },
+            {
+              "a": "anchor:4",
+              "b": "cluster:L1-11",
+              "axis": "x",
+              "direction": 1,
+              "distance": 5.154500000000004
+            },
+            {
+              "a": "anchor:4",
+              "b": "cluster:L1-12",
+              "axis": "x",
+              "direction": 1,
+              "distance": 5.681698559415516
+            },
+            {
+              "a": "anchor:4",
+              "b": "cluster:L1-2",
+              "axis": "x",
+              "direction": 1,
+              "distance": 11.241331701256875
+            },
+            {
+              "a": "anchor:4",
+              "b": "cluster:L1-3",
+              "axis": "y",
+              "direction": -1,
+              "distance": 19.10805478430797
+            },
+            {
+              "a": "anchor:4",
+              "b": "cluster:L1-4",
+              "axis": "x",
+              "direction": 1,
+              "distance": 21.57209355750291
+            },
+            {
+              "a": "anchor:4",
+              "b": "cluster:L1-5",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.604508399999999
+            },
+            {
+              "a": "anchor:4",
+              "b": "cluster:L1-6",
+              "axis": "y",
+              "direction": -1,
+              "distance": 7.143890100000003
+            },
+            {
+              "a": "anchor:4",
+              "b": "cluster:L1-7",
+              "axis": "x",
+              "direction": 1,
+              "distance": 14.20820499173763
+            },
+            {
+              "a": "anchor:4",
+              "b": "cluster:L1-8",
+              "axis": "x",
+              "direction": 1,
+              "distance": 5.4030232
+            },
+            {
+              "a": "anchor:4",
+              "b": "cluster:L1-9",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.811251693732351
+            },
+            {
+              "a": "anchor:CAP",
+              "b": "anchor:CN3",
+              "axis": "y",
+              "direction": 1,
+              "distance": 5.5286944
+            },
+            {
+              "a": "anchor:CAP",
+              "b": "anchor:CN4",
+              "axis": "y",
+              "direction": 1,
+              "distance": 5.5286944
+            },
+            {
+              "a": "anchor:CAP",
+              "b": "anchor:LOAD",
+              "axis": "y",
+              "direction": 1,
+              "distance": 5.753789199999999
+            },
+            {
+              "a": "anchor:CAP",
+              "b": "anchor:VIN（+24V）",
+              "axis": "x",
+              "direction": -1,
+              "distance": 10.553779600000002
+            },
+            {
+              "a": "anchor:CAP",
+              "b": "cluster:L1-1",
+              "axis": "y",
+              "direction": 1,
+              "distance": 12.487841035647513
+            },
+            {
+              "a": "anchor:CAP",
+              "b": "cluster:L1-10",
+              "axis": "y",
+              "direction": 1,
+              "distance": 4.136077599999998
+            },
+            {
+              "a": "anchor:CAP",
+              "b": "cluster:L1-11",
+              "axis": "y",
+              "direction": 1,
+              "distance": 4.028098484344406
+            },
+            {
+              "a": "anchor:CAP",
+              "b": "cluster:L1-12",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.807088359415516
+            },
+            {
+              "a": "anchor:CAP",
+              "b": "cluster:L1-2",
+              "axis": "y",
+              "direction": 1,
+              "distance": 7.868033067571377
+            },
+            {
+              "a": "anchor:CAP",
+              "b": "cluster:L1-3",
+              "axis": "x",
+              "direction": -1,
+              "distance": 34.651061891695676
+            },
+            {
+              "a": "anchor:CAP",
+              "b": "cluster:L1-4",
+              "axis": "y",
+              "direction": 1,
+              "distance": 11.982190099999894
+            },
+            {
+              "a": "anchor:CAP",
+              "b": "cluster:L1-5",
+              "axis": "y",
+              "direction": 1,
+              "distance": 5.704302388171487
+            },
+            {
+              "a": "anchor:CAP",
+              "b": "cluster:L1-6",
+              "axis": "x",
+              "direction": -1,
+              "distance": 9.385416950550013
+            },
+            {
+              "a": "anchor:CAP",
+              "b": "cluster:L1-7",
+              "axis": "y",
+              "direction": 1,
+              "distance": 7.834789199999215
+            },
+            {
+              "a": "anchor:CAP",
+              "b": "cluster:L1-8",
+              "axis": "y",
+              "direction": 1,
+              "distance": 3.5783935
+            },
+            {
+              "a": "anchor:CAP",
+              "b": "cluster:L1-9",
+              "axis": "y",
+              "direction": 1,
+              "distance": 3.5603976
+            },
+            {
+              "a": "anchor:CN3",
+              "b": "anchor:CN4",
+              "axis": "x",
+              "direction": -1,
+              "distance": 17.853790399999998
+            },
+            {
+              "a": "anchor:CN3",
+              "b": "anchor:LOAD",
+              "axis": "y",
+              "direction": -1,
+              "distance": 5.328694799999999
+            },
+            {
+              "a": "anchor:CN3",
+              "b": "anchor:VIN（+24V）",
+              "axis": "x",
+              "direction": -1,
+              "distance": 14.203785
+            },
+            {
+              "a": "anchor:CN3",
+              "b": "cluster:L1-1",
+              "axis": "y",
+              "direction": -1,
+              "distance": 12.062746635647512
+            },
+            {
+              "a": "anchor:CN3",
+              "b": "cluster:L1-10",
+              "axis": "x",
+              "direction": 1,
+              "distance": 10.278545200946287
+            },
+            {
+              "a": "anchor:CN3",
+              "b": "cluster:L1-11",
+              "axis": "y",
+              "direction": -1,
+              "distance": 3.6030040843444056
+            },
+            {
+              "a": "anchor:CN3",
+              "b": "cluster:L1-12",
+              "axis": "y",
+              "direction": -1,
+              "distance": 3.5547999977796683
+            },
+            {
+              "a": "anchor:CN3",
+              "b": "cluster:L1-2",
+              "axis": "y",
+              "direction": -1,
+              "distance": 7.442938667571376
+            },
+            {
+              "a": "anchor:CN3",
+              "b": "cluster:L1-3",
+              "axis": "y",
+              "direction": -1,
+              "distance": 17.508354784307972
+            },
+            {
+              "a": "anchor:CN3",
+              "b": "cluster:L1-4",
+              "axis": "x",
+              "direction": -1,
+              "distance": 26.34748875750291
+            },
+            {
+              "a": "anchor:CN3",
+              "b": "cluster:L1-5",
+              "axis": "y",
+              "direction": -1,
+              "distance": 5.279207988171487
+            },
+            {
+              "a": "anchor:CN3",
+              "b": "cluster:L1-6",
+              "axis": "x",
+              "direction": -1,
+              "distance": 13.03542235055001
+            },
+            {
+              "a": "anchor:CN3",
+              "b": "cluster:L1-7",
+              "axis": "y",
+              "direction": -1,
+              "distance": 7.409694799999214
+            },
+            {
+              "a": "anchor:CN3",
+              "b": "cluster:L1-8",
+              "axis": "y",
+              "direction": -1,
+              "distance": 3.1532990999999995
+            },
+            {
+              "a": "anchor:CN3",
+              "b": "cluster:L1-9",
+              "axis": "y",
+              "direction": -1,
+              "distance": 3.1353031999999996
+            },
+            {
+              "a": "anchor:CN4",
+              "b": "anchor:LOAD",
+              "axis": "x",
+              "direction": 1,
+              "distance": 14.2037596
+            },
+            {
+              "a": "anchor:CN4",
+              "b": "anchor:VIN（+24V）",
+              "axis": "x",
+              "direction": -1,
+              "distance": 14.203785
+            },
+            {
+              "a": "anchor:CN4",
+              "b": "cluster:L1-1",
+              "axis": "y",
+              "direction": -1,
+              "distance": 12.062746635647512
+            },
+            {
+              "a": "anchor:CN4",
+              "b": "cluster:L1-10",
+              "axis": "x",
+              "direction": 1,
+              "distance": 10.278545200946287
+            },
+            {
+              "a": "anchor:CN4",
+              "b": "cluster:L1-11",
+              "axis": "x",
+              "direction": 1,
+              "distance": 9.929895200000004
+            },
+            {
+              "a": "anchor:CN4",
+              "b": "cluster:L1-12",
+              "axis": "y",
+              "direction": -1,
+              "distance": 3.5547999977796683
+            },
+            {
+              "a": "anchor:CN4",
+              "b": "cluster:L1-2",
+              "axis": "y",
+              "direction": -1,
+              "distance": 7.442938667571376
+            },
+            {
+              "a": "anchor:CN4",
+              "b": "cluster:L1-3",
+              "axis": "y",
+              "direction": -1,
+              "distance": 17.508354784307972
+            },
+            {
+              "a": "anchor:CN4",
+              "b": "cluster:L1-4",
+              "axis": "y",
+              "direction": -1,
+              "distance": 11.557095699999893
+            },
+            {
+              "a": "anchor:CN4",
+              "b": "cluster:L1-5",
+              "axis": "x",
+              "direction": 1,
+              "distance": 11.379903599999999
+            },
+            {
+              "a": "anchor:CN4",
+              "b": "cluster:L1-6",
+              "axis": "x",
+              "direction": -1,
+              "distance": 13.03542235055001
+            },
+            {
+              "a": "anchor:CN4",
+              "b": "cluster:L1-7",
+              "axis": "x",
+              "direction": 1,
+              "distance": 18.983600191737626
+            },
+            {
+              "a": "anchor:CN4",
+              "b": "cluster:L1-8",
+              "axis": "x",
+              "direction": 1,
+              "distance": 10.178418399999998
+            },
+            {
+              "a": "anchor:CN4",
+              "b": "cluster:L1-9",
+              "axis": "x",
+              "direction": 1,
+              "distance": 11.58664689373235
+            },
+            {
+              "a": "anchor:LOAD",
+              "b": "anchor:VIN（+24V）",
+              "axis": "x",
+              "direction": -1,
+              "distance": 10.553754200000002
+            },
+            {
+              "a": "anchor:LOAD",
+              "b": "cluster:L1-1",
+              "axis": "y",
+              "direction": -1,
+              "distance": 12.287841435647511
+            },
+            {
+              "a": "anchor:LOAD",
+              "b": "cluster:L1-10",
+              "axis": "y",
+              "direction": -1,
+              "distance": 3.9360779999999975
+            },
+            {
+              "a": "anchor:LOAD",
+              "b": "cluster:L1-11",
+              "axis": "y",
+              "direction": -1,
+              "distance": 3.8280988843444055
+            },
+            {
+              "a": "anchor:LOAD",
+              "b": "cluster:L1-12",
+              "axis": "y",
+              "direction": -1,
+              "distance": 3.779894797779668
+            },
+            {
+              "a": "anchor:LOAD",
+              "b": "cluster:L1-2",
+              "axis": "y",
+              "direction": -1,
+              "distance": 7.668033467571376
+            },
+            {
+              "a": "anchor:LOAD",
+              "b": "cluster:L1-3",
+              "axis": "x",
+              "direction": -1,
+              "distance": 34.65103649169567
+            },
+            {
+              "a": "anchor:LOAD",
+              "b": "cluster:L1-4",
+              "axis": "x",
+              "direction": -1,
+              "distance": 22.69745795750291
+            },
+            {
+              "a": "anchor:LOAD",
+              "b": "cluster:L1-5",
+              "axis": "y",
+              "direction": -1,
+              "distance": 5.504302788171487
+            },
+            {
+              "a": "anchor:LOAD",
+              "b": "cluster:L1-6",
+              "axis": "x",
+              "direction": -1,
+              "distance": 9.385391550550011
+            },
+            {
+              "a": "anchor:LOAD",
+              "b": "cluster:L1-7",
+              "axis": "x",
+              "direction": -1,
+              "distance": 15.333569391737631
+            },
+            {
+              "a": "anchor:LOAD",
+              "b": "cluster:L1-8",
+              "axis": "y",
+              "direction": -1,
+              "distance": 3.3783938999999994
+            },
+            {
+              "a": "anchor:LOAD",
+              "b": "cluster:L1-9",
+              "axis": "y",
+              "direction": -1,
+              "distance": 3.3603979999999996
+            },
+            {
+              "a": "anchor:VIN（+24V）",
+              "b": "cluster:L1-1",
+              "axis": "x",
+              "direction": 1,
+              "distance": 12.230523072082974
+            },
+            {
+              "a": "anchor:VIN（+24V）",
+              "b": "cluster:L1-10",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.628539800946288
+            },
+            {
+              "a": "anchor:VIN（+24V）",
+              "b": "cluster:L1-11",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.279889800000005
+            },
+            {
+              "a": "anchor:VIN（+24V）",
+              "b": "cluster:L1-12",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.807088359415516
+            },
+            {
+              "a": "anchor:VIN（+24V）",
+              "b": "cluster:L1-2",
+              "axis": "x",
+              "direction": 1,
+              "distance": 12.366721501256876
+            },
+            {
+              "a": "anchor:VIN（+24V）",
+              "b": "cluster:L1-3",
+              "axis": "y",
+              "direction": -1,
+              "distance": 17.93344918430797
+            },
+            {
+              "a": "anchor:VIN（+24V）",
+              "b": "cluster:L1-4",
+              "axis": "x",
+              "direction": 1,
+              "distance": 22.69748335750291
+            },
+            {
+              "a": "anchor:VIN（+24V）",
+              "b": "cluster:L1-5",
+              "axis": "x",
+              "direction": 1,
+              "distance": 7.7298982
+            },
+            {
+              "a": "anchor:VIN（+24V）",
+              "b": "cluster:L1-6",
+              "axis": "x",
+              "direction": 1,
+              "distance": 9.385416950550013
+            },
+            {
+              "a": "anchor:VIN（+24V）",
+              "b": "cluster:L1-7",
+              "axis": "x",
+              "direction": 1,
+              "distance": 15.33359479173763
+            },
+            {
+              "a": "anchor:VIN（+24V）",
+              "b": "cluster:L1-8",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.5284130000000005
+            },
+            {
+              "a": "anchor:VIN（+24V）",
+              "b": "cluster:L1-9",
+              "axis": "x",
+              "direction": 1,
+              "distance": 7.936641493732352
+            },
+            {
+              "a": "cluster:L1-1",
+              "b": "cluster:L1-10",
+              "axis": "y",
+              "direction": 1,
+              "distance": 10.670129835647511
+            },
+            {
+              "a": "cluster:L1-1",
+              "b": "cluster:L1-11",
+              "axis": "x",
+              "direction": 1,
+              "distance": 7.956633272082978
+            },
+            {
+              "a": "cluster:L1-1",
+              "b": "cluster:L1-12",
+              "axis": "x",
+              "direction": 1,
+              "distance": 8.483831831498492
+            },
+            {
+              "a": "cluster:L1-1",
+              "b": "cluster:L1-2",
+              "axis": "x",
+              "direction": 1,
+              "distance": 14.04346497333985
+            },
+            {
+              "a": "cluster:L1-1",
+              "b": "cluster:L1-3",
+              "axis": "x",
+              "direction": -1,
+              "distance": 36.327805363778644
+            },
+            {
+              "a": "cluster:L1-1",
+              "b": "cluster:L1-4",
+              "axis": "y",
+              "direction": 1,
+              "distance": 18.516242335647405
+            },
+            {
+              "a": "cluster:L1-1",
+              "b": "cluster:L1-5",
+              "axis": "x",
+              "direction": 1,
+              "distance": 9.406641672082975
+            },
+            {
+              "a": "cluster:L1-1",
+              "b": "cluster:L1-6",
+              "axis": "x",
+              "direction": -1,
+              "distance": 11.062160422632985
+            },
+            {
+              "a": "cluster:L1-1",
+              "b": "cluster:L1-7",
+              "axis": "y",
+              "direction": 1,
+              "distance": 14.368841435646727
+            },
+            {
+              "a": "cluster:L1-1",
+              "b": "cluster:L1-8",
+              "axis": "y",
+              "direction": 1,
+              "distance": 10.112445735647512
+            },
+            {
+              "a": "cluster:L1-1",
+              "b": "cluster:L1-9",
+              "axis": "y",
+              "direction": 1,
+              "distance": 10.094449835647513
+            },
+            {
+              "a": "cluster:L1-10",
+              "b": "cluster:L1-11",
+              "axis": "y",
+              "direction": -1,
+              "distance": 2.210387284344404
+            },
+            {
+              "a": "cluster:L1-10",
+              "b": "cluster:L1-12",
+              "axis": "y",
+              "direction": -1,
+              "distance": 2.162183197779667
+            },
+            {
+              "a": "cluster:L1-10",
+              "b": "cluster:L1-2",
+              "axis": "y",
+              "direction": -1,
+              "distance": 6.050321867571374
+            },
+            {
+              "a": "cluster:L1-10",
+              "b": "cluster:L1-3",
+              "axis": "x",
+              "direction": -1,
+              "distance": 30.725822092641963
+            },
+            {
+              "a": "cluster:L1-10",
+              "b": "cluster:L1-4",
+              "axis": "x",
+              "direction": -1,
+              "distance": 18.772243558449198
+            },
+            {
+              "a": "cluster:L1-10",
+              "b": "cluster:L1-5",
+              "axis": "y",
+              "direction": -1,
+              "distance": 3.8865911881714856
+            },
+            {
+              "a": "cluster:L1-10",
+              "b": "cluster:L1-6",
+              "axis": "x",
+              "direction": -1,
+              "distance": 5.460177151496298
+            },
+            {
+              "a": "cluster:L1-10",
+              "b": "cluster:L1-7",
+              "axis": "x",
+              "direction": -1,
+              "distance": 11.408354992683918
+            },
+            {
+              "a": "cluster:L1-10",
+              "b": "cluster:L1-8",
+              "axis": "y",
+              "direction": -1,
+              "distance": 1.7606822999999983
+            },
+            {
+              "a": "cluster:L1-10",
+              "b": "cluster:L1-9",
+              "axis": "y",
+              "direction": -1,
+              "distance": 1.7426863999999982
+            },
+            {
+              "a": "cluster:L1-11",
+              "b": "cluster:L1-12",
+              "axis": "y",
+              "direction": -1,
+              "distance": 2.0542040821240746
+            },
+            {
+              "a": "cluster:L1-11",
+              "b": "cluster:L1-2",
+              "axis": "y",
+              "direction": -1,
+              "distance": 5.942342751915782
+            },
+            {
+              "a": "cluster:L1-11",
+              "b": "cluster:L1-3",
+              "axis": "x",
+              "direction": -1,
+              "distance": 30.37717209169568
+            },
+            {
+              "a": "cluster:L1-11",
+              "b": "cluster:L1-4",
+              "axis": "x",
+              "direction": -1,
+              "distance": 18.423593557502915
+            },
+            {
+              "a": "cluster:L1-11",
+              "b": "cluster:L1-5",
+              "axis": "y",
+              "direction": 1,
+              "distance": 3.7786120725158936
+            },
+            {
+              "a": "cluster:L1-11",
+              "b": "cluster:L1-6",
+              "axis": "x",
+              "direction": -1,
+              "distance": 5.111527150550015
+            },
+            {
+              "a": "cluster:L1-11",
+              "b": "cluster:L1-7",
+              "axis": "y",
+              "direction": 1,
+              "distance": 5.909098884343621
+            },
+            {
+              "a": "cluster:L1-11",
+              "b": "cluster:L1-8",
+              "axis": "y",
+              "direction": 1,
+              "distance": 1.6527031843444058
+            },
+            {
+              "a": "cluster:L1-11",
+              "b": "cluster:L1-9",
+              "axis": "y",
+              "direction": 1,
+              "distance": 1.6347072843444057
+            },
+            {
+              "a": "cluster:L1-12",
+              "b": "cluster:L1-2",
+              "axis": "y",
+              "direction": 1,
+              "distance": 5.894138665351046
+            },
+            {
+              "a": "cluster:L1-12",
+              "b": "cluster:L1-3",
+              "axis": "x",
+              "direction": -1,
+              "distance": 30.90437065111119
+            },
+            {
+              "a": "cluster:L1-12",
+              "b": "cluster:L1-4",
+              "axis": "x",
+              "direction": -1,
+              "distance": 18.950792116918425
+            },
+            {
+              "a": "cluster:L1-12",
+              "b": "cluster:L1-5",
+              "axis": "y",
+              "direction": 1,
+              "distance": 3.7304079859511563
+            },
+            {
+              "a": "cluster:L1-12",
+              "b": "cluster:L1-6",
+              "axis": "x",
+              "direction": -1,
+              "distance": 5.638725709965526
+            },
+            {
+              "a": "cluster:L1-12",
+              "b": "cluster:L1-7",
+              "axis": "y",
+              "direction": 1,
+              "distance": 5.860894797778884
+            },
+            {
+              "a": "cluster:L1-12",
+              "b": "cluster:L1-8",
+              "axis": "y",
+              "direction": 1,
+              "distance": 1.6044990977796687
+            },
+            {
+              "a": "cluster:L1-12",
+              "b": "cluster:L1-9",
+              "axis": "y",
+              "direction": 1,
+              "distance": 1.5865031977796686
+            },
+            {
+              "a": "cluster:L1-2",
+              "b": "cluster:L1-3",
+              "axis": "x",
+              "direction": -1,
+              "distance": 36.464003792952546
+            },
+            {
+              "a": "cluster:L1-2",
+              "b": "cluster:L1-4",
+              "axis": "x",
+              "direction": -1,
+              "distance": 24.510425258759785
+            },
+            {
+              "a": "cluster:L1-2",
+              "b": "cluster:L1-5",
+              "axis": "y",
+              "direction": 1,
+              "distance": 7.618546655742864
+            },
+            {
+              "a": "cluster:L1-2",
+              "b": "cluster:L1-6",
+              "axis": "x",
+              "direction": -1,
+              "distance": 11.198358851806887
+            },
+            {
+              "a": "cluster:L1-2",
+              "b": "cluster:L1-7",
+              "axis": "y",
+              "direction": 1,
+              "distance": 9.749033467570591
+            },
+            {
+              "a": "cluster:L1-2",
+              "b": "cluster:L1-8",
+              "axis": "y",
+              "direction": 1,
+              "distance": 5.4926377675713765
+            },
+            {
+              "a": "cluster:L1-2",
+              "b": "cluster:L1-9",
+              "axis": "y",
+              "direction": 1,
+              "distance": 5.474641867571376
+            },
+            {
+              "a": "cluster:L1-3",
+              "b": "cluster:L1-4",
+              "axis": "y",
+              "direction": 1,
+              "distance": 23.961850484307863
+            },
+            {
+              "a": "cluster:L1-3",
+              "b": "cluster:L1-5",
+              "axis": "x",
+              "direction": 1,
+              "distance": 31.827180491695675
+            },
+            {
+              "a": "cluster:L1-3",
+              "b": "cluster:L1-6",
+              "axis": "y",
+              "direction": 1,
+              "distance": 17.948944884307977
+            },
+            {
+              "a": "cluster:L1-3",
+              "b": "cluster:L1-7",
+              "axis": "y",
+              "direction": 1,
+              "distance": 19.814449584307187
+            },
+            {
+              "a": "cluster:L1-3",
+              "b": "cluster:L1-8",
+              "axis": "x",
+              "direction": 1,
+              "distance": 30.625695291695674
+            },
+            {
+              "a": "cluster:L1-3",
+              "b": "cluster:L1-9",
+              "axis": "x",
+              "direction": 1,
+              "distance": 32.03392378542802
+            },
+            {
+              "a": "cluster:L1-4",
+              "b": "cluster:L1-5",
+              "axis": "x",
+              "direction": 1,
+              "distance": 19.87360195750291
+            },
+            {
+              "a": "cluster:L1-4",
+              "b": "cluster:L1-6",
+              "axis": "x",
+              "direction": -1,
+              "distance": 21.529120708052922
+            },
+            {
+              "a": "cluster:L1-4",
+              "b": "cluster:L1-7",
+              "axis": "x",
+              "direction": 1,
+              "distance": 27.47729854924054
+            },
+            {
+              "a": "cluster:L1-4",
+              "b": "cluster:L1-8",
+              "axis": "x",
+              "direction": 1,
+              "distance": 18.67211675750291
+            },
+            {
+              "a": "cluster:L1-4",
+              "b": "cluster:L1-9",
+              "axis": "x",
+              "direction": 1,
+              "distance": 20.08034525123526
+            },
+            {
+              "a": "cluster:L1-5",
+              "b": "cluster:L1-6",
+              "axis": "x",
+              "direction": -1,
+              "distance": 6.561535550550011
+            },
+            {
+              "a": "cluster:L1-5",
+              "b": "cluster:L1-7",
+              "axis": "y",
+              "direction": 1,
+              "distance": 7.5853027881707025
+            },
+            {
+              "a": "cluster:L1-5",
+              "b": "cluster:L1-8",
+              "axis": "y",
+              "direction": 1,
+              "distance": 3.3289070881714875
+            },
+            {
+              "a": "cluster:L1-5",
+              "b": "cluster:L1-9",
+              "axis": "y",
+              "direction": 1,
+              "distance": 3.3109111881714877
+            },
+            {
+              "a": "cluster:L1-6",
+              "b": "cluster:L1-7",
+              "axis": "x",
+              "direction": 1,
+              "distance": 14.165232142287639
+            },
+            {
+              "a": "cluster:L1-6",
+              "b": "cluster:L1-8",
+              "axis": "x",
+              "direction": 1,
+              "distance": 5.360050350550011
+            },
+            {
+              "a": "cluster:L1-6",
+              "b": "cluster:L1-9",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.768278844282362
+            },
+            {
+              "a": "cluster:L1-7",
+              "b": "cluster:L1-8",
+              "axis": "x",
+              "direction": 1,
+              "distance": 11.30822819173763
+            },
+            {
+              "a": "cluster:L1-7",
+              "b": "cluster:L1-9",
+              "axis": "x",
+              "direction": 1,
+              "distance": 12.716456685469982
+            },
+            {
+              "a": "cluster:L1-8",
+              "b": "cluster:L1-9",
+              "axis": "y",
+              "direction": -1,
+              "distance": 1.1850022999999998
+            }
+          ],
+          "initial_violations": []
+        },
+        {
+          "attempt": 2,
+          "reason": "packing_seed_failed"
+        }
+      ],
+      "topology": "single"
+    }
+  ]
+}

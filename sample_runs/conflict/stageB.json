@@ -1,0 +1,22 @@
+{
+  "trials": 3,
+  "attempts": [
+    {
+      "attempts": [
+        {
+          "attempt": 0,
+          "reason": "packing_seed_failed"
+        },
+        {
+          "attempt": 1,
+          "reason": "packing_seed_failed"
+        },
+        {
+          "attempt": 2,
+          "reason": "packing_seed_failed"
+        }
+      ],
+      "topology": "0:0:0.4"
+    }
+  ]
+}

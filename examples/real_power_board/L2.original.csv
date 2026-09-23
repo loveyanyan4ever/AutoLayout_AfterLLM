@@ -1,0 +1,104 @@
+﻿component_id,cluster_id,function,voltage_domain,isolation_domain,evidence_rule_ids
+DC-DC,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+C1,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+C5,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+D1,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+L3,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+R1,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+R2,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+R3,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+R4,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+R5,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+R6,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+C9,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+C10,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+U1,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+C11,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+C12,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+C15,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+D3,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+L1,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+C13,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+R8,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+R9,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+R7,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+Q1,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+Q2,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+L2,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+D6,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+D4,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+R14,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+R15,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+R16,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+R17,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+R21,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+C25,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+U5,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+D5,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+R18,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+R19,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+Q4,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+Q3,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+D9,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+D7,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+R13,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+R10,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+R11,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+R12,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+R27,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+C29,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+U2,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+D8,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+R20,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+R26,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+C18,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+C19,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+C22,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+C23,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+R22,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+CN4,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+R24,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+VCAP1,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+CAP,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+D11,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+LOAD,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+R25,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+U11,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+R44,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+R42,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+R43,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+CN3,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+C16,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+C17,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+C14,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+C2,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+C20,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+C21,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+C3,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+C4,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+C24,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+C26,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+C27,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+C28,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+C6,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+C7,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+C8,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+C44,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+D2,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+F1,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
+VIN（+24V）,L2-1,Buck 转换器主功能域：包含输入保护、功率级、反馈、控制、输出及去耦,interface,interface,TI-IN-CAP;TI-FB-QUIET;TI-COMP;TI-FEEDFORWARD
++12V,L2-2,测试点，用于外部测量电压轨,interface,interface,
++24V,L2-2,测试点，用于外部测量电压轨,interface,interface,
+3V3,L2-2,测试点，用于外部测量电压轨,interface,interface,
+1,L2-3,机械螺丝，无电气连接,unknown,unknown,
+2,L2-3,机械螺丝，无电气连接,unknown,unknown,
+3,L2-3,机械螺丝，无电气连接,unknown,unknown,
+4,L2-3,机械螺丝，无电气连接,unknown,unknown,
+LED2,L2-4,12V LED 指示支路,+12V,unknown,
+R35,L2-4,12V LED 指示支路,+12V,unknown,
+LED3,L2-5,3V3 LED 指示支路,3V3,unknown,
+R36,L2-5,3V3 LED 指示支路,3V3,unknown,
+GND,L2-6,GND 测试点,GND,unknown,
+GND1,L2-6,GND 测试点,GND,unknown,
+GND2,L2-6,GND 测试点,GND,unknown,
+GND3,L2-6,GND 测试点,GND,unknown,

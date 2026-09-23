@@ -1,0 +1,9 @@
+{
+  "status": "NO_FEASIBLE_FOUND",
+  "code": "SEARCH_EXHAUSTED",
+  "message": "当前形状/分区/拓扑搜索未找到可行布局，未证明全问题无解",
+  "details": {
+    "trials": 3,
+    "time_remaining_s": 117.89498080999692
+  }
+}

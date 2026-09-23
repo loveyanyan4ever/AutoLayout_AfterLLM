@@ -1,0 +1,51 @@
+{
+  "project_version": "0.2.0",
+  "normal_runs": {
+    "normal_fixed_final": {
+      "command": "/workspace/scratch/9795239b56ad/review_20260922/venv/bin/python -m pcb_hierplace run --config examples/dual_domain/constraints.yaml --set export.emit_epro2=true --out /workspace/scratch/9795239b56ad/repair_20260923/normal_fixed_final",
+      "exit_code": 0,
+      "pipeline_status": "FEASIBLE",
+      "independent_status": "PASSED",
+      "independent_checks": 517,
+      "epro2_sha256": "6d1dd54be0a64a2ce58e681e7bddb5926112cec76d513d3ef9c8b9a9a9b77865",
+      "minimum_body_gap_mm": 0.7325557726594413,
+      "minimum_cross_domain_copper_gap_mm": 5.800000000000004,
+      "board_mm": [
+        59.99999999999999,
+        40.00000000000001
+      ]
+    },
+    "normal_estimated_final": {
+      "command": "/workspace/scratch/9795239b56ad/review_20260922/venv/bin/python -m pcb_hierplace run --config examples/estimated/constraints.yaml --set export.emit_epro2=true --out /workspace/scratch/9795239b56ad/repair_20260923/normal_estimated_final",
+      "exit_code": 0,
+      "pipeline_status": "FEASIBLE",
+      "independent_status": "PASSED",
+      "independent_checks": 517,
+      "epro2_sha256": "c116beef2739ab68c13061745904d2c6f649c45d973a38cf20e1acbe1b8215fe",
+      "minimum_body_gap_mm": 0.20200000000439644,
+      "minimum_cross_domain_copper_gap_mm": 5.800000000000004,
+      "board_mm": [
+        58.0,
+        37.99999999999999
+      ]
+    }
+  },
+  "test_cli_export_repairs": {
+    "status": "PASSED",
+    "passed": 11
+  },
+  "native_editor_open": "NOT_PERFORMED",
+  "conflict_run": {
+    "command": "/workspace/scratch/9795239b56ad/review_20260922/venv/bin/python -m pcb_hierplace run --config examples/conflict/constraints.yaml --set export.emit_epro2=true --out /workspace/scratch/9795239b56ad/repair_20260923/normal_conflict_final",
+    "exit_code": 3,
+    "pipeline_status": "NO_FEASIBLE_FOUND",
+    "formal_epro2_exists": false,
+    "formal_placements_exists": false,
+    "note": "Search exhaustion is not a proof of mathematical infeasibility."
+  },
+  "working_directory": "/workspace/scratch/9795239b56ad/pcb_hierplace_v0_2",
+  "environment": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONPATH": "src"
+  }
+}

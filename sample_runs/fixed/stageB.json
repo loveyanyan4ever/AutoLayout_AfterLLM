@@ -1,0 +1,3989 @@
+{
+  "trials": 9,
+  "attempts": [
+    {
+      "attempts": [
+        {
+          "attempt": 0,
+          "reason": "completed",
+          "iterations": 30,
+          "rejected": 0,
+          "numerical_failures": 0,
+          "history": [
+            {
+              "iteration": 0,
+              "gamma_search_mm": 2.0,
+              "canonical_loss": 0.23680582394075228,
+              "parts": {
+                "wire": 0.23680582394075228,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.010361848345245924,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 3,
+              "gamma_search_mm": 1.2415651648793167,
+              "canonical_loss": 0.22447116607313808,
+              "parts": {
+                "wire": 0.22447116607313808,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.010596621475413279,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 6,
+              "gamma_search_mm": 0.7707420293209023,
+              "canonical_loss": 0.21286154876787916,
+              "parts": {
+                "wire": 0.21286154876787916,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.010689768682333322,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 9,
+              "gamma_search_mm": 0.47846322735661256,
+              "canonical_loss": 0.20287059600408736,
+              "parts": {
+                "wire": 0.20287059600408736,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.01069498707661411,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 12,
+              "gamma_search_mm": 0.29702163788085134,
+              "canonical_loss": 0.1957081922800301,
+              "parts": {
+                "wire": 0.1957081922800301,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.010716589740242444,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 15,
+              "gamma_search_mm": 0.18438585940413185,
+              "canonical_loss": 0.1905603858884224,
+              "parts": {
+                "wire": 0.1905603858884224,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.01113608554964337,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 18,
+              "gamma_search_mm": 0.11446352996625277,
+              "canonical_loss": 0.18651010537726448,
+              "parts": {
+                "wire": 0.18651010537726448,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.010190428283954648,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 21,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.18422076291254552,
+              "parts": {
+                "wire": 0.18422076291254552,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.009328038242816,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 24,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.18285427134292612,
+              "parts": {
+                "wire": 0.18285427134292612,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.009274193691862932,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 27,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.18196630731400704,
+              "parts": {
+                "wire": 0.18196630731400704,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.009152119315936725,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 29,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.18149201477794963,
+              "parts": {
+                "wire": 0.18149201477794963,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.009043357093632723,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            }
+          ],
+          "final_loss": 0.18149201477794963,
+          "final_parts": {
+            "wire": 0.18149201477794963,
+            "compact": 0.0,
+            "anchor": 0.0,
+            "intent": 0.0,
+            "parent_compact": 0.0
+          },
+          "canonical_gamma_mm": 0.1,
+          "projection_calls": 31,
+          "distance_projection_cuts": 0,
+          "distance_inner_polygon_fallbacks": 0,
+          "graph": [
+            {
+              "a": "anchor:H1",
+              "b": "anchor:H2",
+              "axis": "x",
+              "direction": 1,
+              "distance": 2.202
+            },
+            {
+              "a": "anchor:H1",
+              "b": "anchor:JH",
+              "axis": "y",
+              "direction": 1,
+              "distance": 4.202
+            },
+            {
+              "a": "anchor:H1",
+              "b": "anchor:JL",
+              "axis": "x",
+              "direction": 1,
+              "distance": 3.202
+            },
+            {
+              "a": "anchor:H1",
+              "b": "anchor:ISO1",
+              "axis": "x",
+              "direction": 1,
+              "distance": 5.202
+            },
+            {
+              "a": "anchor:H1",
+              "b": "cluster:control",
+              "axis": "x",
+              "direction": 1,
+              "distance": 3.52300746142732
+            },
+            {
+              "a": "anchor:H1",
+              "b": "cluster:filter",
+              "axis": "x",
+              "direction": 1,
+              "distance": 2.302
+            },
+            {
+              "a": "anchor:H1",
+              "b": "cluster:sense",
+              "axis": "y",
+              "direction": 1,
+              "distance": 1.702
+            },
+            {
+              "a": "anchor:H1",
+              "b": "cluster:switch",
+              "axis": "y",
+              "direction": 1,
+              "distance": 2.702000000059974
+            },
+            {
+              "a": "anchor:H2",
+              "b": "anchor:JH",
+              "axis": "x",
+              "direction": -1,
+              "distance": 3.202
+            },
+            {
+              "a": "anchor:H2",
+              "b": "anchor:JL",
+              "axis": "y",
+              "direction": -1,
+              "distance": 4.202
+            },
+            {
+              "a": "anchor:H2",
+              "b": "anchor:ISO1",
+              "axis": "x",
+              "direction": -1,
+              "distance": 5.202
+            },
+            {
+              "a": "anchor:H2",
+              "b": "cluster:control",
+              "axis": "y",
+              "direction": -1,
+              "distance": 3.302999999999999
+            },
+            {
+              "a": "anchor:H2",
+              "b": "cluster:filter",
+              "axis": "y",
+              "direction": -1,
+              "distance": 1.702
+            },
+            {
+              "a": "anchor:H2",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": -1,
+              "distance": 2.302
+            },
+            {
+              "a": "anchor:H2",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 3.9859407231626975
+            },
+            {
+              "a": "anchor:JH",
+              "b": "anchor:JL",
+              "axis": "x",
+              "direction": 1,
+              "distance": 7.002
+            },
+            {
+              "a": "anchor:JH",
+              "b": "anchor:ISO1",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.202
+            },
+            {
+              "a": "anchor:JH",
+              "b": "cluster:control",
+              "axis": "x",
+              "direction": 1,
+              "distance": 7.32300746142732
+            },
+            {
+              "a": "anchor:JH",
+              "b": "cluster:filter",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.102
+            },
+            {
+              "a": "anchor:JH",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": 1,
+              "distance": 3.302
+            },
+            {
+              "a": "anchor:JH",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": 1,
+              "distance": 4.985940723162698
+            },
+            {
+              "a": "anchor:JL",
+              "b": "anchor:ISO1",
+              "axis": "x",
+              "direction": -1,
+              "distance": 6.202
+            },
+            {
+              "a": "anchor:JL",
+              "b": "cluster:control",
+              "axis": "x",
+              "direction": -1,
+              "distance": 4.52300746142732
+            },
+            {
+              "a": "anchor:JL",
+              "b": "cluster:filter",
+              "axis": "x",
+              "direction": -1,
+              "distance": 3.302
+            },
+            {
+              "a": "anchor:JL",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": -1,
+              "distance": 6.102
+            },
+            {
+              "a": "anchor:JL",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 7.785940723162697
+            },
+            {
+              "a": "anchor:ISO1",
+              "b": "cluster:control",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.52300746142732
+            },
+            {
+              "a": "anchor:ISO1",
+              "b": "cluster:filter",
+              "axis": "x",
+              "direction": 1,
+              "distance": 5.302
+            },
+            {
+              "a": "anchor:ISO1",
+              "b": "cluster:sense",
+              "axis": "y",
+              "direction": 1,
+              "distance": 2.702
+            },
+            {
+              "a": "anchor:ISO1",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 6.985940723162697
+            },
+            {
+              "a": "cluster:control",
+              "b": "cluster:filter",
+              "axis": "y",
+              "direction": -1,
+              "distance": 2.802999999999999
+            },
+            {
+              "a": "cluster:control",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": -1,
+              "distance": 6.42300746142732
+            },
+            {
+              "a": "cluster:control",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 8.106948184590017
+            },
+            {
+              "a": "cluster:filter",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": -1,
+              "distance": 5.202
+            },
+            {
+              "a": "cluster:filter",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 6.8859407231626975
+            },
+            {
+              "a": "cluster:sense",
+              "b": "cluster:switch",
+              "axis": "y",
+              "direction": -1,
+              "distance": 2.202000000059974
+            }
+          ],
+          "initial_violations": []
+        },
+        {
+          "attempt": 1,
+          "reason": "completed",
+          "iterations": 30,
+          "rejected": 0,
+          "numerical_failures": 0,
+          "history": [
+            {
+              "iteration": 0,
+              "gamma_search_mm": 2.0,
+              "canonical_loss": 0.25101306903151,
+              "parts": {
+                "wire": 0.25101306903151,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.010484722942356327,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 3,
+              "gamma_search_mm": 1.2415651648793167,
+              "canonical_loss": 0.23867709301689186,
+              "parts": {
+                "wire": 0.23867709301689186,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.01057987653848764,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 6,
+              "gamma_search_mm": 0.7707420293209023,
+              "canonical_loss": 0.2270433536723924,
+              "parts": {
+                "wire": 0.2270433536723924,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.010356342046605772,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 9,
+              "gamma_search_mm": 0.47846322735661256,
+              "canonical_loss": 0.21722085795776083,
+              "parts": {
+                "wire": 0.21722085795776083,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.010013678974500256,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 12,
+              "gamma_search_mm": 0.29702163788085134,
+              "canonical_loss": 0.21023333517529394,
+              "parts": {
+                "wire": 0.21023333517529394,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.009643284784195273,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 15,
+              "gamma_search_mm": 0.18438585940413185,
+              "canonical_loss": 0.20488906715780741,
+              "parts": {
+                "wire": 0.20488906715780741,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.009707196663799487,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 18,
+              "gamma_search_mm": 0.11446352996625277,
+              "canonical_loss": 0.20090518138300167,
+              "parts": {
+                "wire": 0.20090518138300167,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.009791279969827602,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 21,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.19817441991944507,
+              "parts": {
+                "wire": 0.19817441991944507,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.009730714119303248,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 24,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.19652405762407585,
+              "parts": {
+                "wire": 0.19652405762407585,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.009439985141070665,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 27,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.1955798698116649,
+              "parts": {
+                "wire": 0.1955798698116649,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.009248634796605011,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 29,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.1951063842378366,
+              "parts": {
+                "wire": 0.1951063842378366,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.009255025281631446,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            }
+          ],
+          "final_loss": 0.1951063842378366,
+          "final_parts": {
+            "wire": 0.1951063842378366,
+            "compact": 0.0,
+            "anchor": 0.0,
+            "intent": 0.0,
+            "parent_compact": 0.0
+          },
+          "canonical_gamma_mm": 0.1,
+          "projection_calls": 31,
+          "distance_projection_cuts": 0,
+          "distance_inner_polygon_fallbacks": 0,
+          "graph": [
+            {
+              "a": "anchor:H1",
+              "b": "anchor:H2",
+              "axis": "x",
+              "direction": 1,
+              "distance": 2.202
+            },
+            {
+              "a": "anchor:H1",
+              "b": "anchor:JH",
+              "axis": "y",
+              "direction": 1,
+              "distance": 4.202
+            },
+            {
+              "a": "anchor:H1",
+              "b": "anchor:JL",
+              "axis": "x",
+              "direction": 1,
+              "distance": 3.202
+            },
+            {
+              "a": "anchor:H1",
+              "b": "anchor:ISO1",
+              "axis": "x",
+              "direction": 1,
+              "distance": 5.202
+            },
+            {
+              "a": "anchor:H1",
+              "b": "cluster:control",
+              "axis": "x",
+              "direction": 1,
+              "distance": 4.363562631664113
+            },
+            {
+              "a": "anchor:H1",
+              "b": "cluster:filter",
+              "axis": "x",
+              "direction": 1,
+              "distance": 1.7020000000000002
+            },
+            {
+              "a": "anchor:H1",
+              "b": "cluster:sense",
+              "axis": "y",
+              "direction": 1,
+              "distance": 2.302
+            },
+            {
+              "a": "anchor:H1",
+              "b": "cluster:switch",
+              "axis": "y",
+              "direction": 1,
+              "distance": 3.5230074550813706
+            },
+            {
+              "a": "anchor:H2",
+              "b": "anchor:JH",
+              "axis": "x",
+              "direction": -1,
+              "distance": 3.202
+            },
+            {
+              "a": "anchor:H2",
+              "b": "anchor:JL",
+              "axis": "y",
+              "direction": -1,
+              "distance": 4.202
+            },
+            {
+              "a": "anchor:H2",
+              "b": "anchor:ISO1",
+              "axis": "x",
+              "direction": -1,
+              "distance": 5.202
+            },
+            {
+              "a": "anchor:H2",
+              "b": "cluster:control",
+              "axis": "y",
+              "direction": -1,
+              "distance": 3.302000000032542
+            },
+            {
+              "a": "anchor:H2",
+              "b": "cluster:filter",
+              "axis": "y",
+              "direction": -1,
+              "distance": 2.302
+            },
+            {
+              "a": "anchor:H2",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": -1,
+              "distance": 1.7020000000000002
+            },
+            {
+              "a": "anchor:H2",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 3.30299999807089
+            },
+            {
+              "a": "anchor:JH",
+              "b": "anchor:JL",
+              "axis": "x",
+              "direction": 1,
+              "distance": 7.002
+            },
+            {
+              "a": "anchor:JH",
+              "b": "anchor:ISO1",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.202
+            },
+            {
+              "a": "anchor:JH",
+              "b": "cluster:control",
+              "axis": "x",
+              "direction": 1,
+              "distance": 8.163562631664114
+            },
+            {
+              "a": "anchor:JH",
+              "b": "cluster:filter",
+              "axis": "x",
+              "direction": 1,
+              "distance": 5.502
+            },
+            {
+              "a": "anchor:JH",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": 1,
+              "distance": 2.702
+            },
+            {
+              "a": "anchor:JH",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": 1,
+              "distance": 4.302999998070891
+            },
+            {
+              "a": "anchor:JL",
+              "b": "anchor:ISO1",
+              "axis": "x",
+              "direction": -1,
+              "distance": 6.202
+            },
+            {
+              "a": "anchor:JL",
+              "b": "cluster:control",
+              "axis": "x",
+              "direction": -1,
+              "distance": 5.363562631664113
+            },
+            {
+              "a": "anchor:JL",
+              "b": "cluster:filter",
+              "axis": "x",
+              "direction": -1,
+              "distance": 2.702
+            },
+            {
+              "a": "anchor:JL",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": -1,
+              "distance": 5.502
+            },
+            {
+              "a": "anchor:JL",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 7.1029999980708896
+            },
+            {
+              "a": "anchor:ISO1",
+              "b": "cluster:control",
+              "axis": "x",
+              "direction": 1,
+              "distance": 7.363562631664113
+            },
+            {
+              "a": "anchor:ISO1",
+              "b": "cluster:filter",
+              "axis": "x",
+              "direction": 1,
+              "distance": 4.702
+            },
+            {
+              "a": "anchor:ISO1",
+              "b": "cluster:sense",
+              "axis": "y",
+              "direction": 1,
+              "distance": 3.302
+            },
+            {
+              "a": "anchor:ISO1",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 6.30299999807089
+            },
+            {
+              "a": "cluster:control",
+              "b": "cluster:filter",
+              "axis": "y",
+              "direction": -1,
+              "distance": 3.4020000000325425
+            },
+            {
+              "a": "cluster:control",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": -1,
+              "distance": 6.663562631664113
+            },
+            {
+              "a": "cluster:control",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 8.264562629735003
+            },
+            {
+              "a": "cluster:filter",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": -1,
+              "distance": 4.002000000000001
+            },
+            {
+              "a": "cluster:filter",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 5.60299999807089
+            },
+            {
+              "a": "cluster:sense",
+              "b": "cluster:switch",
+              "axis": "y",
+              "direction": -1,
+              "distance": 3.623007455081371
+            }
+          ],
+          "initial_violations": []
+        },
+        {
+          "attempt": 2,
+          "reason": "completed",
+          "iterations": 30,
+          "rejected": 0,
+          "numerical_failures": 0,
+          "history": [
+            {
+              "iteration": 0,
+              "gamma_search_mm": 2.0,
+              "canonical_loss": 0.2429527447274985,
+              "parts": {
+                "wire": 0.2429527447274985,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.011294115579988124,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 3,
+              "gamma_search_mm": 1.2415651648793167,
+              "canonical_loss": 0.22854918121712328,
+              "parts": {
+                "wire": 0.22854918121712328,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.011888800781169842,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 6,
+              "gamma_search_mm": 0.7707420293209023,
+              "canonical_loss": 0.2148946032774427,
+              "parts": {
+                "wire": 0.2148946032774427,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.012125712534769852,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 9,
+              "gamma_search_mm": 0.47846322735661256,
+              "canonical_loss": 0.20265122001608657,
+              "parts": {
+                "wire": 0.20265122001608657,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.012096309447838512,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 12,
+              "gamma_search_mm": 0.29702163788085134,
+              "canonical_loss": 0.19293098788903398,
+              "parts": {
+                "wire": 0.19293098788903398,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.011674372272960634,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 15,
+              "gamma_search_mm": 0.18438585940413185,
+              "canonical_loss": 0.1869719141938872,
+              "parts": {
+                "wire": 0.1869719141938872,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.01116087596570247,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 18,
+              "gamma_search_mm": 0.11446352996625277,
+              "canonical_loss": 0.1832554134114619,
+              "parts": {
+                "wire": 0.1832554134114619,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.011644863111593677,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 21,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.18041669520264916,
+              "parts": {
+                "wire": 0.18041669520264916,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.011721447373136493,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 24,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.17846034006447328,
+              "parts": {
+                "wire": 0.17846034006447328,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.01167949909165866,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 27,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.1771601600861061,
+              "parts": {
+                "wire": 0.1771601600861061,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.011590705570878228,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 29,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.1764609102710208,
+              "parts": {
+                "wire": 0.1764609102710208,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.011509508468457988,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            }
+          ],
+          "final_loss": 0.1764609102710208,
+          "final_parts": {
+            "wire": 0.1764609102710208,
+            "compact": 0.0,
+            "anchor": 0.0,
+            "intent": 0.0,
+            "parent_compact": 0.0
+          },
+          "canonical_gamma_mm": 0.1,
+          "projection_calls": 31,
+          "distance_projection_cuts": 0,
+          "distance_inner_polygon_fallbacks": 0,
+          "graph": [
+            {
+              "a": "anchor:H1",
+              "b": "anchor:H2",
+              "axis": "x",
+              "direction": 1,
+              "distance": 2.202
+            },
+            {
+              "a": "anchor:H1",
+              "b": "anchor:JH",
+              "axis": "y",
+              "direction": 1,
+              "distance": 4.202
+            },
+            {
+              "a": "anchor:H1",
+              "b": "anchor:JL",
+              "axis": "x",
+              "direction": 1,
+              "distance": 3.202
+            },
+            {
+              "a": "anchor:H1",
+              "b": "anchor:ISO1",
+              "axis": "x",
+              "direction": 1,
+              "distance": 5.202
+            },
+            {
+              "a": "anchor:H1",
+              "b": "cluster:control",
+              "axis": "x",
+              "direction": 1,
+              "distance": 3.4264963767118717
+            },
+            {
+              "a": "anchor:H1",
+              "b": "cluster:filter",
+              "axis": "x",
+              "direction": 1,
+              "distance": 1.702
+            },
+            {
+              "a": "anchor:H1",
+              "b": "cluster:sense",
+              "axis": "y",
+              "direction": 1,
+              "distance": 2.302
+            },
+            {
+              "a": "anchor:H1",
+              "b": "cluster:switch",
+              "axis": "y",
+              "direction": 1,
+              "distance": 3.302999999173725
+            },
+            {
+              "a": "anchor:H2",
+              "b": "anchor:JH",
+              "axis": "x",
+              "direction": -1,
+              "distance": 3.202
+            },
+            {
+              "a": "anchor:H2",
+              "b": "anchor:JL",
+              "axis": "y",
+              "direction": -1,
+              "distance": 4.202
+            },
+            {
+              "a": "anchor:H2",
+              "b": "anchor:ISO1",
+              "axis": "x",
+              "direction": -1,
+              "distance": 5.202
+            },
+            {
+              "a": "anchor:H2",
+              "b": "cluster:control",
+              "axis": "y",
+              "direction": -1,
+              "distance": 3.7970038042605125
+            },
+            {
+              "a": "anchor:H2",
+              "b": "cluster:filter",
+              "axis": "y",
+              "direction": -1,
+              "distance": 2.302
+            },
+            {
+              "a": "anchor:H2",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": -1,
+              "distance": 1.702
+            },
+            {
+              "a": "anchor:H2",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 4.254077392618407
+            },
+            {
+              "a": "anchor:JH",
+              "b": "anchor:JL",
+              "axis": "x",
+              "direction": 1,
+              "distance": 7.002
+            },
+            {
+              "a": "anchor:JH",
+              "b": "anchor:ISO1",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.202
+            },
+            {
+              "a": "anchor:JH",
+              "b": "cluster:control",
+              "axis": "x",
+              "direction": 1,
+              "distance": 7.2264963767118715
+            },
+            {
+              "a": "anchor:JH",
+              "b": "cluster:filter",
+              "axis": "x",
+              "direction": 1,
+              "distance": 5.502
+            },
+            {
+              "a": "anchor:JH",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": 1,
+              "distance": 2.7020000000000004
+            },
+            {
+              "a": "anchor:JH",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": 1,
+              "distance": 5.254077392618407
+            },
+            {
+              "a": "anchor:JL",
+              "b": "anchor:ISO1",
+              "axis": "x",
+              "direction": -1,
+              "distance": 6.202
+            },
+            {
+              "a": "anchor:JL",
+              "b": "cluster:control",
+              "axis": "x",
+              "direction": -1,
+              "distance": 4.426496376711871
+            },
+            {
+              "a": "anchor:JL",
+              "b": "cluster:filter",
+              "axis": "x",
+              "direction": -1,
+              "distance": 2.7020000000000004
+            },
+            {
+              "a": "anchor:JL",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": -1,
+              "distance": 5.502
+            },
+            {
+              "a": "anchor:JL",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 8.054077392618407
+            },
+            {
+              "a": "anchor:ISO1",
+              "b": "cluster:control",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.426496376711872
+            },
+            {
+              "a": "anchor:ISO1",
+              "b": "cluster:filter",
+              "axis": "x",
+              "direction": 1,
+              "distance": 4.702
+            },
+            {
+              "a": "anchor:ISO1",
+              "b": "cluster:sense",
+              "axis": "y",
+              "direction": 1,
+              "distance": 3.302
+            },
+            {
+              "a": "anchor:ISO1",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 7.254077392618407
+            },
+            {
+              "a": "cluster:control",
+              "b": "cluster:filter",
+              "axis": "y",
+              "direction": -1,
+              "distance": 3.897003804260513
+            },
+            {
+              "a": "cluster:control",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": -1,
+              "distance": 5.7264963767118715
+            },
+            {
+              "a": "cluster:control",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 8.27857376933028
+            },
+            {
+              "a": "cluster:filter",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": -1,
+              "distance": 4.002
+            },
+            {
+              "a": "cluster:filter",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 6.554077392618407
+            },
+            {
+              "a": "cluster:sense",
+              "b": "cluster:switch",
+              "axis": "y",
+              "direction": -1,
+              "distance": 3.4029999991737245
+            }
+          ],
+          "initial_violations": []
+        }
+      ],
+      "topology": "0:0:0.4"
+    },
+    {
+      "attempts": [
+        {
+          "attempt": 0,
+          "reason": "completed",
+          "iterations": 30,
+          "rejected": 0,
+          "numerical_failures": 0,
+          "history": [
+            {
+              "iteration": 0,
+              "gamma_search_mm": 2.0,
+              "canonical_loss": 0.26222726023420995,
+              "parts": {
+                "wire": 0.26222726023420995,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.010216996249507978,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 3,
+              "gamma_search_mm": 1.2415651648793167,
+              "canonical_loss": 0.25091210755497795,
+              "parts": {
+                "wire": 0.25091210755497795,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.010552488674880678,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 6,
+              "gamma_search_mm": 0.7707420293209023,
+              "canonical_loss": 0.24019052976740674,
+              "parts": {
+                "wire": 0.24019052976740674,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.010761509064319422,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 9,
+              "gamma_search_mm": 0.47846322735661256,
+              "canonical_loss": 0.2305706345702764,
+              "parts": {
+                "wire": 0.2305706345702764,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.010813268087867171,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 12,
+              "gamma_search_mm": 0.29702163788085134,
+              "canonical_loss": 0.22344157035067452,
+              "parts": {
+                "wire": 0.22344157035067452,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.010804885547443339,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 15,
+              "gamma_search_mm": 0.18438585940413185,
+              "canonical_loss": 0.21829659328158152,
+              "parts": {
+                "wire": 0.21829659328158152,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.011158146037508278,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 18,
+              "gamma_search_mm": 0.11446352996625277,
+              "canonical_loss": 0.21424690481685038,
+              "parts": {
+                "wire": 0.21424690481685038,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.010191988790121943,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 21,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.2119578025107297,
+              "parts": {
+                "wire": 0.2119578025107297,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.009328434422658495,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 24,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.21059143331645863,
+              "parts": {
+                "wire": 0.21059143331645863,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.009274485711750704,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 27,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.2097035381385792,
+              "parts": {
+                "wire": 0.2097035381385792,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.009152374039742214,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 29,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.20922927944107175,
+              "parts": {
+                "wire": 0.20922927944107175,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.009043600238756855,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            }
+          ],
+          "final_loss": 0.20922927944107175,
+          "final_parts": {
+            "wire": 0.20922927944107175,
+            "compact": 0.0,
+            "anchor": 0.0,
+            "intent": 0.0,
+            "parent_compact": 0.0
+          },
+          "canonical_gamma_mm": 0.1,
+          "projection_calls": 31,
+          "distance_projection_cuts": 0,
+          "distance_inner_polygon_fallbacks": 0,
+          "graph": [
+            {
+              "a": "anchor:H1",
+              "b": "anchor:H2",
+              "axis": "x",
+              "direction": 1,
+              "distance": 2.202
+            },
+            {
+              "a": "anchor:H1",
+              "b": "anchor:JH",
+              "axis": "y",
+              "direction": 1,
+              "distance": 4.202
+            },
+            {
+              "a": "anchor:H1",
+              "b": "anchor:JL",
+              "axis": "x",
+              "direction": 1,
+              "distance": 3.202
+            },
+            {
+              "a": "anchor:H1",
+              "b": "anchor:ISO1",
+              "axis": "x",
+              "direction": 1,
+              "distance": 5.202
+            },
+            {
+              "a": "anchor:H1",
+              "b": "cluster:control",
+              "axis": "x",
+              "direction": 1,
+              "distance": 3.52300746142732
+            },
+            {
+              "a": "anchor:H1",
+              "b": "cluster:filter",
+              "axis": "x",
+              "direction": 1,
+              "distance": 2.302
+            },
+            {
+              "a": "anchor:H1",
+              "b": "cluster:sense",
+              "axis": "y",
+              "direction": 1,
+              "distance": 1.702
+            },
+            {
+              "a": "anchor:H1",
+              "b": "cluster:switch",
+              "axis": "y",
+              "direction": 1,
+              "distance": 2.702000000059974
+            },
+            {
+              "a": "anchor:H2",
+              "b": "anchor:JH",
+              "axis": "x",
+              "direction": -1,
+              "distance": 3.202
+            },
+            {
+              "a": "anchor:H2",
+              "b": "anchor:JL",
+              "axis": "y",
+              "direction": -1,
+              "distance": 4.202
+            },
+            {
+              "a": "anchor:H2",
+              "b": "anchor:ISO1",
+              "axis": "x",
+              "direction": -1,
+              "distance": 5.202
+            },
+            {
+              "a": "anchor:H2",
+              "b": "cluster:control",
+              "axis": "y",
+              "direction": -1,
+              "distance": 3.302999999999999
+            },
+            {
+              "a": "anchor:H2",
+              "b": "cluster:filter",
+              "axis": "y",
+              "direction": -1,
+              "distance": 1.702
+            },
+            {
+              "a": "anchor:H2",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": -1,
+              "distance": 2.302
+            },
+            {
+              "a": "anchor:H2",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 3.9859407231626975
+            },
+            {
+              "a": "anchor:JH",
+              "b": "anchor:JL",
+              "axis": "x",
+              "direction": 1,
+              "distance": 7.002
+            },
+            {
+              "a": "anchor:JH",
+              "b": "anchor:ISO1",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.202
+            },
+            {
+              "a": "anchor:JH",
+              "b": "cluster:control",
+              "axis": "x",
+              "direction": 1,
+              "distance": 7.32300746142732
+            },
+            {
+              "a": "anchor:JH",
+              "b": "cluster:filter",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.102
+            },
+            {
+              "a": "anchor:JH",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": 1,
+              "distance": 3.302
+            },
+            {
+              "a": "anchor:JH",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": 1,
+              "distance": 4.985940723162698
+            },
+            {
+              "a": "anchor:JL",
+              "b": "anchor:ISO1",
+              "axis": "x",
+              "direction": -1,
+              "distance": 6.202
+            },
+            {
+              "a": "anchor:JL",
+              "b": "cluster:control",
+              "axis": "x",
+              "direction": -1,
+              "distance": 4.52300746142732
+            },
+            {
+              "a": "anchor:JL",
+              "b": "cluster:filter",
+              "axis": "y",
+              "direction": -1,
+              "distance": 3.702
+            },
+            {
+              "a": "anchor:JL",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": -1,
+              "distance": 6.102
+            },
+            {
+              "a": "anchor:JL",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 7.785940723162697
+            },
+            {
+              "a": "anchor:ISO1",
+              "b": "cluster:control",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.52300746142732
+            },
+            {
+              "a": "anchor:ISO1",
+              "b": "cluster:filter",
+              "axis": "x",
+              "direction": 1,
+              "distance": 5.302
+            },
+            {
+              "a": "anchor:ISO1",
+              "b": "cluster:sense",
+              "axis": "y",
+              "direction": 1,
+              "distance": 2.702
+            },
+            {
+              "a": "anchor:ISO1",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 6.985940723162697
+            },
+            {
+              "a": "cluster:control",
+              "b": "cluster:filter",
+              "axis": "y",
+              "direction": -1,
+              "distance": 2.802999999999999
+            },
+            {
+              "a": "cluster:control",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": -1,
+              "distance": 6.42300746142732
+            },
+            {
+              "a": "cluster:control",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 8.106948184590017
+            },
+            {
+              "a": "cluster:filter",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": -1,
+              "distance": 5.202
+            },
+            {
+              "a": "cluster:filter",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 6.8859407231626975
+            },
+            {
+              "a": "cluster:sense",
+              "b": "cluster:switch",
+              "axis": "y",
+              "direction": -1,
+              "distance": 2.202000000059974
+            }
+          ],
+          "initial_violations": []
+        },
+        {
+          "attempt": 1,
+          "reason": "completed",
+          "iterations": 30,
+          "rejected": 0,
+          "numerical_failures": 0,
+          "history": [
+            {
+              "iteration": 0,
+              "gamma_search_mm": 2.0,
+              "canonical_loss": 0.24854727378381553,
+              "parts": {
+                "wire": 0.24854727378381553,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.010862659125680367,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 3,
+              "gamma_search_mm": 1.2415651648793167,
+              "canonical_loss": 0.23517060030977827,
+              "parts": {
+                "wire": 0.23517060030977827,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.011488941319386064,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 6,
+              "gamma_search_mm": 0.7707420293209023,
+              "canonical_loss": 0.22248841827960658,
+              "parts": {
+                "wire": 0.22248841827960658,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.011771072743778352,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 9,
+              "gamma_search_mm": 0.47846322735661256,
+              "canonical_loss": 0.21128549138051833,
+              "parts": {
+                "wire": 0.21128549138051833,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.011831428204855938,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 12,
+              "gamma_search_mm": 0.29702163788085134,
+              "canonical_loss": 0.20357342117522717,
+              "parts": {
+                "wire": 0.20357342117522717,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.011948343696366406,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 15,
+              "gamma_search_mm": 0.18438585940413185,
+              "canonical_loss": 0.19710468478366713,
+              "parts": {
+                "wire": 0.19710468478366713,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.012093405804956934,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 18,
+              "gamma_search_mm": 0.11446352996625277,
+              "canonical_loss": 0.19218920633164074,
+              "parts": {
+                "wire": 0.19218920633164074,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.011698830589508227,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 21,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.18948685935969123,
+              "parts": {
+                "wire": 0.18948685935969123,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.011004317606339206,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 24,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.18806161031283583,
+              "parts": {
+                "wire": 0.18806161031283583,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.010994686205131271,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 27,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.1871600304655688,
+              "parts": {
+                "wire": 0.1871600304655688,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.011080459835034888,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 29,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.18664987697038676,
+              "parts": {
+                "wire": 0.18664987697038676,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.011108840837803472,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            }
+          ],
+          "final_loss": 0.18664987697038676,
+          "final_parts": {
+            "wire": 0.18664987697038676,
+            "compact": 0.0,
+            "anchor": 0.0,
+            "intent": 0.0,
+            "parent_compact": 0.0
+          },
+          "canonical_gamma_mm": 0.1,
+          "projection_calls": 31,
+          "distance_projection_cuts": 0,
+          "distance_inner_polygon_fallbacks": 0,
+          "graph": [
+            {
+              "a": "anchor:H1",
+              "b": "anchor:H2",
+              "axis": "x",
+              "direction": 1,
+              "distance": 2.202
+            },
+            {
+              "a": "anchor:H1",
+              "b": "anchor:JH",
+              "axis": "y",
+              "direction": 1,
+              "distance": 4.202
+            },
+            {
+              "a": "anchor:H1",
+              "b": "anchor:JL",
+              "axis": "x",
+              "direction": 1,
+              "distance": 3.202
+            },
+            {
+              "a": "anchor:H1",
+              "b": "anchor:ISO1",
+              "axis": "x",
+              "direction": 1,
+              "distance": 5.202
+            },
+            {
+              "a": "anchor:H1",
+              "b": "cluster:control",
+              "axis": "x",
+              "direction": 1,
+              "distance": 3.3020000000325425
+            },
+            {
+              "a": "anchor:H1",
+              "b": "cluster:filter",
+              "axis": "x",
+              "direction": 1,
+              "distance": 2.302
+            },
+            {
+              "a": "anchor:H1",
+              "b": "cluster:sense",
+              "axis": "y",
+              "direction": 1,
+              "distance": 2.302
+            },
+            {
+              "a": "anchor:H1",
+              "b": "cluster:switch",
+              "axis": "y",
+              "direction": 1,
+              "distance": 3.30299999807089
+            },
+            {
+              "a": "anchor:H2",
+              "b": "anchor:JH",
+              "axis": "x",
+              "direction": -1,
+              "distance": 3.202
+            },
+            {
+              "a": "anchor:H2",
+              "b": "anchor:JL",
+              "axis": "y",
+              "direction": -1,
+              "distance": 4.202
+            },
+            {
+              "a": "anchor:H2",
+              "b": "anchor:ISO1",
+              "axis": "x",
+              "direction": -1,
+              "distance": 5.202
+            },
+            {
+              "a": "anchor:H2",
+              "b": "cluster:control",
+              "axis": "y",
+              "direction": -1,
+              "distance": 4.363562631664112
+            },
+            {
+              "a": "anchor:H2",
+              "b": "cluster:filter",
+              "axis": "y",
+              "direction": -1,
+              "distance": 1.702
+            },
+            {
+              "a": "anchor:H2",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": -1,
+              "distance": 1.702
+            },
+            {
+              "a": "anchor:H2",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 3.5230074550813706
+            },
+            {
+              "a": "anchor:JH",
+              "b": "anchor:JL",
+              "axis": "x",
+              "direction": 1,
+              "distance": 7.002
+            },
+            {
+              "a": "anchor:JH",
+              "b": "anchor:ISO1",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.202
+            },
+            {
+              "a": "anchor:JH",
+              "b": "cluster:control",
+              "axis": "x",
+              "direction": 1,
+              "distance": 7.102000000032542
+            },
+            {
+              "a": "anchor:JH",
+              "b": "cluster:filter",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.102
+            },
+            {
+              "a": "anchor:JH",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": 1,
+              "distance": 2.702
+            },
+            {
+              "a": "anchor:JH",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": 1,
+              "distance": 4.523007455081371
+            },
+            {
+              "a": "anchor:JL",
+              "b": "anchor:ISO1",
+              "axis": "x",
+              "direction": -1,
+              "distance": 6.202
+            },
+            {
+              "a": "anchor:JL",
+              "b": "cluster:control",
+              "axis": "x",
+              "direction": -1,
+              "distance": 4.3020000000325425
+            },
+            {
+              "a": "anchor:JL",
+              "b": "cluster:filter",
+              "axis": "y",
+              "direction": -1,
+              "distance": 3.702
+            },
+            {
+              "a": "anchor:JL",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": -1,
+              "distance": 5.502
+            },
+            {
+              "a": "anchor:JL",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 7.32300745508137
+            },
+            {
+              "a": "anchor:ISO1",
+              "b": "cluster:control",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.3020000000325425
+            },
+            {
+              "a": "anchor:ISO1",
+              "b": "cluster:filter",
+              "axis": "x",
+              "direction": 1,
+              "distance": 5.302
+            },
+            {
+              "a": "anchor:ISO1",
+              "b": "cluster:sense",
+              "axis": "y",
+              "direction": 1,
+              "distance": 3.302
+            },
+            {
+              "a": "anchor:ISO1",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 6.523007455081371
+            },
+            {
+              "a": "cluster:control",
+              "b": "cluster:filter",
+              "axis": "y",
+              "direction": -1,
+              "distance": 3.8635626316641125
+            },
+            {
+              "a": "cluster:control",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": -1,
+              "distance": 5.602000000032542
+            },
+            {
+              "a": "cluster:control",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 7.423007455113913
+            },
+            {
+              "a": "cluster:filter",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": -1,
+              "distance": 4.602
+            },
+            {
+              "a": "cluster:filter",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 6.42300745508137
+            },
+            {
+              "a": "cluster:sense",
+              "b": "cluster:switch",
+              "axis": "y",
+              "direction": -1,
+              "distance": 3.4029999980708903
+            }
+          ],
+          "initial_violations": []
+        },
+        {
+          "attempt": 2,
+          "reason": "completed",
+          "iterations": 30,
+          "rejected": 0,
+          "numerical_failures": 0,
+          "history": [
+            {
+              "iteration": 0,
+              "gamma_search_mm": 2.0,
+              "canonical_loss": 0.28561443514938295,
+              "parts": {
+                "wire": 0.28561443514938295,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.011050344390931102,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 3,
+              "gamma_search_mm": 1.2415651648793167,
+              "canonical_loss": 0.2722448150182525,
+              "parts": {
+                "wire": 0.2722448150182525,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.011544610970396023,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 6,
+              "gamma_search_mm": 0.7707420293209023,
+              "canonical_loss": 0.2596854702485951,
+              "parts": {
+                "wire": 0.2596854702485951,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.011686249217795831,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 9,
+              "gamma_search_mm": 0.47846322735661256,
+              "canonical_loss": 0.24933491100035415,
+              "parts": {
+                "wire": 0.24933491100035415,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.01165273231706858,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 12,
+              "gamma_search_mm": 0.29702163788085134,
+              "canonical_loss": 0.24105981694131548,
+              "parts": {
+                "wire": 0.24105981694131548,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.011653182503578437,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 15,
+              "gamma_search_mm": 0.18438585940413185,
+              "canonical_loss": 0.23444856924461416,
+              "parts": {
+                "wire": 0.23444856924461416,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.011756896266914615,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 18,
+              "gamma_search_mm": 0.11446352996625277,
+              "canonical_loss": 0.22949752436969367,
+              "parts": {
+                "wire": 0.22949752436969367,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.011782821068179074,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 21,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.22606666796943264,
+              "parts": {
+                "wire": 0.22606666796943264,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.011775241270288717,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 24,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.22386911340752474,
+              "parts": {
+                "wire": 0.22386911340752474,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.011717776103428045,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 27,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.22248572536534159,
+              "parts": {
+                "wire": 0.22248572536534159,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.01159607693108126,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 29,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.22176632735220528,
+              "parts": {
+                "wire": 0.22176632735220528,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.011510047026738614,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            }
+          ],
+          "final_loss": 0.22176632735220528,
+          "final_parts": {
+            "wire": 0.22176632735220528,
+            "compact": 0.0,
+            "anchor": 0.0,
+            "intent": 0.0,
+            "parent_compact": 0.0
+          },
+          "canonical_gamma_mm": 0.1,
+          "projection_calls": 31,
+          "distance_projection_cuts": 0,
+          "distance_inner_polygon_fallbacks": 0,
+          "graph": [
+            {
+              "a": "anchor:H1",
+              "b": "anchor:H2",
+              "axis": "x",
+              "direction": 1,
+              "distance": 2.202
+            },
+            {
+              "a": "anchor:H1",
+              "b": "anchor:JH",
+              "axis": "y",
+              "direction": 1,
+              "distance": 4.202
+            },
+            {
+              "a": "anchor:H1",
+              "b": "anchor:JL",
+              "axis": "x",
+              "direction": 1,
+              "distance": 3.202
+            },
+            {
+              "a": "anchor:H1",
+              "b": "anchor:ISO1",
+              "axis": "x",
+              "direction": 1,
+              "distance": 5.202
+            },
+            {
+              "a": "anchor:H1",
+              "b": "cluster:control",
+              "axis": "x",
+              "direction": 1,
+              "distance": 3.52300746142732
+            },
+            {
+              "a": "anchor:H1",
+              "b": "cluster:filter",
+              "axis": "x",
+              "direction": 1,
+              "distance": 1.702
+            },
+            {
+              "a": "anchor:H1",
+              "b": "cluster:sense",
+              "axis": "y",
+              "direction": 1,
+              "distance": 2.302
+            },
+            {
+              "a": "anchor:H1",
+              "b": "cluster:switch",
+              "axis": "y",
+              "direction": 1,
+              "distance": 3.3020000006884804
+            },
+            {
+              "a": "anchor:H2",
+              "b": "anchor:JH",
+              "axis": "x",
+              "direction": -1,
+              "distance": 3.202
+            },
+            {
+              "a": "anchor:H2",
+              "b": "anchor:JL",
+              "axis": "y",
+              "direction": -1,
+              "distance": 4.202
+            },
+            {
+              "a": "anchor:H2",
+              "b": "anchor:ISO1",
+              "axis": "x",
+              "direction": -1,
+              "distance": 5.202
+            },
+            {
+              "a": "anchor:H2",
+              "b": "cluster:control",
+              "axis": "y",
+              "direction": -1,
+              "distance": 3.3029999999999995
+            },
+            {
+              "a": "anchor:H2",
+              "b": "cluster:filter",
+              "axis": "y",
+              "direction": -1,
+              "distance": 2.302
+            },
+            {
+              "a": "anchor:H2",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": -1,
+              "distance": 1.702
+            },
+            {
+              "a": "anchor:H2",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 3.7535560251739017
+            },
+            {
+              "a": "anchor:JH",
+              "b": "anchor:JL",
+              "axis": "x",
+              "direction": 1,
+              "distance": 7.002
+            },
+            {
+              "a": "anchor:JH",
+              "b": "anchor:ISO1",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.202
+            },
+            {
+              "a": "anchor:JH",
+              "b": "cluster:control",
+              "axis": "x",
+              "direction": 1,
+              "distance": 7.32300746142732
+            },
+            {
+              "a": "anchor:JH",
+              "b": "cluster:filter",
+              "axis": "x",
+              "direction": 1,
+              "distance": 5.502
+            },
+            {
+              "a": "anchor:JH",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": 1,
+              "distance": 2.702
+            },
+            {
+              "a": "anchor:JH",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": 1,
+              "distance": 4.753556025173902
+            },
+            {
+              "a": "anchor:JL",
+              "b": "anchor:ISO1",
+              "axis": "x",
+              "direction": -1,
+              "distance": 6.202
+            },
+            {
+              "a": "anchor:JL",
+              "b": "cluster:control",
+              "axis": "x",
+              "direction": -1,
+              "distance": 4.523007461427321
+            },
+            {
+              "a": "anchor:JL",
+              "b": "cluster:filter",
+              "axis": "y",
+              "direction": -1,
+              "distance": 4.302
+            },
+            {
+              "a": "anchor:JL",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": -1,
+              "distance": 5.502
+            },
+            {
+              "a": "anchor:JL",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 7.553556025173902
+            },
+            {
+              "a": "anchor:ISO1",
+              "b": "cluster:control",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.52300746142732
+            },
+            {
+              "a": "anchor:ISO1",
+              "b": "cluster:filter",
+              "axis": "x",
+              "direction": 1,
+              "distance": 4.702
+            },
+            {
+              "a": "anchor:ISO1",
+              "b": "cluster:sense",
+              "axis": "y",
+              "direction": 1,
+              "distance": 3.302
+            },
+            {
+              "a": "anchor:ISO1",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 6.753556025173902
+            },
+            {
+              "a": "cluster:control",
+              "b": "cluster:filter",
+              "axis": "y",
+              "direction": -1,
+              "distance": 3.402999999999999
+            },
+            {
+              "a": "cluster:control",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": -1,
+              "distance": 5.82300746142732
+            },
+            {
+              "a": "cluster:control",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 7.874563486601222
+            },
+            {
+              "a": "cluster:filter",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": -1,
+              "distance": 4.002
+            },
+            {
+              "a": "cluster:filter",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 6.053556025173902
+            },
+            {
+              "a": "cluster:sense",
+              "b": "cluster:switch",
+              "axis": "y",
+              "direction": -1,
+              "distance": 3.4020000006884805
+            }
+          ],
+          "initial_violations": []
+        }
+      ],
+      "topology": "0:0:0.4"
+    },
+    {
+      "attempts": [
+        {
+          "attempt": 0,
+          "reason": "completed",
+          "iterations": 30,
+          "rejected": 0,
+          "numerical_failures": 0,
+          "history": [
+            {
+              "iteration": 0,
+              "gamma_search_mm": 2.0,
+              "canonical_loss": 0.23680582409035347,
+              "parts": {
+                "wire": 0.23680582409035347,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.010218542509815683,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 3,
+              "gamma_search_mm": 1.2415651648793167,
+              "canonical_loss": 0.2244700605464055,
+              "parts": {
+                "wire": 0.2244700605464055,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.01051667188570477,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 6,
+              "gamma_search_mm": 0.7707420293209023,
+              "canonical_loss": 0.21285225995413704,
+              "parts": {
+                "wire": 0.21285225995413704,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.010671831463220495,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 9,
+              "gamma_search_mm": 0.47846322735661256,
+              "canonical_loss": 0.20284511814719217,
+              "parts": {
+                "wire": 0.20284511814719217,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.010694409243693623,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 12,
+              "gamma_search_mm": 0.29702163788085134,
+              "canonical_loss": 0.19565520526835245,
+              "parts": {
+                "wire": 0.19565520526835245,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.010714663410042133,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 15,
+              "gamma_search_mm": 0.18438585940413185,
+              "canonical_loss": 0.19049618992253814,
+              "parts": {
+                "wire": 0.19049618992253814,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.01113655003355679,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 18,
+              "gamma_search_mm": 0.11446352996625277,
+              "canonical_loss": 0.1864313987774795,
+              "parts": {
+                "wire": 0.1864313987774795,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.010198030863902278,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 21,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.18413082489312516,
+              "parts": {
+                "wire": 0.18413082489312516,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.009325050100941756,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 24,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.18276087272494362,
+              "parts": {
+                "wire": 0.18276087272494362,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.009267897862306711,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 27,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.1818740693472684,
+              "parts": {
+                "wire": 0.1818740693472684,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.009133842540352387,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 29,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.1814031524454896,
+              "parts": {
+                "wire": 0.1814031524454896,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.009010616960746514,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            }
+          ],
+          "final_loss": 0.1814031524454896,
+          "final_parts": {
+            "wire": 0.1814031524454896,
+            "compact": 0.0,
+            "anchor": 0.0,
+            "intent": 0.0,
+            "parent_compact": 0.0
+          },
+          "canonical_gamma_mm": 0.1,
+          "projection_calls": 31,
+          "distance_projection_cuts": 0,
+          "distance_inner_polygon_fallbacks": 0,
+          "graph": [
+            {
+              "a": "anchor:H1",
+              "b": "anchor:H2",
+              "axis": "x",
+              "direction": 1,
+              "distance": 2.202
+            },
+            {
+              "a": "anchor:H1",
+              "b": "anchor:JH",
+              "axis": "y",
+              "direction": 1,
+              "distance": 4.202
+            },
+            {
+              "a": "anchor:H1",
+              "b": "anchor:JL",
+              "axis": "x",
+              "direction": 1,
+              "distance": 3.202
+            },
+            {
+              "a": "anchor:H1",
+              "b": "anchor:ISO1",
+              "axis": "x",
+              "direction": 1,
+              "distance": 5.202
+            },
+            {
+              "a": "anchor:H1",
+              "b": "cluster:control",
+              "axis": "x",
+              "direction": 1,
+              "distance": 3.52300746142732
+            },
+            {
+              "a": "anchor:H1",
+              "b": "cluster:filter",
+              "axis": "x",
+              "direction": 1,
+              "distance": 2.302
+            },
+            {
+              "a": "anchor:H1",
+              "b": "cluster:sense",
+              "axis": "y",
+              "direction": 1,
+              "distance": 1.702
+            },
+            {
+              "a": "anchor:H1",
+              "b": "cluster:switch",
+              "axis": "y",
+              "direction": 1,
+              "distance": 2.702000000059974
+            },
+            {
+              "a": "anchor:H2",
+              "b": "anchor:JH",
+              "axis": "x",
+              "direction": -1,
+              "distance": 3.202
+            },
+            {
+              "a": "anchor:H2",
+              "b": "anchor:JL",
+              "axis": "y",
+              "direction": -1,
+              "distance": 4.202
+            },
+            {
+              "a": "anchor:H2",
+              "b": "anchor:ISO1",
+              "axis": "x",
+              "direction": -1,
+              "distance": 5.202
+            },
+            {
+              "a": "anchor:H2",
+              "b": "cluster:control",
+              "axis": "y",
+              "direction": -1,
+              "distance": 3.302999999999999
+            },
+            {
+              "a": "anchor:H2",
+              "b": "cluster:filter",
+              "axis": "y",
+              "direction": -1,
+              "distance": 1.702
+            },
+            {
+              "a": "anchor:H2",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": -1,
+              "distance": 2.302
+            },
+            {
+              "a": "anchor:H2",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 3.9859407231626975
+            },
+            {
+              "a": "anchor:JH",
+              "b": "anchor:JL",
+              "axis": "x",
+              "direction": 1,
+              "distance": 7.002
+            },
+            {
+              "a": "anchor:JH",
+              "b": "anchor:ISO1",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.202
+            },
+            {
+              "a": "anchor:JH",
+              "b": "cluster:control",
+              "axis": "x",
+              "direction": 1,
+              "distance": 7.32300746142732
+            },
+            {
+              "a": "anchor:JH",
+              "b": "cluster:filter",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.102
+            },
+            {
+              "a": "anchor:JH",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": 1,
+              "distance": 3.302
+            },
+            {
+              "a": "anchor:JH",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": 1,
+              "distance": 4.985940723162698
+            },
+            {
+              "a": "anchor:JL",
+              "b": "anchor:ISO1",
+              "axis": "x",
+              "direction": -1,
+              "distance": 6.202
+            },
+            {
+              "a": "anchor:JL",
+              "b": "cluster:control",
+              "axis": "x",
+              "direction": -1,
+              "distance": 4.52300746142732
+            },
+            {
+              "a": "anchor:JL",
+              "b": "cluster:filter",
+              "axis": "x",
+              "direction": -1,
+              "distance": 3.302
+            },
+            {
+              "a": "anchor:JL",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": -1,
+              "distance": 6.102
+            },
+            {
+              "a": "anchor:JL",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 7.785940723162697
+            },
+            {
+              "a": "anchor:ISO1",
+              "b": "cluster:control",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.52300746142732
+            },
+            {
+              "a": "anchor:ISO1",
+              "b": "cluster:filter",
+              "axis": "x",
+              "direction": 1,
+              "distance": 5.302
+            },
+            {
+              "a": "anchor:ISO1",
+              "b": "cluster:sense",
+              "axis": "y",
+              "direction": 1,
+              "distance": 2.702
+            },
+            {
+              "a": "anchor:ISO1",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 6.985940723162697
+            },
+            {
+              "a": "cluster:control",
+              "b": "cluster:filter",
+              "axis": "y",
+              "direction": -1,
+              "distance": 2.802999999999999
+            },
+            {
+              "a": "cluster:control",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": -1,
+              "distance": 6.42300746142732
+            },
+            {
+              "a": "cluster:control",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 8.106948184590017
+            },
+            {
+              "a": "cluster:filter",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": -1,
+              "distance": 5.202
+            },
+            {
+              "a": "cluster:filter",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 6.8859407231626975
+            },
+            {
+              "a": "cluster:sense",
+              "b": "cluster:switch",
+              "axis": "y",
+              "direction": -1,
+              "distance": 2.202000000059974
+            }
+          ],
+          "initial_violations": []
+        },
+        {
+          "attempt": 1,
+          "reason": "completed",
+          "iterations": 30,
+          "rejected": 0,
+          "numerical_failures": 0,
+          "history": [
+            {
+              "iteration": 0,
+              "gamma_search_mm": 2.0,
+              "canonical_loss": 0.2594000423727717,
+              "parts": {
+                "wire": 0.2594000423727717,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.01112607019264732,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 3,
+              "gamma_search_mm": 1.2415651648793167,
+              "canonical_loss": 0.24499905701092078,
+              "parts": {
+                "wire": 0.24499905701092078,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.011720018097958121,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 6,
+              "gamma_search_mm": 0.7707420293209023,
+              "canonical_loss": 0.23137350664406184,
+              "parts": {
+                "wire": 0.23137350664406184,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.011945450941790562,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 9,
+              "gamma_search_mm": 0.47846322735661256,
+              "canonical_loss": 0.21970251770583693,
+              "parts": {
+                "wire": 0.21970251770583693,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.011853771783497662,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 12,
+              "gamma_search_mm": 0.29702163788085134,
+              "canonical_loss": 0.21109741607507254,
+              "parts": {
+                "wire": 0.21109741607507254,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.011617786943573384,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 15,
+              "gamma_search_mm": 0.18438585940413185,
+              "canonical_loss": 0.20443546645573074,
+              "parts": {
+                "wire": 0.20443546645573074,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.011698408674631195,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 18,
+              "gamma_search_mm": 0.11446352996625277,
+              "canonical_loss": 0.19945538507694996,
+              "parts": {
+                "wire": 0.19945538507694996,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.011778177492773503,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 21,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.19600061282899045,
+              "parts": {
+                "wire": 0.19600061282899045,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.011780324230156111,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 24,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.1937684920144325,
+              "parts": {
+                "wire": 0.1937684920144325,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.011768272080203151,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 27,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.19232894655495336,
+              "parts": {
+                "wire": 0.19232894655495336,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.01173887159704944,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 29,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.1915591424340944,
+              "parts": {
+                "wire": 0.1915591424340944,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.011706864960489562,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            }
+          ],
+          "final_loss": 0.1915591424340944,
+          "final_parts": {
+            "wire": 0.1915591424340944,
+            "compact": 0.0,
+            "anchor": 0.0,
+            "intent": 0.0,
+            "parent_compact": 0.0
+          },
+          "canonical_gamma_mm": 0.1,
+          "projection_calls": 31,
+          "distance_projection_cuts": 0,
+          "distance_inner_polygon_fallbacks": 0,
+          "graph": [
+            {
+              "a": "anchor:H1",
+              "b": "anchor:H2",
+              "axis": "x",
+              "direction": 1,
+              "distance": 2.202
+            },
+            {
+              "a": "anchor:H1",
+              "b": "anchor:JH",
+              "axis": "y",
+              "direction": 1,
+              "distance": 4.202
+            },
+            {
+              "a": "anchor:H1",
+              "b": "anchor:JL",
+              "axis": "x",
+              "direction": 1,
+              "distance": 3.202
+            },
+            {
+              "a": "anchor:H1",
+              "b": "anchor:ISO1",
+              "axis": "x",
+              "direction": 1,
+              "distance": 5.202
+            },
+            {
+              "a": "anchor:H1",
+              "b": "cluster:control",
+              "axis": "x",
+              "direction": 1,
+              "distance": 4.363562631664113
+            },
+            {
+              "a": "anchor:H1",
+              "b": "cluster:filter",
+              "axis": "x",
+              "direction": 1,
+              "distance": 1.702
+            },
+            {
+              "a": "anchor:H1",
+              "b": "cluster:sense",
+              "axis": "y",
+              "direction": 1,
+              "distance": 2.302
+            },
+            {
+              "a": "anchor:H1",
+              "b": "cluster:switch",
+              "axis": "y",
+              "direction": 1,
+              "distance": 3.302999999173725
+            },
+            {
+              "a": "anchor:H2",
+              "b": "anchor:JH",
+              "axis": "x",
+              "direction": -1,
+              "distance": 3.202
+            },
+            {
+              "a": "anchor:H2",
+              "b": "anchor:JL",
+              "axis": "y",
+              "direction": -1,
+              "distance": 4.202
+            },
+            {
+              "a": "anchor:H2",
+              "b": "anchor:ISO1",
+              "axis": "x",
+              "direction": -1,
+              "distance": 5.202
+            },
+            {
+              "a": "anchor:H2",
+              "b": "cluster:control",
+              "axis": "y",
+              "direction": -1,
+              "distance": 3.302000000032542
+            },
+            {
+              "a": "anchor:H2",
+              "b": "cluster:filter",
+              "axis": "y",
+              "direction": -1,
+              "distance": 2.302
+            },
+            {
+              "a": "anchor:H2",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": -1,
+              "distance": 1.702
+            },
+            {
+              "a": "anchor:H2",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 4.254077392618407
+            },
+            {
+              "a": "anchor:JH",
+              "b": "anchor:JL",
+              "axis": "x",
+              "direction": 1,
+              "distance": 7.002
+            },
+            {
+              "a": "anchor:JH",
+              "b": "anchor:ISO1",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.202
+            },
+            {
+              "a": "anchor:JH",
+              "b": "cluster:control",
+              "axis": "x",
+              "direction": 1,
+              "distance": 8.163562631664114
+            },
+            {
+              "a": "anchor:JH",
+              "b": "cluster:filter",
+              "axis": "x",
+              "direction": 1,
+              "distance": 5.502
+            },
+            {
+              "a": "anchor:JH",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": 1,
+              "distance": 2.702
+            },
+            {
+              "a": "anchor:JH",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": 1,
+              "distance": 5.254077392618407
+            },
+            {
+              "a": "anchor:JL",
+              "b": "anchor:ISO1",
+              "axis": "x",
+              "direction": -1,
+              "distance": 6.202
+            },
+            {
+              "a": "anchor:JL",
+              "b": "cluster:control",
+              "axis": "x",
+              "direction": -1,
+              "distance": 5.363562631664113
+            },
+            {
+              "a": "anchor:JL",
+              "b": "cluster:filter",
+              "axis": "x",
+              "direction": -1,
+              "distance": 2.7020000000000004
+            },
+            {
+              "a": "anchor:JL",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": -1,
+              "distance": 5.502
+            },
+            {
+              "a": "anchor:JL",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 8.054077392618407
+            },
+            {
+              "a": "anchor:ISO1",
+              "b": "cluster:control",
+              "axis": "x",
+              "direction": 1,
+              "distance": 7.363562631664113
+            },
+            {
+              "a": "anchor:ISO1",
+              "b": "cluster:filter",
+              "axis": "x",
+              "direction": 1,
+              "distance": 4.702
+            },
+            {
+              "a": "anchor:ISO1",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": -1,
+              "distance": 4.702
+            },
+            {
+              "a": "anchor:ISO1",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 7.254077392618407
+            },
+            {
+              "a": "cluster:control",
+              "b": "cluster:filter",
+              "axis": "y",
+              "direction": -1,
+              "distance": 3.4020000000325425
+            },
+            {
+              "a": "cluster:control",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": -1,
+              "distance": 6.663562631664113
+            },
+            {
+              "a": "cluster:control",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 9.21564002428252
+            },
+            {
+              "a": "cluster:filter",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": -1,
+              "distance": 4.002
+            },
+            {
+              "a": "cluster:filter",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 6.554077392618407
+            },
+            {
+              "a": "cluster:sense",
+              "b": "cluster:switch",
+              "axis": "y",
+              "direction": -1,
+              "distance": 3.4029999991737245
+            }
+          ],
+          "initial_violations": []
+        },
+        {
+          "attempt": 2,
+          "reason": "completed",
+          "iterations": 30,
+          "rejected": 0,
+          "numerical_failures": 0,
+          "history": [
+            {
+              "iteration": 0,
+              "gamma_search_mm": 2.0,
+              "canonical_loss": 0.2623329030148586,
+              "parts": {
+                "wire": 0.2623329030148586,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.010289504067871148,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 3,
+              "gamma_search_mm": 1.2415651648793167,
+              "canonical_loss": 0.24999507806390536,
+              "parts": {
+                "wire": 0.24999507806390536,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.01072067812089137,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 6,
+              "gamma_search_mm": 0.7707420293209023,
+              "canonical_loss": 0.23831310581987902,
+              "parts": {
+                "wire": 0.23831310581987902,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.011000765304124232,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 9,
+              "gamma_search_mm": 0.47846322735661256,
+              "canonical_loss": 0.2277898139861854,
+              "parts": {
+                "wire": 0.2277898139861854,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.011155740360255146,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 12,
+              "gamma_search_mm": 0.29702163788085134,
+              "canonical_loss": 0.2188158141216622,
+              "parts": {
+                "wire": 0.2188158141216622,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.011173612990037739,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 15,
+              "gamma_search_mm": 0.18438585940413185,
+              "canonical_loss": 0.2116972394970255,
+              "parts": {
+                "wire": 0.2116972394970255,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.010974525029148065,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 18,
+              "gamma_search_mm": 0.11446352996625277,
+              "canonical_loss": 0.20669528799850073,
+              "parts": {
+                "wire": 0.20669528799850073,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.010337319241609447,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 21,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.20357574585660265,
+              "parts": {
+                "wire": 0.20357574585660265,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.009685684294704072,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 24,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.20174303533116061,
+              "parts": {
+                "wire": 0.20174303533116061,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.009402381339737642,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 27,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.20068271400469684,
+              "parts": {
+                "wire": 0.20068271400469684,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.009071741653475303,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            },
+            {
+              "iteration": 29,
+              "gamma_search_mm": 0.1,
+              "canonical_loss": 0.20017571823642524,
+              "parts": {
+                "wire": 0.20017571823642524,
+                "compact": 0.0,
+                "anchor": 0.0,
+                "intent": 0.0,
+                "parent_compact": 0.0
+              },
+              "gradient_norm_before_step": 0.00886654790327958,
+              "accepted": true,
+              "reference_length_mm": 72.11102550927978
+            }
+          ],
+          "final_loss": 0.20017571823642524,
+          "final_parts": {
+            "wire": 0.20017571823642524,
+            "compact": 0.0,
+            "anchor": 0.0,
+            "intent": 0.0,
+            "parent_compact": 0.0
+          },
+          "canonical_gamma_mm": 0.1,
+          "projection_calls": 31,
+          "distance_projection_cuts": 0,
+          "distance_inner_polygon_fallbacks": 0,
+          "graph": [
+            {
+              "a": "anchor:H1",
+              "b": "anchor:H2",
+              "axis": "x",
+              "direction": 1,
+              "distance": 2.202
+            },
+            {
+              "a": "anchor:H1",
+              "b": "anchor:JH",
+              "axis": "y",
+              "direction": 1,
+              "distance": 4.202
+            },
+            {
+              "a": "anchor:H1",
+              "b": "anchor:JL",
+              "axis": "x",
+              "direction": 1,
+              "distance": 3.202
+            },
+            {
+              "a": "anchor:H1",
+              "b": "anchor:ISO1",
+              "axis": "x",
+              "direction": 1,
+              "distance": 5.202
+            },
+            {
+              "a": "anchor:H1",
+              "b": "cluster:control",
+              "axis": "x",
+              "direction": 1,
+              "distance": 3.302000000032542
+            },
+            {
+              "a": "anchor:H1",
+              "b": "cluster:filter",
+              "axis": "x",
+              "direction": 1,
+              "distance": 2.302
+            },
+            {
+              "a": "anchor:H1",
+              "b": "cluster:sense",
+              "axis": "y",
+              "direction": 1,
+              "distance": 1.702
+            },
+            {
+              "a": "anchor:H1",
+              "b": "cluster:switch",
+              "axis": "y",
+              "direction": 1,
+              "distance": 2.702000000059974
+            },
+            {
+              "a": "anchor:H2",
+              "b": "anchor:JH",
+              "axis": "x",
+              "direction": -1,
+              "distance": 3.202
+            },
+            {
+              "a": "anchor:H2",
+              "b": "anchor:JL",
+              "axis": "y",
+              "direction": -1,
+              "distance": 4.202
+            },
+            {
+              "a": "anchor:H2",
+              "b": "anchor:ISO1",
+              "axis": "x",
+              "direction": -1,
+              "distance": 5.202
+            },
+            {
+              "a": "anchor:H2",
+              "b": "cluster:control",
+              "axis": "y",
+              "direction": -1,
+              "distance": 4.363562631664113
+            },
+            {
+              "a": "anchor:H2",
+              "b": "cluster:filter",
+              "axis": "y",
+              "direction": -1,
+              "distance": 1.702
+            },
+            {
+              "a": "anchor:H2",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": -1,
+              "distance": 2.302
+            },
+            {
+              "a": "anchor:H2",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 3.9859407231626975
+            },
+            {
+              "a": "anchor:JH",
+              "b": "anchor:JL",
+              "axis": "x",
+              "direction": 1,
+              "distance": 7.002
+            },
+            {
+              "a": "anchor:JH",
+              "b": "anchor:ISO1",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.202
+            },
+            {
+              "a": "anchor:JH",
+              "b": "cluster:control",
+              "axis": "x",
+              "direction": 1,
+              "distance": 7.102000000032542
+            },
+            {
+              "a": "anchor:JH",
+              "b": "cluster:filter",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.102
+            },
+            {
+              "a": "anchor:JH",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": 1,
+              "distance": 3.302
+            },
+            {
+              "a": "anchor:JH",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": 1,
+              "distance": 4.985940723162698
+            },
+            {
+              "a": "anchor:JL",
+              "b": "anchor:ISO1",
+              "axis": "x",
+              "direction": -1,
+              "distance": 6.202
+            },
+            {
+              "a": "anchor:JL",
+              "b": "cluster:control",
+              "axis": "x",
+              "direction": -1,
+              "distance": 4.3020000000325425
+            },
+            {
+              "a": "anchor:JL",
+              "b": "cluster:filter",
+              "axis": "x",
+              "direction": -1,
+              "distance": 3.302
+            },
+            {
+              "a": "anchor:JL",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": -1,
+              "distance": 6.102
+            },
+            {
+              "a": "anchor:JL",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 7.785940723162697
+            },
+            {
+              "a": "anchor:ISO1",
+              "b": "cluster:control",
+              "axis": "x",
+              "direction": 1,
+              "distance": 6.3020000000325425
+            },
+            {
+              "a": "anchor:ISO1",
+              "b": "cluster:filter",
+              "axis": "x",
+              "direction": 1,
+              "distance": 5.302
+            },
+            {
+              "a": "anchor:ISO1",
+              "b": "cluster:sense",
+              "axis": "y",
+              "direction": 1,
+              "distance": 2.702
+            },
+            {
+              "a": "anchor:ISO1",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 6.985940723162697
+            },
+            {
+              "a": "cluster:control",
+              "b": "cluster:filter",
+              "axis": "y",
+              "direction": -1,
+              "distance": 3.863562631664112
+            },
+            {
+              "a": "cluster:control",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": -1,
+              "distance": 6.202000000032542
+            },
+            {
+              "a": "cluster:control",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 7.885940723195239
+            },
+            {
+              "a": "cluster:filter",
+              "b": "cluster:sense",
+              "axis": "x",
+              "direction": -1,
+              "distance": 5.202
+            },
+            {
+              "a": "cluster:filter",
+              "b": "cluster:switch",
+              "axis": "x",
+              "direction": -1,
+              "distance": 6.8859407231626975
+            },
+            {
+              "a": "cluster:sense",
+              "b": "cluster:switch",
+              "axis": "y",
+              "direction": -1,
+              "distance": 2.202000000059974
+            }
+          ],
+          "initial_violations": []
+        }
+      ],
+      "topology": "0:0:0.5"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "VALIDATED",
+  "changes": [],
+  "native_editor_status": "PENDING",
+  "body_geometry": {
+    "C1": "explicit_override_mm",
+    "C2": "explicit_override_mm",
+    "H1": "explicit_override_mm",
+    "H2": "explicit_override_mm",
+    "ISO1": "explicit_override_mm",
+    "JH": "explicit_override_mm",
+    "JL": "explicit_override_mm",
+    "Q1": "explicit_override_mm",
+    "R1": "explicit_override_mm",
+    "R2": "explicit_override_mm",
+    "U1": "explicit_override_mm"
+  }
+}

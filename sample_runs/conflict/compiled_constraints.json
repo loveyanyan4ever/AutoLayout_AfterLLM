@@ -1,0 +1,412 @@
+{
+  "motions": {
+    "C1": "free",
+    "C2": "free",
+    "H1": "fixed_pose",
+    "H2": "fixed_pose",
+    "ISO1": "region_bounded",
+    "JH": "edge_slide",
+    "JL": "edge_slide",
+    "Q1": "region_bounded",
+    "R1": "free",
+    "R2": "free",
+    "U1": "free"
+  },
+  "angles": {
+    "C1": [
+      0.0,
+      90.0,
+      180.0,
+      270.0
+    ],
+    "C2": [
+      0.0,
+      90.0,
+      180.0,
+      270.0
+    ],
+    "H1": [
+      0.0
+    ],
+    "H2": [
+      0.0
+    ],
+    "ISO1": [
+      0.0,
+      90.0,
+      180.0,
+      270.0
+    ],
+    "JH": [
+      0.0
+    ],
+    "JL": [
+      0.0
+    ],
+    "Q1": [
+      0.0,
+      90.0,
+      180.0,
+      270.0
+    ],
+    "R1": [
+      0.0,
+      90.0,
+      180.0,
+      270.0
+    ],
+    "R2": [
+      0.0,
+      90.0,
+      180.0,
+      270.0
+    ],
+    "U1": [
+      0.0,
+      90.0,
+      180.0,
+      270.0
+    ]
+  },
+  "groups": {
+    "switch": [
+      "C1",
+      "Q1"
+    ],
+    "control": [
+      "C2",
+      "U1"
+    ],
+    "sense": [
+      "R1"
+    ],
+    "filter": [
+      "R2"
+    ]
+  },
+  "fixed": [
+    "H1",
+    "H2"
+  ],
+  "special": [
+    "ISO1",
+    "JH",
+    "JL"
+  ],
+  "pad_domains": [
+    [
+      [
+        "C1",
+        "passive_p1"
+      ],
+      "HV"
+    ],
+    [
+      [
+        "C1",
+        "passive_p2"
+      ],
+      "HV"
+    ],
+    [
+      [
+        "C2",
+        "passive_p1"
+      ],
+      "LV"
+    ],
+    [
+      [
+        "C2",
+        "passive_p2"
+      ],
+      "LV"
+    ],
+    [
+      [
+        "ISO1",
+        "bridge_p1"
+      ],
+      "HV"
+    ],
+    [
+      [
+        "ISO1",
+        "bridge_p2"
+      ],
+      "LV"
+    ],
+    [
+      [
+        "JH",
+        "connector_p1"
+      ],
+      "HV"
+    ],
+    [
+      [
+        "JL",
+        "connector_p1"
+      ],
+      "LV"
+    ],
+    [
+      [
+        "Q1",
+        "chip_p1"
+      ],
+      "HV"
+    ],
+    [
+      [
+        "Q1",
+        "chip_p2"
+      ],
+      "HV"
+    ],
+    [
+      [
+        "R1",
+        "passive_p1"
+      ],
+      "HV"
+    ],
+    [
+      [
+        "R1",
+        "passive_p2"
+      ],
+      "HV"
+    ],
+    [
+      [
+        "R2",
+        "passive_p1"
+      ],
+      "LV"
+    ],
+    [
+      [
+        "R2",
+        "passive_p2"
+      ],
+      "LV"
+    ],
+    [
+      [
+        "U1",
+        "chip_p1"
+      ],
+      "LV"
+    ],
+    [
+      [
+        "U1",
+        "chip_p2"
+      ],
+      "LV"
+    ]
+  ],
+  "estimated": false,
+  "reference_length_mm": 72.11102550927978,
+  "rules": {
+    "id": "synthetic-test-v1",
+    "basis": "Synthetic geometry test; not a safety standard",
+    "mechanical_gap_mm": 0.2,
+    "default_pad_clearance_mm": 0.15,
+    "domains": {
+      "HV": {
+        "kind": "electrical"
+      },
+      "LV": {
+        "kind": "electrical"
+      },
+      "MECHANICAL": {
+        "kind": "mechanical"
+      },
+      "BRIDGE": {
+        "kind": "bridge",
+        "between": [
+          "HV",
+          "LV"
+        ]
+      }
+    },
+    "isolation_pairs": [
+      {
+        "domains": [
+          "HV",
+          "LV"
+        ],
+        "copper_clearance_mm": 3.0,
+        "creepage_mm": 3.0,
+        "routing_reserve_mm": 0.4
+      }
+    ],
+    "creepage_evaluation": "external_required",
+    "unlock_source_locked": [],
+    "component_rules": {
+      "H1": {
+        "mode": "fixed_pose",
+        "pose": "source",
+        "conductive_class": "insulating"
+      },
+      "H2": {
+        "mode": "fixed_pose",
+        "pose": "source",
+        "conductive_class": "insulating"
+      },
+      "JH": {
+        "mode": "edge_slide",
+        "allowed_angles": [
+          0.0
+        ],
+        "allowed_edges": [
+          "left"
+        ],
+        "edge_segment_mm": [
+          8.0,
+          32.0
+        ],
+        "local_mating_point_mm": [
+          -2.0,
+          0.0
+        ],
+        "local_outward_vector": [
+          -1.0,
+          0.0
+        ],
+        "edge_offset_mm": 0.0,
+        "insertion_keepout": [
+          -2.0,
+          -3.0,
+          2.0,
+          3.0
+        ],
+        "allow_body_overhang": false
+      },
+      "JL": {
+        "mode": "edge_slide",
+        "allowed_angles": [
+          0.0
+        ],
+        "allowed_edges": [
+          "right"
+        ],
+        "edge_segment_mm": [
+          8.0,
+          32.0
+        ],
+        "local_mating_point_mm": [
+          2.0,
+          0.0
+        ],
+        "local_outward_vector": [
+          1.0,
+          0.0
+        ],
+        "edge_offset_mm": 0.0,
+        "insertion_keepout": [
+          -2.0,
+          -3.0,
+          2.0,
+          3.0
+        ],
+        "allow_body_overhang": false
+      },
+      "ISO1": {
+        "mode": "region_bounded",
+        "region_id": "isolation_interface",
+        "bridge_template": "iso",
+        "allowed_angles": [
+          0.0,
+          90.0,
+          180.0,
+          270.0
+        ]
+      },
+      "Q1": {
+        "allowed_angles": [
+          0.0,
+          90.0,
+          180.0,
+          270.0
+        ],
+        "mode": "region_bounded",
+        "region_id": "impossibly_small"
+      },
+      "C1": {
+        "allowed_angles": [
+          0.0,
+          90.0,
+          180.0,
+          270.0
+        ]
+      },
+      "R1": {
+        "allowed_angles": [
+          0.0,
+          90.0,
+          180.0,
+          270.0
+        ]
+      },
+      "U1": {
+        "allowed_angles": [
+          0.0,
+          90.0,
+          180.0,
+          270.0
+        ]
+      },
+      "C2": {
+        "allowed_angles": [
+          0.0,
+          90.0,
+          180.0,
+          270.0
+        ]
+      },
+      "R2": {
+        "allowed_angles": [
+          0.0,
+          90.0,
+          180.0,
+          270.0
+        ]
+      }
+    },
+    "bridge_templates": {
+      "iso": {
+        "pad_domains": {
+          "1": "HV",
+          "2": "LV"
+        },
+        "axis_local": [
+          1.0,
+          0.0
+        ],
+        "between": [
+          "HV",
+          "LV"
+        ],
+        "barrier_point_mm": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "obstacles": [],
+    "regions": {
+      "impossibly_small": [
+        10,
+        10,
+        10.1,
+        10.1
+      ]
+    },
+    "net_weights": {},
+    "distance_constraints": [],
+    "order_constraints": []
+  }
+}

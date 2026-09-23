@@ -1,0 +1,8 @@
+P0: 11 器件, 4 可动功能簇, 2 固定对象
+P1: 机械预布局与域拓扑 0:0:0.4 已生成
+A: control: 4 个内部合法形状
+A: filter: 4 个内部合法形状
+A: sense: 4 个内部合法形状
+A: switch: 4 个内部合法形状
+B: topology 0:0:0.4, candidates 3/3, feasible=False
+NO_FEASIBLE_FOUND: SEARCH_EXHAUSTED: 当前形状/分区/拓扑搜索未找到可行布局，未证明全问题无解

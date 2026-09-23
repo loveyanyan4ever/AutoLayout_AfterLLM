@@ -1,0 +1,942 @@
+{
+  "cluster_id": "filter",
+  "candidates": [
+    {
+      "cluster_id": "filter",
+      "id": "b14c30008108cf6e",
+      "members": [
+        {
+          "ref": "R2",
+          "x": 0.0,
+          "y": 0.0,
+          "angle": 0.0,
+          "layer": "top"
+        }
+      ],
+      "box": [
+        -1.1,
+        -0.5,
+        1.1,
+        0.5
+      ],
+      "internal_hpwl": 0.0,
+      "ports": [
+        [
+          "L_OUT",
+          "R2",
+          "passive_p1",
+          -0.8,
+          0.0
+        ],
+        [
+          "L_RETURN",
+          "R2",
+          "passive_p2",
+          0.8,
+          0.0
+        ]
+      ],
+      "seed": 0,
+      "stats": {
+        "origin": "source"
+      }
+    },
+    {
+      "cluster_id": "filter",
+      "id": "b757038bcbb9eda4",
+      "members": [
+        {
+          "ref": "R2",
+          "x": 0.0,
+          "y": -9.71445146547012e-17,
+          "angle": 90.0,
+          "layer": "top"
+        }
+      ],
+      "box": [
+        -0.5,
+        -1.1,
+        0.5000000000000001,
+        1.1
+      ],
+      "internal_hpwl": 0.0,
+      "ports": [
+        [
+          "L_OUT",
+          "R2",
+          "passive_p1",
+          -4.898587196589413e-17,
+          -0.8000000000000002
+        ],
+        [
+          "L_RETURN",
+          "R2",
+          "passive_p2",
+          4.898587196589413e-17,
+          0.7999999999999999
+        ]
+      ],
+      "seed": 1806674833,
+      "stats": {
+        "reason": "completed",
+        "iterations": 25,
+        "rejected": 0,
+        "numerical_failures": 0,
+        "history": [
+          {
+            "iteration": 0,
+            "gamma_search_mm": 2.0,
+            "canonical_loss": 0.8096549247602403,
+            "parts": {
+              "wire": 0.8096549247602403,
+              "compact": 0.0,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.026108806795955296,
+            "accepted": true,
+            "reference_length_mm": 20.144929431948423
+          },
+          {
+            "iteration": 3,
+            "gamma_search_mm": 1.124169814145998,
+            "canonical_loss": 0.8052499470887184,
+            "parts": {
+              "wire": 0.8052499470887184,
+              "compact": 0.0,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.027599928092376463,
+            "accepted": true,
+            "reference_length_mm": 20.144929431948423
+          },
+          {
+            "iteration": 6,
+            "gamma_search_mm": 0.6318788855185239,
+            "canonical_loss": 0.8047687784829844,
+            "parts": {
+              "wire": 0.8047687784829844,
+              "compact": 0.0,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.02892296800437264,
+            "accepted": true,
+            "reference_length_mm": 20.144929431948423
+          },
+          {
+            "iteration": 9,
+            "gamma_search_mm": 0.35516958464806964,
+            "canonical_loss": 0.804768778484242,
+            "parts": {
+              "wire": 0.804768778484242,
+              "compact": 0.0,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.029664338934047064,
+            "accepted": true,
+            "reference_length_mm": 20.144929431948423
+          },
+          {
+            "iteration": 12,
+            "gamma_search_mm": 0.1996354629820659,
+            "canonical_loss": 0.8047687784857479,
+            "parts": {
+              "wire": 0.8047687784857479,
+              "compact": 0.0,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.029878351049355167,
+            "accepted": true,
+            "reference_length_mm": 20.144929431948423
+          },
+          {
+            "iteration": 15,
+            "gamma_search_mm": 0.11221208065874963,
+            "canonical_loss": 0.8047687784872649,
+            "parts": {
+              "wire": 0.8047687784872649,
+              "compact": 0.0,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.029867490731280796,
+            "accepted": true,
+            "reference_length_mm": 20.144929431948423
+          },
+          {
+            "iteration": 18,
+            "gamma_search_mm": 0.1,
+            "canonical_loss": 0.8047687783759442,
+            "parts": {
+              "wire": 0.8047687783759442,
+              "compact": 0.0,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.02985821412380021,
+            "accepted": true,
+            "reference_length_mm": 20.144929431948423
+          },
+          {
+            "iteration": 21,
+            "gamma_search_mm": 0.1,
+            "canonical_loss": 0.8047687784241813,
+            "parts": {
+              "wire": 0.8047687784241813,
+              "compact": 0.0,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.029858214123800186,
+            "accepted": true,
+            "reference_length_mm": 20.144929431948423
+          },
+          {
+            "iteration": 24,
+            "gamma_search_mm": 0.1,
+            "canonical_loss": 0.8047687784411336,
+            "parts": {
+              "wire": 0.8047687784411336,
+              "compact": 0.0,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.029858214123800172,
+            "accepted": true,
+            "reference_length_mm": 20.144929431948423
+          }
+        ],
+        "final_loss": 0.8047687783299134,
+        "final_parts": {
+          "wire": 0.8047687783299134,
+          "compact": 0.0,
+          "anchor": 0.0,
+          "intent": 0.0,
+          "parent_compact": 0.0
+        },
+        "canonical_gamma_mm": 0.1,
+        "projection_calls": 26,
+        "distance_projection_cuts": 0,
+        "distance_inner_polygon_fallbacks": 0,
+        "graph": [
+          {
+            "a": "R2",
+            "b": "anchor:H1",
+            "axis": "x",
+            "direction": -1,
+            "distance": 1.702
+          },
+          {
+            "a": "R2",
+            "b": "anchor:H2",
+            "axis": "y",
+            "direction": 1,
+            "distance": 2.302
+          },
+          {
+            "a": "R2",
+            "b": "anchor:ISO1",
+            "axis": "x",
+            "direction": -1,
+            "distance": 4.702
+          },
+          {
+            "a": "R2",
+            "b": "anchor:JH",
+            "axis": "x",
+            "direction": -1,
+            "distance": 5.502
+          },
+          {
+            "a": "R2",
+            "b": "anchor:JL",
+            "axis": "y",
+            "direction": 1,
+            "distance": 4.302
+          },
+          {
+            "a": "anchor:H1",
+            "b": "anchor:H2",
+            "axis": "x",
+            "direction": 1,
+            "distance": 2.202
+          },
+          {
+            "a": "anchor:H1",
+            "b": "anchor:ISO1",
+            "axis": "x",
+            "direction": 1,
+            "distance": 5.202
+          },
+          {
+            "a": "anchor:H1",
+            "b": "anchor:JH",
+            "axis": "y",
+            "direction": 1,
+            "distance": 4.202
+          },
+          {
+            "a": "anchor:H1",
+            "b": "anchor:JL",
+            "axis": "x",
+            "direction": 1,
+            "distance": 3.202
+          },
+          {
+            "a": "anchor:H2",
+            "b": "anchor:ISO1",
+            "axis": "x",
+            "direction": -1,
+            "distance": 5.202
+          },
+          {
+            "a": "anchor:H2",
+            "b": "anchor:JH",
+            "axis": "x",
+            "direction": -1,
+            "distance": 3.202
+          },
+          {
+            "a": "anchor:H2",
+            "b": "anchor:JL",
+            "axis": "y",
+            "direction": -1,
+            "distance": 4.202
+          },
+          {
+            "a": "anchor:ISO1",
+            "b": "anchor:JH",
+            "axis": "x",
+            "direction": -1,
+            "distance": 6.202
+          },
+          {
+            "a": "anchor:ISO1",
+            "b": "anchor:JL",
+            "axis": "x",
+            "direction": 1,
+            "distance": 6.202
+          },
+          {
+            "a": "anchor:JH",
+            "b": "anchor:JL",
+            "axis": "x",
+            "direction": 1,
+            "distance": 7.002
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": "filter",
+      "id": "beb305846881fa69",
+      "members": [
+        {
+          "ref": "R2",
+          "x": 3.903127820947816e-17,
+          "y": -1.1102230246251565e-16,
+          "angle": 0.0,
+          "layer": "top"
+        }
+      ],
+      "box": [
+        -1.1,
+        -0.5000000000000001,
+        1.1,
+        0.5
+      ],
+      "internal_hpwl": 0.0,
+      "ports": [
+        [
+          "L_OUT",
+          "R2",
+          "passive_p1",
+          -0.8,
+          -1.1102230246251565e-16
+        ],
+        [
+          "L_RETURN",
+          "R2",
+          "passive_p2",
+          0.8,
+          -1.1102230246251565e-16
+        ]
+      ],
+      "seed": 2648927199,
+      "stats": {
+        "reason": "completed",
+        "iterations": 25,
+        "rejected": 0,
+        "numerical_failures": 0,
+        "history": [
+          {
+            "iteration": 0,
+            "gamma_search_mm": 2.0,
+            "canonical_loss": 0.8169253410529232,
+            "parts": {
+              "wire": 0.8169253410529232,
+              "compact": 0.0,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.026274591128396876,
+            "accepted": true,
+            "reference_length_mm": 20.144929431948423
+          },
+          {
+            "iteration": 3,
+            "gamma_search_mm": 1.124169814145998,
+            "canonical_loss": 0.8081450192793334,
+            "parts": {
+              "wire": 0.8081450192793334,
+              "compact": 0.0,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.0279182983402466,
+            "accepted": true,
+            "reference_length_mm": 20.144929431948423
+          },
+          {
+            "iteration": 6,
+            "gamma_search_mm": 0.6318788855185239,
+            "canonical_loss": 0.8027177560214889,
+            "parts": {
+              "wire": 0.8027177560214889,
+              "compact": 0.0,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.029040619865414306,
+            "accepted": true,
+            "reference_length_mm": 20.144929431948423
+          },
+          {
+            "iteration": 9,
+            "gamma_search_mm": 0.35516958464806964,
+            "canonical_loss": 0.8027177560227563,
+            "parts": {
+              "wire": 0.8027177560227563,
+              "compact": 0.0,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.029670754079754034,
+            "accepted": true,
+            "reference_length_mm": 20.144929431948423
+          },
+          {
+            "iteration": 12,
+            "gamma_search_mm": 0.1996354629820659,
+            "canonical_loss": 0.802717756024264,
+            "parts": {
+              "wire": 0.802717756024264,
+              "compact": 0.0,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.029878380704608173,
+            "accepted": true,
+            "reference_length_mm": 20.144929431948423
+          },
+          {
+            "iteration": 15,
+            "gamma_search_mm": 0.11221208065874963,
+            "canonical_loss": 0.8027177560257772,
+            "parts": {
+              "wire": 0.8027177560257772,
+              "compact": 0.0,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.029867490733308303,
+            "accepted": true,
+            "reference_length_mm": 20.144929431948423
+          },
+          {
+            "iteration": 18,
+            "gamma_search_mm": 0.1,
+            "canonical_loss": 0.8027177559149338,
+            "parts": {
+              "wire": 0.8027177559149338,
+              "compact": 0.0,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.029858214123939995,
+            "accepted": true,
+            "reference_length_mm": 20.144929431948423
+          },
+          {
+            "iteration": 21,
+            "gamma_search_mm": 0.1,
+            "canonical_loss": 0.8027177559629659,
+            "parts": {
+              "wire": 0.8027177559629659,
+              "compact": 0.0,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.029858214123939956,
+            "accepted": true,
+            "reference_length_mm": 20.144929431948423
+          },
+          {
+            "iteration": 24,
+            "gamma_search_mm": 0.1,
+            "canonical_loss": 0.8027177559798416,
+            "parts": {
+              "wire": 0.8027177559798416,
+              "compact": 0.0,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.029858214123939936,
+            "accepted": true,
+            "reference_length_mm": 20.144929431948423
+          }
+        ],
+        "final_loss": 0.8027177558690795,
+        "final_parts": {
+          "wire": 0.8027177558690795,
+          "compact": 0.0,
+          "anchor": 0.0,
+          "intent": 0.0,
+          "parent_compact": 0.0
+        },
+        "canonical_gamma_mm": 0.1,
+        "projection_calls": 26,
+        "distance_projection_cuts": 0,
+        "distance_inner_polygon_fallbacks": 0,
+        "graph": [
+          {
+            "a": "R2",
+            "b": "anchor:H1",
+            "axis": "x",
+            "direction": -1,
+            "distance": 2.302
+          },
+          {
+            "a": "R2",
+            "b": "anchor:H2",
+            "axis": "y",
+            "direction": 1,
+            "distance": 1.702
+          },
+          {
+            "a": "R2",
+            "b": "anchor:ISO1",
+            "axis": "x",
+            "direction": -1,
+            "distance": 5.302
+          },
+          {
+            "a": "R2",
+            "b": "anchor:JH",
+            "axis": "x",
+            "direction": -1,
+            "distance": 6.102
+          },
+          {
+            "a": "R2",
+            "b": "anchor:JL",
+            "axis": "y",
+            "direction": 1,
+            "distance": 3.702
+          },
+          {
+            "a": "anchor:H1",
+            "b": "anchor:H2",
+            "axis": "x",
+            "direction": 1,
+            "distance": 2.202
+          },
+          {
+            "a": "anchor:H1",
+            "b": "anchor:ISO1",
+            "axis": "x",
+            "direction": 1,
+            "distance": 5.202
+          },
+          {
+            "a": "anchor:H1",
+            "b": "anchor:JH",
+            "axis": "y",
+            "direction": 1,
+            "distance": 4.202
+          },
+          {
+            "a": "anchor:H1",
+            "b": "anchor:JL",
+            "axis": "x",
+            "direction": 1,
+            "distance": 3.202
+          },
+          {
+            "a": "anchor:H2",
+            "b": "anchor:ISO1",
+            "axis": "x",
+            "direction": -1,
+            "distance": 5.202
+          },
+          {
+            "a": "anchor:H2",
+            "b": "anchor:JH",
+            "axis": "x",
+            "direction": -1,
+            "distance": 3.202
+          },
+          {
+            "a": "anchor:H2",
+            "b": "anchor:JL",
+            "axis": "y",
+            "direction": -1,
+            "distance": 4.202
+          },
+          {
+            "a": "anchor:ISO1",
+            "b": "anchor:JH",
+            "axis": "x",
+            "direction": -1,
+            "distance": 6.202
+          },
+          {
+            "a": "anchor:ISO1",
+            "b": "anchor:JL",
+            "axis": "x",
+            "direction": 1,
+            "distance": 6.202
+          },
+          {
+            "a": "anchor:JH",
+            "b": "anchor:JL",
+            "axis": "x",
+            "direction": 1,
+            "distance": 7.002
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": "filter",
+      "id": "a18e69a8aae2276b",
+      "members": [
+        {
+          "ref": "R2",
+          "x": 0.0,
+          "y": 6.938893903907228e-17,
+          "angle": 90.0,
+          "layer": "top"
+        }
+      ],
+      "box": [
+        -0.5000000000000002,
+        -1.1,
+        0.5000000000000001,
+        1.1
+      ],
+      "internal_hpwl": 0.0,
+      "ports": [
+        [
+          "L_OUT",
+          "R2",
+          "passive_p1",
+          -4.898587196589413e-17,
+          -0.7999999999999999
+        ],
+        [
+          "L_RETURN",
+          "R2",
+          "passive_p2",
+          4.898587196589413e-17,
+          0.8000000000000002
+        ]
+      ],
+      "seed": 1643995641,
+      "stats": {
+        "reason": "completed",
+        "iterations": 25,
+        "rejected": 0,
+        "numerical_failures": 0,
+        "history": [
+          {
+            "iteration": 0,
+            "gamma_search_mm": 2.0,
+            "canonical_loss": 0.8104522491121713,
+            "parts": {
+              "wire": 0.8104522491121713,
+              "compact": 0.0,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.026108806795955296,
+            "accepted": true,
+            "reference_length_mm": 20.144929431948423
+          },
+          {
+            "iteration": 3,
+            "gamma_search_mm": 1.124169814145998,
+            "canonical_loss": 0.8060472714423303,
+            "parts": {
+              "wire": 0.8060472714423303,
+              "compact": 0.0,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.02760012061744975,
+            "accepted": true,
+            "reference_length_mm": 20.144929431948423
+          },
+          {
+            "iteration": 6,
+            "gamma_search_mm": 0.6318788855185239,
+            "canonical_loss": 0.8019453680761567,
+            "parts": {
+              "wire": 0.8019453680761567,
+              "compact": 0.0,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.02886474986351812,
+            "accepted": true,
+            "reference_length_mm": 20.144929431948423
+          },
+          {
+            "iteration": 9,
+            "gamma_search_mm": 0.35516958464806964,
+            "canonical_loss": 0.8008609529495104,
+            "parts": {
+              "wire": 0.8008609529495104,
+              "compact": 0.0,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.02964604468782935,
+            "accepted": true,
+            "reference_length_mm": 20.144929431948423
+          },
+          {
+            "iteration": 12,
+            "gamma_search_mm": 0.1996354629820659,
+            "canonical_loss": 0.8008609529510154,
+            "parts": {
+              "wire": 0.8008609529510154,
+              "compact": 0.0,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.029878061922361893,
+            "accepted": true,
+            "reference_length_mm": 20.144929431948423
+          },
+          {
+            "iteration": 15,
+            "gamma_search_mm": 0.11221208065874963,
+            "canonical_loss": 0.8008609529525315,
+            "parts": {
+              "wire": 0.8008609529525315,
+              "compact": 0.0,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.02986749059489053,
+            "accepted": true,
+            "reference_length_mm": 20.144929431948423
+          },
+          {
+            "iteration": 18,
+            "gamma_search_mm": 0.1,
+            "canonical_loss": 0.8008609528411629,
+            "parts": {
+              "wire": 0.8008609528411629,
+              "compact": 0.0,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.02985821410795773,
+            "accepted": true,
+            "reference_length_mm": 20.144929431948423
+          },
+          {
+            "iteration": 21,
+            "gamma_search_mm": 0.1,
+            "canonical_loss": 0.8008609528894166,
+            "parts": {
+              "wire": 0.8008609528894166,
+              "compact": 0.0,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.029858214107957696,
+            "accepted": true,
+            "reference_length_mm": 20.144929431948423
+          },
+          {
+            "iteration": 24,
+            "gamma_search_mm": 0.1,
+            "canonical_loss": 0.8008609529063767,
+            "parts": {
+              "wire": 0.8008609529063767,
+              "compact": 0.0,
+              "anchor": 0.0,
+              "intent": 0.0,
+              "parent_compact": 0.0
+            },
+            "gradient_norm_before_step": 0.029858214107957675,
+            "accepted": true,
+            "reference_length_mm": 20.144929431948423
+          }
+        ],
+        "final_loss": 0.8008609527951208,
+        "final_parts": {
+          "wire": 0.8008609527951208,
+          "compact": 0.0,
+          "anchor": 0.0,
+          "intent": 0.0,
+          "parent_compact": 0.0
+        },
+        "canonical_gamma_mm": 0.1,
+        "projection_calls": 26,
+        "distance_projection_cuts": 0,
+        "distance_inner_polygon_fallbacks": 0,
+        "graph": [
+          {
+            "a": "R2",
+            "b": "anchor:H1",
+            "axis": "x",
+            "direction": -1,
+            "distance": 1.702
+          },
+          {
+            "a": "R2",
+            "b": "anchor:H2",
+            "axis": "y",
+            "direction": 1,
+            "distance": 2.302
+          },
+          {
+            "a": "R2",
+            "b": "anchor:ISO1",
+            "axis": "x",
+            "direction": -1,
+            "distance": 4.702
+          },
+          {
+            "a": "R2",
+            "b": "anchor:JH",
+            "axis": "x",
+            "direction": -1,
+            "distance": 5.502
+          },
+          {
+            "a": "R2",
+            "b": "anchor:JL",
+            "axis": "y",
+            "direction": 1,
+            "distance": 4.302
+          },
+          {
+            "a": "anchor:H1",
+            "b": "anchor:H2",
+            "axis": "x",
+            "direction": 1,
+            "distance": 2.202
+          },
+          {
+            "a": "anchor:H1",
+            "b": "anchor:ISO1",
+            "axis": "x",
+            "direction": 1,
+            "distance": 5.202
+          },
+          {
+            "a": "anchor:H1",
+            "b": "anchor:JH",
+            "axis": "y",
+            "direction": 1,
+            "distance": 4.202
+          },
+          {
+            "a": "anchor:H1",
+            "b": "anchor:JL",
+            "axis": "x",
+            "direction": 1,
+            "distance": 3.202
+          },
+          {
+            "a": "anchor:H2",
+            "b": "anchor:ISO1",
+            "axis": "x",
+            "direction": -1,
+            "distance": 5.202
+          },
+          {
+            "a": "anchor:H2",
+            "b": "anchor:JH",
+            "axis": "x",
+            "direction": -1,
+            "distance": 3.202
+          },
+          {
+            "a": "anchor:H2",
+            "b": "anchor:JL",
+            "axis": "y",
+            "direction": -1,
+            "distance": 4.202
+          },
+          {
+            "a": "anchor:ISO1",
+            "b": "anchor:JH",
+            "axis": "x",
+            "direction": -1,
+            "distance": 6.202
+          },
+          {
+            "a": "anchor:ISO1",
+            "b": "anchor:JL",
+            "axis": "x",
+            "direction": 1,
+            "distance": 6.202
+          },
+          {
+            "a": "anchor:JH",
+            "b": "anchor:JL",
+            "axis": "x",
+            "direction": 1,
+            "distance": 7.002
+          }
+        ]
+      }
+    }
+  ]
+}

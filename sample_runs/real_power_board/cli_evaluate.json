@@ -1,0 +1,23 @@
+{
+  "status": "FEASIBLE",
+  "metrics": {
+    "hpwl_weighted_mm": 1462.1801839395443,
+    "hpwl_mm": 1462.1801839395443,
+    "intent_penalty": 0.0,
+    "cluster_extent_area_mm2": 2601.5538027361495,
+    "parent_extent_area_mm2": 3802.626285520944,
+    "board_area_mm2": 5341.992940834562,
+    "displacement_squared_mm2": 832416.1776855165,
+    "rotation_changes": 0,
+    "components": 103,
+    "clusters": 12
+  },
+  "validation": {
+    "violations": [],
+    "min_copper_distance_mm": null,
+    "creepage_status": "NOT_EVALUATED",
+    "safety_signoff": "NOT_PERFORMED",
+    "model_feasible": true,
+    "placement_rule_status": "PASSED"
+  }
+}

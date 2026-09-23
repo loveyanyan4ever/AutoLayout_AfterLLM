@@ -1,0 +1,698 @@
+{
+  "schema_version": 1,
+  "input": {
+    "project": "inputs/source.epro2",
+    "board_id": "2a21e239da271e7b",
+    "voltage_domains": "inputs/voltage_domains.csv",
+    "functional_clusters": "inputs/functional_clusters.csv",
+    "source_unit": "mil",
+    "adapter": "easyeda_pro_v3"
+  },
+  "board": {
+    "mode": "estimated",
+    "replace_existing_outline": false,
+    "estimated": {
+      "target_utilization": 0.45,
+      "aspect_candidates": [
+        1.333333333333,
+        1.6,
+        1.0
+      ],
+      "max_width_mm": 300.0,
+      "max_height_mm": 250.0,
+      "min_width_mm": 80.0,
+      "min_height_mm": 60.0,
+      "growth_factor": 1.25,
+      "shrink_factor": 0.92,
+      "size_trials": 8
+    }
+  },
+  "geometry": {
+    "unsupported_policy": "error",
+    "missing_body_policy": "error",
+    "epsilon_mm": 1e-06,
+    "output_grid_mm": 0.001,
+    "solve_margin_mm": 0.003,
+    "side_policy": "single_side",
+    "body_overrides": {
+      "ab13ac9220710194": [
+        -4.0,
+        -4.0,
+        4.0,
+        4.0
+      ],
+      "a939a2d556d9b1f3": [
+        -0.35,
+        -0.35,
+        0.35,
+        0.35
+      ]
+    },
+    "source_body_policy": "source_courtyard_or_assembly",
+    "polygon_path_frame": "conservative_union",
+    "approved_pad_envelopes": [],
+    "pad_envelope_margin_mm": 0.0
+  },
+  "rules": {
+    "id": "digital_power_board_research_v02",
+    "basis": "User-authorized research defaults: L2 is common-ground functional hierarchy; no certified HV/LV isolation partition supplied. Source layer48 bodies; M3 8x8mm assembly envelope and bare testpoint 0.7x0.7mm access envelope are explicit assumptions. Mechanical gap0.30mm and different-net copper gap0.25mm are research placement defaults, not a standards certification. Corners/edge bands are heuristic placement; connector source angle0 preserved. All real-board components retain their original source angle (0 deg); native editor validation of nonzero rotation mapping has not been performed. This run optimizes positions while preserving source orientations.",
+    "mechanical_gap_mm": 0.3,
+    "default_pad_clearance_mm": 0.25,
+    "domains": {
+      "MAIN": {
+        "kind": "electrical"
+      },
+      "MECH": {
+        "kind": "mechanical"
+      }
+    },
+    "isolation_pairs": [],
+    "creepage_evaluation": "external_required",
+    "unlock_source_locked": [],
+    "component_rules": {
+      "1": {
+        "mode": "corner",
+        "allowed_corners": [
+          "bottom_left"
+        ],
+        "corner_inset_mm": 1.5,
+        "conductive_class": "MAIN",
+        "allowed_angles": [
+          0
+        ]
+      },
+      "2": {
+        "mode": "corner",
+        "allowed_corners": [
+          "bottom_right"
+        ],
+        "corner_inset_mm": 1.5,
+        "conductive_class": "MAIN",
+        "allowed_angles": [
+          0
+        ]
+      },
+      "3": {
+        "mode": "corner",
+        "allowed_corners": [
+          "top_right"
+        ],
+        "corner_inset_mm": 1.5,
+        "conductive_class": "MAIN",
+        "allowed_angles": [
+          0
+        ]
+      },
+      "3V3": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "4": {
+        "mode": "corner",
+        "allowed_corners": [
+          "top_left"
+        ],
+        "corner_inset_mm": 1.5,
+        "conductive_class": "MAIN",
+        "allowed_angles": [
+          0
+        ]
+      },
+      "+12V": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "+24V": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C1": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C2": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C3": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C4": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C5": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C6": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C7": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C8": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C9": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C10": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C11": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C12": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C13": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C14": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C15": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C16": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C17": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C18": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C19": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C20": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C21": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C22": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C23": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C24": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C25": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C26": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C27": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C28": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C29": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C44": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "CAP": {
+        "mode": "edge_band",
+        "allowed_edges": [
+          "bottom"
+        ],
+        "edge_offset_mm": 1.5,
+        "allowed_angles": [
+          0
+        ]
+      },
+      "CN3": {
+        "mode": "edge_band",
+        "allowed_edges": [
+          "top"
+        ],
+        "edge_offset_mm": 1.5,
+        "allowed_angles": [
+          0
+        ]
+      },
+      "CN4": {
+        "mode": "edge_band",
+        "allowed_edges": [
+          "top"
+        ],
+        "edge_offset_mm": 1.5,
+        "allowed_angles": [
+          0
+        ]
+      },
+      "D1": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "D2": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "D3": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "D4": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "D5": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "D6": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "D7": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "D8": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "D9": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "D11": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "DC-DC": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "F1": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "GND": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "GND1": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "GND2": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "GND3": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "L1": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "L2": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "L3": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "LED2": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "LED3": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "LOAD": {
+        "mode": "edge_band",
+        "allowed_edges": [
+          "right"
+        ],
+        "edge_offset_mm": 1.5,
+        "allowed_angles": [
+          0
+        ]
+      },
+      "Q1": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "Q2": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "Q3": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "Q4": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R1": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R2": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R3": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R4": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R5": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R6": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R7": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R8": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R9": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R10": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R11": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R12": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R13": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R14": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R15": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R16": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R17": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R18": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R19": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R20": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R21": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R22": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R24": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R25": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R26": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R27": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R35": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R36": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R42": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R43": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R44": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "U1": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "U2": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "U5": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "U11": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "VCAP1": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "VIN（+24V）": {
+        "mode": "edge_band",
+        "allowed_edges": [
+          "left"
+        ],
+        "edge_offset_mm": 1.5,
+        "allowed_angles": [
+          0
+        ]
+      }
+    },
+    "bridge_templates": {},
+    "obstacles": [],
+    "regions": {},
+    "net_weights": {},
+    "distance_constraints": [],
+    "order_constraints": []
+  },
+  "clusters": {
+    "cross_domain_policy": "error",
+    "missing_assignment_policy": "error",
+    "containment": "hard",
+    "anchored_members_policy": "attachment",
+    "max_candidates": 3,
+    "parent_compact_weight": 0.05
+  },
+  "optimization": {
+    "seed": 0,
+    "continuous_backend": "numpy_analytic_float64",
+    "projection_backend": "osqp",
+    "optimizer": "projected_adam",
+    "rotations": "per_component",
+    "allow_layer_change": false,
+    "max_ab_feedback_rounds": 1,
+    "max_topology_candidates": 24,
+    "time_budget_s": 900,
+    "priority_policy": "auto",
+    "higher_priority_relative_tolerance": 0.0,
+    "iterations_a": 40,
+    "enable_stage_c": true,
+    "iterations_b": 40,
+    "iterations_c": 40,
+    "learning_rate_mm": 0.15,
+    "gamma_start_mm": 2.0,
+    "gamma_end_mm": 0.1,
+    "shape_aspects": [
+      0.7,
+      1.0,
+      1.4,
+      2.0
+    ],
+    "domain_split_fractions": [
+      0.4,
+      0.5,
+      0.6
+    ],
+    "preplace_samples": 7,
+    "beam_width": 4,
+    "stage_c": {
+      "trust_radius_mm": 0.5,
+      "cluster_area_growth_ratio": 0.05,
+      "allow_rotation": false,
+      "allow_cross_cluster_move": false
+    }
+  },
+  "export": {
+    "require_model_feasible": true,
+    "overwrite_source": false,
+    "emit_epro2": true,
+    "native_open_validation": "pending"
+  }
+}

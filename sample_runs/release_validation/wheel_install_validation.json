@@ -1,0 +1,6 @@
+{
+  "status": "PASSED",
+  "version": "0.2.0",
+  "source": "wheel installed into isolated target",
+  "real_config_validate_exit_code": 0
+}

@@ -1,0 +1,3026 @@
+{
+  "motions": {
+    "+12V": "free",
+    "+24V": "free",
+    "1": "corner",
+    "2": "corner",
+    "3": "corner",
+    "3V3": "free",
+    "4": "corner",
+    "C1": "free",
+    "C10": "free",
+    "C11": "free",
+    "C12": "free",
+    "C13": "free",
+    "C14": "free",
+    "C15": "free",
+    "C16": "free",
+    "C17": "free",
+    "C18": "free",
+    "C19": "free",
+    "C2": "free",
+    "C20": "free",
+    "C21": "free",
+    "C22": "free",
+    "C23": "free",
+    "C24": "free",
+    "C25": "free",
+    "C26": "free",
+    "C27": "free",
+    "C28": "free",
+    "C29": "free",
+    "C3": "free",
+    "C4": "free",
+    "C44": "free",
+    "C5": "free",
+    "C6": "free",
+    "C7": "free",
+    "C8": "free",
+    "C9": "free",
+    "CAP": "edge_band",
+    "CN3": "edge_band",
+    "CN4": "edge_band",
+    "D1": "free",
+    "D11": "free",
+    "D2": "free",
+    "D3": "free",
+    "D4": "free",
+    "D5": "free",
+    "D6": "free",
+    "D7": "free",
+    "D8": "free",
+    "D9": "free",
+    "DC-DC": "free",
+    "F1": "free",
+    "GND": "free",
+    "GND1": "free",
+    "GND2": "free",
+    "GND3": "free",
+    "L1": "free",
+    "L2": "free",
+    "L3": "free",
+    "LED2": "free",
+    "LED3": "free",
+    "LOAD": "edge_band",
+    "Q1": "free",
+    "Q2": "free",
+    "Q3": "free",
+    "Q4": "free",
+    "R1": "free",
+    "R10": "free",
+    "R11": "free",
+    "R12": "free",
+    "R13": "free",
+    "R14": "free",
+    "R15": "free",
+    "R16": "free",
+    "R17": "free",
+    "R18": "free",
+    "R19": "free",
+    "R2": "free",
+    "R20": "free",
+    "R21": "free",
+    "R22": "free",
+    "R24": "free",
+    "R25": "free",
+    "R26": "free",
+    "R27": "free",
+    "R3": "free",
+    "R35": "free",
+    "R36": "free",
+    "R4": "free",
+    "R42": "free",
+    "R43": "free",
+    "R44": "free",
+    "R5": "free",
+    "R6": "free",
+    "R7": "free",
+    "R8": "free",
+    "R9": "free",
+    "U1": "free",
+    "U11": "free",
+    "U2": "free",
+    "U5": "free",
+    "VCAP1": "free",
+    "VIN（+24V）": "edge_band"
+  },
+  "angles": {
+    "+12V": [
+      0.0
+    ],
+    "+24V": [
+      0.0
+    ],
+    "1": [
+      0.0
+    ],
+    "2": [
+      0.0
+    ],
+    "3": [
+      0.0
+    ],
+    "3V3": [
+      0.0
+    ],
+    "4": [
+      0.0
+    ],
+    "C1": [
+      0.0
+    ],
+    "C10": [
+      0.0
+    ],
+    "C11": [
+      0.0
+    ],
+    "C12": [
+      0.0
+    ],
+    "C13": [
+      0.0
+    ],
+    "C14": [
+      0.0
+    ],
+    "C15": [
+      0.0
+    ],
+    "C16": [
+      0.0
+    ],
+    "C17": [
+      0.0
+    ],
+    "C18": [
+      0.0
+    ],
+    "C19": [
+      0.0
+    ],
+    "C2": [
+      0.0
+    ],
+    "C20": [
+      0.0
+    ],
+    "C21": [
+      0.0
+    ],
+    "C22": [
+      0.0
+    ],
+    "C23": [
+      0.0
+    ],
+    "C24": [
+      0.0
+    ],
+    "C25": [
+      0.0
+    ],
+    "C26": [
+      0.0
+    ],
+    "C27": [
+      0.0
+    ],
+    "C28": [
+      0.0
+    ],
+    "C29": [
+      0.0
+    ],
+    "C3": [
+      0.0
+    ],
+    "C4": [
+      0.0
+    ],
+    "C44": [
+      0.0
+    ],
+    "C5": [
+      0.0
+    ],
+    "C6": [
+      0.0
+    ],
+    "C7": [
+      0.0
+    ],
+    "C8": [
+      0.0
+    ],
+    "C9": [
+      0.0
+    ],
+    "CAP": [
+      0.0
+    ],
+    "CN3": [
+      0.0
+    ],
+    "CN4": [
+      0.0
+    ],
+    "D1": [
+      0.0
+    ],
+    "D11": [
+      0.0
+    ],
+    "D2": [
+      0.0
+    ],
+    "D3": [
+      0.0
+    ],
+    "D4": [
+      0.0
+    ],
+    "D5": [
+      0.0
+    ],
+    "D6": [
+      0.0
+    ],
+    "D7": [
+      0.0
+    ],
+    "D8": [
+      0.0
+    ],
+    "D9": [
+      0.0
+    ],
+    "DC-DC": [
+      0.0
+    ],
+    "F1": [
+      0.0
+    ],
+    "GND": [
+      0.0
+    ],
+    "GND1": [
+      0.0
+    ],
+    "GND2": [
+      0.0
+    ],
+    "GND3": [
+      0.0
+    ],
+    "L1": [
+      0.0
+    ],
+    "L2": [
+      0.0
+    ],
+    "L3": [
+      0.0
+    ],
+    "LED2": [
+      0.0
+    ],
+    "LED3": [
+      0.0
+    ],
+    "LOAD": [
+      0.0
+    ],
+    "Q1": [
+      0.0
+    ],
+    "Q2": [
+      0.0
+    ],
+    "Q3": [
+      0.0
+    ],
+    "Q4": [
+      0.0
+    ],
+    "R1": [
+      0.0
+    ],
+    "R10": [
+      0.0
+    ],
+    "R11": [
+      0.0
+    ],
+    "R12": [
+      0.0
+    ],
+    "R13": [
+      0.0
+    ],
+    "R14": [
+      0.0
+    ],
+    "R15": [
+      0.0
+    ],
+    "R16": [
+      0.0
+    ],
+    "R17": [
+      0.0
+    ],
+    "R18": [
+      0.0
+    ],
+    "R19": [
+      0.0
+    ],
+    "R2": [
+      0.0
+    ],
+    "R20": [
+      0.0
+    ],
+    "R21": [
+      0.0
+    ],
+    "R22": [
+      0.0
+    ],
+    "R24": [
+      0.0
+    ],
+    "R25": [
+      0.0
+    ],
+    "R26": [
+      0.0
+    ],
+    "R27": [
+      0.0
+    ],
+    "R3": [
+      0.0
+    ],
+    "R35": [
+      0.0
+    ],
+    "R36": [
+      0.0
+    ],
+    "R4": [
+      0.0
+    ],
+    "R42": [
+      0.0
+    ],
+    "R43": [
+      0.0
+    ],
+    "R44": [
+      0.0
+    ],
+    "R5": [
+      0.0
+    ],
+    "R6": [
+      0.0
+    ],
+    "R7": [
+      0.0
+    ],
+    "R8": [
+      0.0
+    ],
+    "R9": [
+      0.0
+    ],
+    "U1": [
+      0.0
+    ],
+    "U11": [
+      0.0
+    ],
+    "U2": [
+      0.0
+    ],
+    "U5": [
+      0.0
+    ],
+    "VCAP1": [
+      0.0
+    ],
+    "VIN（+24V）": [
+      0.0
+    ]
+  },
+  "groups": {
+    "L1-12": [
+      "+12V",
+      "+24V",
+      "3V3"
+    ],
+    "L1-1": [
+      "C1",
+      "C10",
+      "C5",
+      "C9",
+      "D1",
+      "DC-DC",
+      "L3",
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6"
+    ],
+    "L1-2": [
+      "C11",
+      "C12",
+      "C13",
+      "C15",
+      "D3",
+      "L1",
+      "R7",
+      "R8",
+      "R9",
+      "U1"
+    ],
+    "L1-5": [
+      "C14",
+      "R42",
+      "R43",
+      "R44",
+      "U11"
+    ],
+    "L1-4": [
+      "C16",
+      "C17",
+      "C2",
+      "C20",
+      "C21",
+      "C3",
+      "C4"
+    ],
+    "L1-3": [
+      "C18",
+      "C19",
+      "C22",
+      "C23",
+      "C25",
+      "C29",
+      "D11",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "L2",
+      "Q1",
+      "Q2",
+      "Q3",
+      "Q4",
+      "R10",
+      "R11",
+      "R12",
+      "R13",
+      "R14",
+      "R15",
+      "R16",
+      "R17",
+      "R18",
+      "R19",
+      "R20",
+      "R21",
+      "R22",
+      "R24",
+      "R25",
+      "R26",
+      "R27",
+      "U2",
+      "U5",
+      "VCAP1"
+    ],
+    "L1-7": [
+      "C24",
+      "C26",
+      "C27",
+      "C28",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "L1-8": [
+      "C44"
+    ],
+    "L1-6": [
+      "D2",
+      "F1"
+    ],
+    "L1-11": [
+      "GND",
+      "GND1",
+      "GND2",
+      "GND3"
+    ],
+    "L1-9": [
+      "LED2",
+      "R35"
+    ],
+    "L1-10": [
+      "LED3",
+      "R36"
+    ]
+  },
+  "fixed": [],
+  "special": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "CAP",
+    "CN3",
+    "CN4",
+    "LOAD",
+    "VIN（+24V）"
+  ],
+  "pad_domains": [
+    [
+      [
+        "+12V",
+        "e2"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "+24V",
+        "e2"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "1",
+        "e10"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "1",
+        "e11"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "1",
+        "e12"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "1",
+        "e13"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "1",
+        "e14"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "1",
+        "e15"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "1",
+        "e16"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "2",
+        "e10"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "2",
+        "e11"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "2",
+        "e12"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "2",
+        "e13"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "2",
+        "e14"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "2",
+        "e15"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "2",
+        "e16"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "3",
+        "e10"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "3",
+        "e11"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "3",
+        "e12"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "3",
+        "e13"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "3",
+        "e14"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "3",
+        "e15"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "3",
+        "e16"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "3V3",
+        "e2"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "4",
+        "e10"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "4",
+        "e11"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "4",
+        "e12"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "4",
+        "e13"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "4",
+        "e14"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "4",
+        "e15"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "4",
+        "e16"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C1",
+        "e14"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C1",
+        "e15"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C10",
+        "e14"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C10",
+        "e15"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C11",
+        "e14"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C11",
+        "e15"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C12",
+        "e14"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C12",
+        "e15"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C13",
+        "e14"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C13",
+        "e15"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C14",
+        "e14"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C14",
+        "e15"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C15",
+        "e14"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C15",
+        "e15"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C16",
+        "e17"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C16",
+        "e18"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C17",
+        "e17"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C17",
+        "e18"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C18",
+        "e17"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C18",
+        "e18"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C19",
+        "e17"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C19",
+        "e18"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C2",
+        "e14"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C2",
+        "e15"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C20",
+        "e14"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C20",
+        "e15"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C21",
+        "e14"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C21",
+        "e15"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C22",
+        "e14"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C22",
+        "e15"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C23",
+        "e14"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C23",
+        "e15"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C24",
+        "e7"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C24",
+        "e8"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C25",
+        "e14"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C25",
+        "e15"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C26",
+        "e7"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C26",
+        "e8"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C27",
+        "e17"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C27",
+        "e18"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C28",
+        "e17"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C28",
+        "e18"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C29",
+        "e14"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C29",
+        "e15"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C3",
+        "e14"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C3",
+        "e15"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C4",
+        "e14"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C4",
+        "e15"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C44",
+        "e14"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C44",
+        "e15"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C5",
+        "e14"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C5",
+        "e15"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C6",
+        "e7"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C6",
+        "e8"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C7",
+        "e7"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C7",
+        "e8"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C8",
+        "e7"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C8",
+        "e8"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C9",
+        "e14"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "C9",
+        "e15"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "CAP",
+        "e18"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "CAP",
+        "e19"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "CN3",
+        "e24"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "CN3",
+        "e25"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "CN3",
+        "e26"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "CN3",
+        "e27"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "CN3",
+        "e28"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "CN3",
+        "e29"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "CN4",
+        "e24"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "CN4",
+        "e25"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "CN4",
+        "e26"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "CN4",
+        "e27"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "CN4",
+        "e28"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "CN4",
+        "e29"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "D1",
+        "e12"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "D1",
+        "e13"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "D11",
+        "e5"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "D11",
+        "e6"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "D2",
+        "e5"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "D2",
+        "e6"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "D3",
+        "e19"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "D3",
+        "e20"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "D4",
+        "e19"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "D4",
+        "e20"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "D5",
+        "e19"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "D5",
+        "e20"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "D6",
+        "e19"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "D6",
+        "e20"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "D7",
+        "e19"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "D7",
+        "e20"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "D8",
+        "e19"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "D8",
+        "e20"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "D9",
+        "e19"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "D9",
+        "e20"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "DC-DC",
+        "e5"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "DC-DC",
+        "e6"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "DC-DC",
+        "e7"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "DC-DC",
+        "e8"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "DC-DC",
+        "e9"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "DC-DC",
+        "e10"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "DC-DC",
+        "e11"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "DC-DC",
+        "e12"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "DC-DC",
+        "e13"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "DC-DC",
+        "e14"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "DC-DC",
+        "e15"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "DC-DC",
+        "e16"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "DC-DC",
+        "e17"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "F1",
+        "e3"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "F1",
+        "e4"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "GND",
+        "e2"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "GND1",
+        "e2"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "GND2",
+        "e2"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "GND3",
+        "e2"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "L1",
+        "e9"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "L1",
+        "e10"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "L2",
+        "e3"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "L2",
+        "e4"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "L3",
+        "e9"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "L3",
+        "e10"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "LED2",
+        "e1"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "LED2",
+        "e2"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "LED3",
+        "e1"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "LED3",
+        "e2"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "LOAD",
+        "e24"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "LOAD",
+        "e25"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "Q1",
+        "e24"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "Q1",
+        "e25"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "Q1",
+        "e26"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "Q1",
+        "e27"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "Q1",
+        "e28"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "Q2",
+        "e24"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "Q2",
+        "e25"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "Q2",
+        "e26"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "Q2",
+        "e27"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "Q2",
+        "e28"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "Q3",
+        "e24"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "Q3",
+        "e25"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "Q3",
+        "e26"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "Q3",
+        "e27"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "Q3",
+        "e28"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "Q4",
+        "e24"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "Q4",
+        "e25"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "Q4",
+        "e26"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "Q4",
+        "e27"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "Q4",
+        "e28"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R1",
+        "e7"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R1",
+        "e8"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R10",
+        "e7"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R10",
+        "e8"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R11",
+        "e7"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R11",
+        "e8"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R12",
+        "e7"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R12",
+        "e8"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R13",
+        "e7"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R13",
+        "e8"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R14",
+        "e7"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R14",
+        "e8"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R15",
+        "e7"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R15",
+        "e8"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R16",
+        "e7"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R16",
+        "e8"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R17",
+        "e7"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R17",
+        "e8"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R18",
+        "e7"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R18",
+        "e8"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R19",
+        "e7"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R19",
+        "e8"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R2",
+        "e7"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R2",
+        "e8"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R20",
+        "e7"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R20",
+        "e8"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R21",
+        "e7"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R21",
+        "e8"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R22",
+        "e7"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R22",
+        "e8"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R24",
+        "e7"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R24",
+        "e8"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R25",
+        "e7"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R25",
+        "e8"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R26",
+        "e7"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R26",
+        "e8"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R27",
+        "e7"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R27",
+        "e8"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R3",
+        "e7"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R3",
+        "e8"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R35",
+        "e7"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R35",
+        "e8"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R36",
+        "e7"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R36",
+        "e8"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R4",
+        "e7"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R4",
+        "e8"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R42",
+        "e7"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R42",
+        "e8"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R43",
+        "e7"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R43",
+        "e8"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R44",
+        "e7"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R44",
+        "e8"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R5",
+        "e7"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R5",
+        "e8"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R6",
+        "e7"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R6",
+        "e8"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R7",
+        "e7"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R7",
+        "e8"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R8",
+        "e7"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R8",
+        "e8"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R9",
+        "e7"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "R9",
+        "e8"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "U1",
+        "e7"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "U1",
+        "e8"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "U1",
+        "e9"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "U1",
+        "e10"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "U1",
+        "e11"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "U1",
+        "e12"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "U11",
+        "e10"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "U11",
+        "e11"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "U11",
+        "e12"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "U11",
+        "e13"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "U11",
+        "e14"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "U11",
+        "e15"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "U2",
+        "e25"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "U2",
+        "e26"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "U2",
+        "e27"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "U2",
+        "e28"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "U2",
+        "e29"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "U2",
+        "e30"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "U2",
+        "e31"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "U2",
+        "e32"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "U5",
+        "e25"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "U5",
+        "e26"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "U5",
+        "e27"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "U5",
+        "e28"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "U5",
+        "e29"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "U5",
+        "e30"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "U5",
+        "e31"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "U5",
+        "e32"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "VCAP1",
+        "e2"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "VIN（+24V）",
+        "e18"
+      ],
+      "MAIN"
+    ],
+    [
+      [
+        "VIN（+24V）",
+        "e19"
+      ],
+      "MAIN"
+    ]
+  ],
+  "estimated": true,
+  "reference_length_mm": 90.04482783567478,
+  "rules": {
+    "id": "digital_power_board_research_v02",
+    "basis": "User-authorized research defaults: L2 is common-ground functional hierarchy; no certified HV/LV isolation partition supplied. Source layer48 bodies; M3 8x8mm assembly envelope and bare testpoint 0.7x0.7mm access envelope are explicit assumptions. Mechanical gap0.30mm and different-net copper gap0.25mm are research placement defaults, not a standards certification. Corners/edge bands are heuristic placement; connector source angle0 preserved. All real-board components retain their original source angle (0 deg); native editor validation of nonzero rotation mapping has not been performed. This run optimizes positions while preserving source orientations.",
+    "mechanical_gap_mm": 0.3,
+    "default_pad_clearance_mm": 0.25,
+    "domains": {
+      "MAIN": {
+        "kind": "electrical"
+      },
+      "MECH": {
+        "kind": "mechanical"
+      }
+    },
+    "isolation_pairs": [],
+    "creepage_evaluation": "external_required",
+    "unlock_source_locked": [],
+    "component_rules": {
+      "1": {
+        "mode": "corner",
+        "allowed_corners": [
+          "bottom_left"
+        ],
+        "corner_inset_mm": 1.5,
+        "conductive_class": "MAIN",
+        "allowed_angles": [
+          0
+        ]
+      },
+      "2": {
+        "mode": "corner",
+        "allowed_corners": [
+          "bottom_right"
+        ],
+        "corner_inset_mm": 1.5,
+        "conductive_class": "MAIN",
+        "allowed_angles": [
+          0
+        ]
+      },
+      "3": {
+        "mode": "corner",
+        "allowed_corners": [
+          "top_right"
+        ],
+        "corner_inset_mm": 1.5,
+        "conductive_class": "MAIN",
+        "allowed_angles": [
+          0
+        ]
+      },
+      "3V3": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "4": {
+        "mode": "corner",
+        "allowed_corners": [
+          "top_left"
+        ],
+        "corner_inset_mm": 1.5,
+        "conductive_class": "MAIN",
+        "allowed_angles": [
+          0
+        ]
+      },
+      "+12V": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "+24V": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C1": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C2": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C3": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C4": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C5": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C6": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C7": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C8": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C9": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C10": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C11": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C12": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C13": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C14": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C15": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C16": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C17": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C18": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C19": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C20": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C21": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C22": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C23": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C24": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C25": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C26": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C27": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C28": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C29": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "C44": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "CAP": {
+        "mode": "edge_band",
+        "allowed_edges": [
+          "bottom"
+        ],
+        "edge_offset_mm": 1.5,
+        "allowed_angles": [
+          0
+        ]
+      },
+      "CN3": {
+        "mode": "edge_band",
+        "allowed_edges": [
+          "top"
+        ],
+        "edge_offset_mm": 1.5,
+        "allowed_angles": [
+          0
+        ]
+      },
+      "CN4": {
+        "mode": "edge_band",
+        "allowed_edges": [
+          "top"
+        ],
+        "edge_offset_mm": 1.5,
+        "allowed_angles": [
+          0
+        ]
+      },
+      "D1": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "D2": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "D3": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "D4": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "D5": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "D6": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "D7": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "D8": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "D9": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "D11": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "DC-DC": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "F1": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "GND": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "GND1": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "GND2": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "GND3": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "L1": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "L2": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "L3": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "LED2": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "LED3": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "LOAD": {
+        "mode": "edge_band",
+        "allowed_edges": [
+          "right"
+        ],
+        "edge_offset_mm": 1.5,
+        "allowed_angles": [
+          0
+        ]
+      },
+      "Q1": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "Q2": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "Q3": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "Q4": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R1": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R2": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R3": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R4": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R5": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R6": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R7": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R8": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R9": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R10": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R11": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R12": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R13": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R14": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R15": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R16": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R17": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R18": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R19": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R20": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R21": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R22": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R24": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R25": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R26": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R27": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R35": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R36": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R42": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R43": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "R44": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "U1": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "U2": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "U5": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "U11": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "VCAP1": {
+        "allowed_angles": [
+          0
+        ]
+      },
+      "VIN（+24V）": {
+        "mode": "edge_band",
+        "allowed_edges": [
+          "left"
+        ],
+        "edge_offset_mm": 1.5,
+        "allowed_angles": [
+          0
+        ]
+      }
+    },
+    "bridge_templates": {},
+    "obstacles": [],
+    "regions": {},
+    "net_weights": {},
+    "distance_constraints": [],
+    "order_constraints": []
+  }
+}

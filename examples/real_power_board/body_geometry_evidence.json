@@ -1,0 +1,592 @@
+{
+  "ab13ac9220710194": {
+    "basis": "explicit_research_assembly_keepout",
+    "bbox_mm": [
+      -4.0,
+      -4.0,
+      4.0,
+      4.0
+    ],
+    "source_central_pad_diameter_mm": 6.499999699999999,
+    "note": "M3 footprint has no layer48 body. 8x8mm conductive mechanical envelope is an explicit conservative working assumption; not a measured screw-head outline."
+  },
+  "a939a2d556d9b1f3": {
+    "basis": "explicit_research_testpoint_access_envelope",
+    "bbox_mm": [
+      -0.35,
+      -0.35,
+      0.35,
+      0.35
+    ],
+    "source_pad_diameter_mm": 0.49999899999999997,
+    "note": "Bare 0.5mm test pad; 0.7x0.7mm access envelope is a working allowance, not a component body."
+  },
+  "9f3bab99b2f00a99": {
+    "basis": "source_component_shape_layer_48",
+    "source_poly_id": "e3",
+    "source_line": 1623,
+    "polygon_mm": [
+      [
+        -0.7999984,
+        0.3999992
+      ],
+      [
+        -0.7999984,
+        -0.3999992
+      ],
+      [
+        0.7999984,
+        -0.3999992
+      ],
+      [
+        0.7999984,
+        0.3999992
+      ]
+    ],
+    "added_margin_mm": 0
+  },
+  "fd5023578ef6ec24": {
+    "basis": "source_component_shape_layer_48",
+    "source_poly_id": "e4",
+    "source_line": 1298,
+    "polygon_mm": [
+      [
+        -1.5999968,
+        0.7999984
+      ],
+      [
+        -1.5999968,
+        -0.7999984
+      ],
+      [
+        1.5999968,
+        -0.7999984
+      ],
+      [
+        1.5999968,
+        0.7999984
+      ]
+    ],
+    "added_margin_mm": 0
+  },
+  "497405d57042a2c9": {
+    "basis": "source_component_shape_layer_48",
+    "source_poly_id": "e5",
+    "source_line": 748,
+    "polygon_mm": [
+      [
+        5.1499516,
+        -5.1500024
+      ],
+      [
+        5.1499516,
+        5.1500024
+      ],
+      [
+        -3.0900624,
+        5.1500024
+      ],
+      [
+        -5.1500532,
+        3.0900116
+      ],
+      [
+        -5.1500532,
+        -3.0900116
+      ],
+      [
+        -3.0900624,
+        -5.1500024
+      ]
+    ],
+    "added_margin_mm": 0
+  },
+  "ee323a680926f788": {
+    "basis": "source_component_shape_layer_48",
+    "source_poly_id": "e9",
+    "source_line": 123,
+    "polygon_mm": [
+      [
+        -1.3499846,
+        -1.0169906
+      ],
+      [
+        1.35001,
+        -1.0169906
+      ],
+      [
+        1.35001,
+        1.0150094
+      ],
+      [
+        -1.3499846,
+        1.0150094
+      ]
+    ],
+    "added_margin_mm": 0
+  },
+  "57a515f7e7b774ed": {
+    "basis": "source_component_shape_layer_48",
+    "source_poly_id": "e5",
+    "source_line": 802,
+    "polygon_mm": [
+      [
+        2.6500074,
+        -2.6500074
+      ],
+      [
+        2.6500074,
+        2.6500074
+      ],
+      [
+        -1.35001,
+        2.6500074
+      ],
+      [
+        -2.6500074,
+        1.35001
+      ],
+      [
+        -2.6500074,
+        -1.35001
+      ],
+      [
+        -1.35001,
+        -2.6500074
+      ]
+    ],
+    "added_margin_mm": 0
+  },
+  "2d8c940048ffd65c": {
+    "basis": "source_component_shape_layer_48",
+    "source_poly_id": "e4",
+    "source_line": 3406,
+    "polygon_mm": [
+      [
+        -5.0999898,
+        2.7999944
+      ],
+      [
+        -5.0999898,
+        -2.7999944
+      ],
+      [
+        5.0999898,
+        -2.7999944
+      ],
+      [
+        5.0999898,
+        2.7999944
+      ]
+    ],
+    "added_margin_mm": 0
+  },
+  "e86270b803e7a7de": {
+    "basis": "source_component_shape_layer_48",
+    "source_poly_id": "e10",
+    "source_line": 2019,
+    "polygon_mm": [
+      [
+        -8.7499952,
+        3.4250884
+      ],
+      [
+        -8.7499952,
+        -2.3749
+      ],
+      [
+        8.7499952,
+        -2.3749
+      ],
+      [
+        8.7499952,
+        3.4250884
+      ]
+    ],
+    "added_margin_mm": 0
+  },
+  "c2aaa5c0290624b1": {
+    "basis": "source_component_shape_layer_48",
+    "source_poly_id": "e4",
+    "source_line": 2948,
+    "polygon_mm": [
+      [
+        -2.149983,
+        1.2999974
+      ],
+      [
+        -2.149983,
+        -1.2999974
+      ],
+      [
+        2.1500084,
+        -1.2999974
+      ],
+      [
+        2.1500084,
+        1.2999974
+      ]
+    ],
+    "added_margin_mm": 0
+  },
+  "de14b153fa37ca43": {
+    "basis": "source_component_shape_layer_48",
+    "source_poly_id": "e4",
+    "source_line": 911,
+    "polygon_mm": [
+      [
+        2.2750018,
+        -1.7999964
+      ],
+      [
+        2.2750018,
+        1.7999964
+      ],
+      [
+        -2.2750018,
+        1.7999964
+      ],
+      [
+        -2.2750018,
+        -1.7999964
+      ]
+    ],
+    "added_margin_mm": 0
+  },
+  "9ae53aff597872e1": {
+    "basis": "source_component_shape_layer_48",
+    "source_poly_id": "e4",
+    "source_line": 2889,
+    "polygon_mm": [
+      [
+        -2.1498814,
+        1.2999974
+      ],
+      [
+        -2.1498814,
+        -1.2999974
+      ],
+      [
+        2.15011,
+        -1.2999974
+      ],
+      [
+        2.15011,
+        1.2999974
+      ]
+    ],
+    "added_margin_mm": 0
+  },
+  "ccbcb0622ce78c46": {
+    "basis": "source_component_shape_layer_48",
+    "source_poly_id": "e22",
+    "source_line": 3837,
+    "polygon_mm": [
+      [
+        -2.4500078,
+        1.9500088
+      ],
+      [
+        -2.4500078,
+        -1.9500088
+      ],
+      [
+        2.4500078,
+        -1.9500088
+      ],
+      [
+        2.4500078,
+        1.9500088
+      ]
+    ],
+    "added_margin_mm": 0
+  },
+  "f32cf4b53b77038b": {
+    "basis": "source_component_shape_layer_48",
+    "source_poly_id": "e2",
+    "source_line": 1577,
+    "polygon_mm": [
+      [
+        -1.5999968,
+        0.7999984
+      ],
+      [
+        1.5999968,
+        0.7999984
+      ],
+      [
+        1.5999968,
+        -0.7999984
+      ],
+      [
+        -1.5999968,
+        -0.7999984
+      ]
+    ],
+    "added_margin_mm": 0
+  },
+  "496c50ae0b578bf4": {
+    "basis": "source_component_shape_layer_48",
+    "source_poly_id": "e2",
+    "source_line": 1199,
+    "polygon_mm": [
+      [
+        -2.1999956,
+        2.0999958
+      ],
+      [
+        -2.1999956,
+        -2.0999958
+      ],
+      [
+        2.1999956,
+        -2.0999958
+      ],
+      [
+        2.1999956,
+        2.0999958
+      ]
+    ],
+    "added_margin_mm": 0
+  },
+  "4ab1e2903841112b": {
+    "basis": "source_component_shape_layer_48",
+    "source_poly_id": "e2",
+    "source_line": 1099,
+    "polygon_mm": [
+      [
+        7.7499718,
+        8.2499962
+      ],
+      [
+        -7.7499972,
+        8.2499962
+      ],
+      [
+        -7.7499972,
+        -8.2499708
+      ],
+      [
+        7.7499718,
+        -8.2499708
+      ]
+    ],
+    "added_margin_mm": 0
+  },
+  "76d18600d0b2957c": {
+    "basis": "source_component_shape_layer_48",
+    "source_poly_id": "e2",
+    "source_line": 2991,
+    "polygon_mm": [
+      [
+        -3.6500054,
+        3.3999932
+      ],
+      [
+        -3.6500054,
+        -3.3999932
+      ],
+      [
+        3.6500054,
+        -3.3999932
+      ],
+      [
+        3.6500054,
+        3.3999932
+      ]
+    ],
+    "added_margin_mm": 0
+  },
+  "da034be900580438": {
+    "basis": "source_component_shape_layer_48",
+    "source_poly_id": "e19",
+    "source_line": 2677,
+    "polygon_mm": [
+      [
+        -0.8509,
+        0.4064
+      ],
+      [
+        -0.8509,
+        -0.39116
+      ],
+      [
+        0.7493,
+        -0.39116
+      ],
+      [
+        0.7493,
+        0.4064
+      ]
+    ],
+    "added_margin_mm": 0
+  },
+  "78555b79dc1b53b4": {
+    "basis": "source_component_shape_layer_48",
+    "source_poly_id": "e4",
+    "source_line": 2077,
+    "polygon_mm": [
+      [
+        -5.0999644,
+        2.5999948
+      ],
+      [
+        -5.0999644,
+        -2.5999948
+      ],
+      [
+        5.1000152,
+        -2.5999948
+      ],
+      [
+        5.1000152,
+        2.5999948
+      ]
+    ],
+    "added_margin_mm": 0
+  },
+  "5042a11ab794037f": {
+    "basis": "source_component_shape_layer_48",
+    "source_poly_id": "e10",
+    "source_line": 1523,
+    "polygon_mm": [
+      [
+        -1.5999714,
+        -2.0635976
+      ],
+      [
+        1.6000222,
+        -2.0635976
+      ],
+      [
+        1.6000222,
+        1.0363962
+      ],
+      [
+        -1.5999714,
+        1.0363962
+      ]
+    ],
+    "added_margin_mm": 0
+  },
+  "e3b37a7856a5fe28": {
+    "basis": "source_component_shape_layer_48",
+    "source_poly_id": "e4",
+    "source_line": 1837,
+    "polygon_mm": [
+      [
+        -0.7999984,
+        0.3999992
+      ],
+      [
+        -0.7999984,
+        -0.3999992
+      ],
+      [
+        0.7999984,
+        -0.3999992
+      ],
+      [
+        0.7999984,
+        0.3999992
+      ]
+    ],
+    "added_margin_mm": 0
+  },
+  "e9a9b3f96242c680": {
+    "basis": "source_component_shape_layer_48",
+    "source_poly_id": "e10",
+    "source_line": 2324,
+    "polygon_mm": [
+      [
+        -3.1500064,
+        1.5999968
+      ],
+      [
+        -3.1500064,
+        -1.5999968
+      ],
+      [
+        3.1500064,
+        -1.5999968
+      ],
+      [
+        3.1500064,
+        1.5999968
+      ]
+    ],
+    "added_margin_mm": 0
+  },
+  "1b597ecd56f9136a": {
+    "basis": "source_component_shape_layer_48",
+    "source_poly_id": "e3",
+    "source_line": 1253,
+    "polygon_mm": [
+      [
+        -0.7999984,
+        1.4499971
+      ],
+      [
+        -0.7999984,
+        -1.4499971
+      ],
+      [
+        0.7999984,
+        -1.4499971
+      ],
+      [
+        0.7999984,
+        1.4499971
+      ]
+    ],
+    "added_margin_mm": 0
+  },
+  "28b04486fc18249b": {
+    "basis": "source_component_shape_layer_48",
+    "source_poly_id": "e18",
+    "source_line": 1464,
+    "polygon_mm": [
+      [
+        -2.4500078,
+        1.9500088
+      ],
+      [
+        -2.4500078,
+        -1.9500088
+      ],
+      [
+        2.4500078,
+        -1.9500088
+      ],
+      [
+        2.4500078,
+        1.9500088
+      ]
+    ],
+    "added_margin_mm": 0
+  },
+  "e6407fb9c0fc3a93": {
+    "basis": "source_component_shape_layer_48",
+    "source_poly_id": "e9",
+    "source_line": 1352,
+    "polygon_mm": [
+      [
+        -0.6000496,
+        0.8000746
+      ],
+      [
+        -0.6000496,
+        -0.7999222
+      ],
+      [
+        0.599948,
+        -0.7999222
+      ],
+      [
+        0.599948,
+        0.8000746
+      ]
+    ],
+    "added_margin_mm": 0
+  }
+}

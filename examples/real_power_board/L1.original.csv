@@ -1,0 +1,104 @@
+﻿designator,cluster,function,voltage_domain,isolation_domain,evidence_rule_ids,
+DC-DC,L1-1,降压转换器核心：功率级、反馈补偿、使能与频率设置,interface,unknown,TI-FB-QUIET,TI-COMP
+C5,L1-1,降压转换器核心：功率级、反馈补偿、使能与频率设置,interface,unknown,TI-FB-QUIET,TI-COMP
+D1,L1-1,降压转换器核心：功率级、反馈补偿、使能与频率设置,interface,unknown,TI-FB-QUIET,TI-COMP
+L3,L1-1,降压转换器核心：功率级、反馈补偿、使能与频率设置,interface,unknown,TI-FB-QUIET,TI-COMP
+C1,L1-1,降压转换器核心：功率级、反馈补偿、使能与频率设置,interface,unknown,TI-FB-QUIET,TI-COMP
+R5,L1-1,降压转换器核心：功率级、反馈补偿、使能与频率设置,interface,unknown,TI-FB-QUIET,TI-COMP
+R6,L1-1,降压转换器核心：功率级、反馈补偿、使能与频率设置,interface,unknown,TI-FB-QUIET,TI-COMP
+R4,L1-1,降压转换器核心：功率级、反馈补偿、使能与频率设置,interface,unknown,TI-FB-QUIET,TI-COMP
+C9,L1-1,降压转换器核心：功率级、反馈补偿、使能与频率设置,interface,unknown,TI-FB-QUIET,TI-COMP
+C10,L1-1,降压转换器核心：功率级、反馈补偿、使能与频率设置,interface,unknown,TI-FB-QUIET,TI-COMP
+R1,L1-1,降压转换器核心：功率级、反馈补偿、使能与频率设置,interface,unknown,TI-FB-QUIET,TI-COMP
+R2,L1-1,降压转换器核心：功率级、反馈补偿、使能与频率设置,interface,unknown,TI-FB-QUIET,TI-COMP
+R3,L1-1,降压转换器核心：功率级、反馈补偿、使能与频率设置,interface,unknown,TI-FB-QUIET,TI-COMP
+U1,L1-2,3V3 Buck 转换器：功率级、反馈、输入去耦、使能分压,3V3,unknown,TI-FB-QUIET,TI-IN-CAP
+C15,L1-2,3V3 Buck 转换器：功率级、反馈、输入去耦、使能分压,3V3,unknown,TI-FB-QUIET,TI-IN-CAP
+D3,L1-2,3V3 Buck 转换器：功率级、反馈、输入去耦、使能分压,3V3,unknown,TI-FB-QUIET,TI-IN-CAP
+L1,L1-2,3V3 Buck 转换器：功率级、反馈、输入去耦、使能分压,3V3,unknown,TI-FB-QUIET,TI-IN-CAP
+C13,L1-2,3V3 Buck 转换器：功率级、反馈、输入去耦、使能分压,3V3,unknown,TI-FB-QUIET,TI-IN-CAP
+R8,L1-2,3V3 Buck 转换器：功率级、反馈、输入去耦、使能分压,3V3,unknown,TI-FB-QUIET,TI-IN-CAP
+R9,L1-2,3V3 Buck 转换器：功率级、反馈、输入去耦、使能分压,3V3,unknown,TI-FB-QUIET,TI-IN-CAP
+C11,L1-2,3V3 Buck 转换器：功率级、反馈、输入去耦、使能分压,3V3,unknown,TI-FB-QUIET,TI-IN-CAP
+C12,L1-2,3V3 Buck 转换器：功率级、反馈、输入去耦、使能分压,3V3,unknown,TI-FB-QUIET,TI-IN-CAP
+R7,L1-2,3V3 Buck 转换器：功率级、反馈、输入去耦、使能分压,3V3,unknown,TI-FB-QUIET,TI-IN-CAP
+Q1,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+Q2,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+L2,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+R16,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+R17,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+D6,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+R14,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+D4,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+R15,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+R21,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+C25,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+U5,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+D5,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+Q4,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+Q3,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+R11,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+R12,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+R13,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+D9,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+D7,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+R10,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+R27,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+C29,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+U2,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+D8,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+C18,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+C19,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+C22,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+C23,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+R22,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+CN4,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+R24,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+VCAP1,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+CAP,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+D11,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+LOAD,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+R25,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+R18,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+R19,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+R20,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+R26,L1-3,双相降压功率级与输出滤波：A/B 相功率级、栅极驱动输入、输出电容与负载接口,interface,unknown,,
+C16,L1-4,+24V 输入储能与去耦电容,+24V,unknown,,
+C17,L1-4,+24V 输入储能与去耦电容,+24V,unknown,,
+C2,L1-4,+24V 输入储能与去耦电容,+24V,unknown,,
+C20,L1-4,+24V 输入储能与去耦电容,+24V,unknown,,
+C21,L1-4,+24V 输入储能与去耦电容,+24V,unknown,,
+C3,L1-4,+24V 输入储能与去耦电容,+24V,unknown,,
+C4,L1-4,+24V 输入储能与去耦电容,+24V,unknown,,
+U11,L1-5,温度传感器与 3V3 去耦,3V3,unknown,,
+R44,L1-5,温度传感器与 3V3 去耦,3V3,unknown,,
+R42,L1-5,温度传感器与 3V3 去耦,3V3,unknown,,
+R43,L1-5,温度传感器与 3V3 去耦,3V3,unknown,,
+CN3,L1-5,温度传感器与 3V3 去耦,3V3,unknown,,
+C14,L1-5,温度传感器与 3V3 去耦,3V3,unknown,,
+D2,L1-6,输入保护与连接,interface,unknown,,
+F1,L1-6,输入保护与连接,interface,unknown,,
+VIN（+24V）,L1-6,输入保护与连接,interface,unknown,,
+C24,L1-7,+12V 去耦电容组,+12V,unknown,,
+C26,L1-7,+12V 去耦电容组,+12V,unknown,,
+C27,L1-7,+12V 去耦电容组,+12V,unknown,,
+C28,L1-7,+12V 去耦电容组,+12V,unknown,,
+C6,L1-7,+12V 去耦电容组,+12V,unknown,,
+C7,L1-7,+12V 去耦电容组,+12V,unknown,,
+C8,L1-7,+12V 去耦电容组,+12V,unknown,,
+C44,L1-8,3V3 去耦电容,3V3,unknown,,
+LED2,L1-9,LED2 指示支路,+12V,unknown,,
+R35,L1-9,LED2 指示支路,+12V,unknown,,
+LED3,L1-10,LED3 指示支路,3V3,unknown,,
+R36,L1-10,LED3 指示支路,3V3,unknown,,
+GND,L1-11,GND 测试点,GND,unknown,,
+GND1,L1-11,GND 测试点,GND,unknown,,
+GND2,L1-11,GND 测试点,GND,unknown,,
+GND3,L1-11,GND 测试点,GND,unknown,,
++12V,L1-12,测试点,interface,unknown,,
++24V,L1-12,测试点,interface,unknown,,
+3V3,L1-12,测试点,interface,unknown,,
+1,L1-13,机械螺丝,unknown,unknown,,
+2,L1-13,机械螺丝,unknown,unknown,,
+3,L1-13,机械螺丝,unknown,unknown,,
+4,L1-13,机械螺丝,unknown,unknown,,

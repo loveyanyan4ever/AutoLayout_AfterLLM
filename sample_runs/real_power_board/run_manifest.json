@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "source_hash": "4b98e301328db25bb9a1841967888c26dfa1265824b7d7d4046f535118f8b7b7",
+  "domains_hash": "7457c6b3ce4431290c82c9b0696c1a188f4073f40cac554e7d27ac3baa3d5d51",
+  "clusters_hash": "144997651ebea864efe0eef1d92d9bf6935c1ae85f537f3ea1a122d2ec9a011d",
+  "config_hash": "37d417f65fe849b39db673d20d0b9604c4179deca1ff393ac9f9a1ebf74552d4",
+  "placement_hash": "b1ba78ecbd9cfed36f23e1e17c269839515de2b8d6960188ca378f39efbc4615",
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+    "dependencies": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "PyYAML": "6.0.3",
+      "osqp": "1.1.3",
+      "pytest": "9.1.1",
+      "shapely": "2.1.2"
+    }
+  },
+  "seed": 0,
+  "rule_id": "digital_power_board_research_v02",
+  "adapter": "easyeda_pro_v3",
+  "units": "mm",
+  "frame": "board_local_y_up",
+  "rotation": "ccw_degrees"
+}

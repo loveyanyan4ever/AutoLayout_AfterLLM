@@ -1,0 +1,22 @@
+{
+  "source_sha256": "4b98e301328db25bb9a1841967888c26dfa1265824b7d7d4046f535118f8b7b7",
+  "board_id": "2a21e239da271e7b",
+  "component_count": 103,
+  "unique_footprints": 25,
+  "l1_cluster_count": 13,
+  "l2_group_count": 6,
+  "coordinate_scale_mm_per_source_unit": 0.0254,
+  "coordinate_scale_evidence": "C0603 COMPONENT_SHAPE=1.5999968 x 0.7999984mm; testpoint pad=0.499999mm; M3 central pad=6.4999997mm.",
+  "normalization_notes": [
+    "L1 cluster renamed cluster_id",
+    "L2 component_id contains designators and is renamed designator",
+    "L1 unnamed final field merged into evidence_rule_ids_l1 with semicolon",
+    "Original source/assignments included unchanged",
+    "L2 retained as functional parents; NOT interpreted as isolation domain"
+  ],
+  "assumptions": [
+    "MAIN common electrical placement domain for research; no invented galvanic isolation",
+    "MECH four conductive mounting items; mechanical material/head dimensions not independently certified",
+    "Layer48 source vertex coordinates are evidence without stroke expansion; the runtime source_body uses a conservative AABB including stroke, not a certified physical courtyard. M3 and testpoint envelopes are explicit research allowances."
+  ]
+}

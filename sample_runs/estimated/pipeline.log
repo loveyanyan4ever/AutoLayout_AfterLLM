@@ -1,0 +1,9 @@
+P0: 11 器件, 4 可动功能簇, 2 固定对象
+P1: 机械预布局与域拓扑 0:0:0.4 已生成
+A: control: 4 个内部合法形状
+A: filter: 4 个内部合法形状
+A: sense: 4 个内部合法形状
+A: switch: 4 个内部合法形状
+B: topology 0:0:0.4, candidates 3/9, feasible=True
+C: 在冻结的板框、分区和簇区域中微调
+FEASIBLE: HPWL=74.8918 mm, 11.79s
